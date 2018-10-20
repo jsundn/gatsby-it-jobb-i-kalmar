@@ -550,7 +550,6 @@ injectGlobal`
       font-size: 100%;
     }
   }
-
 `
 
 const SiteWrapper = styled(Flex)`
@@ -592,7 +591,7 @@ const Layout = ({
 }) => console.log("pageMetadata", pageMetadata, siteMetadata) || (
   <SiteWrapper flexDirection="column">
     <Helmet
-      title={siteMetadata.title}
+        title={`${siteMetadata.title} | ${pageMetadata.title}`}
       meta={[
         { name: 'description', content: pageMetadata.description },
         { name: 'keywords', content: pageMetadata.keywords },

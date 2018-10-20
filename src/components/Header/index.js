@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import LogoString from './LogoString'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
+import Link from 'gatsby-link'
 import { Menu as MenuIcon } from 'styled-icons/Feather'
 
 const StyledHeader = styled(Flex)`
@@ -21,9 +22,15 @@ const StyledMenuIcon = MenuIcon.extend`
   top: 10px;
   right: 5px;
   cursor: pointer;
+  border-radius: 35px;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
+    -background: rgba(0,0,0,.8);
+  }
 
+  &.active {
+    background: rgba(0,0,0,.8);
   }
 `
 
@@ -32,10 +39,50 @@ const StyledMainLogo = styled('img') `
     height: 100%;
 `
 
-const Menu = () => (
-  <Flex>
-    Menu
-  </Flex>
+const StyledGatsbyLink = styled(Link)`
+	color: white;
+	text-decoration: none;
+`
+
+const StyledNormalLink = styled('a')`
+	color: white;
+	text-decoration: none;
+`
+
+const AnimatedDiv = styled(Flex) `
+  width: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: width 0.3s ease-in-out;
+  flex-direction: column;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 20px 0;
+
+  a {
+    cursor:pointer;
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  &.open {
+    width: 240px;
+  }
+`
+
+const Menu = ({open}) => (
+  <AnimatedDiv className={open ? 'open' : ''}>
+    <StyledGatsbyLink to="/">Hem</StyledGatsbyLink>
+    <StyledNormalLink to="https://www.facebook.com/itjobbikalmar/">Se alla jobb</StyledNormalLink>
+    <StyledGatsbyLink to="/foretag">Hitta företag</StyledGatsbyLink>
+    <StyledGatsbyLink to="/leva-och-bo-i-kalmar">Livet i Kalmar</StyledGatsbyLink>
+    <StyledGatsbyLink to="/om-it-jobb-i-kalmar">Om sidan</StyledGatsbyLink>
+  </AnimatedDiv>
 )
 
 class Header extends Component {
@@ -64,9 +111,10 @@ class Header extends Component {
         <StyledMenuIcon
           size={50}
           onClick={this.toggleMenu}
+          className={renderMenu ? 'active' : ''}
         />
 
-        { renderMenu && <Menu /> }
+        <Menu open={renderMenu} />
       </StyledHeader>
     )
   }
