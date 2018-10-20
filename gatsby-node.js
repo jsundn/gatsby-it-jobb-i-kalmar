@@ -21,7 +21,8 @@ exports.createPages = ({ graphql, actions }) => {
                     frontmatter {
                 		title
                     	path
-                    	description
+                      description
+                      keywords
                     	subdescription
 	                	fullBleedCoverImage {
 	                  		childImageSharp {

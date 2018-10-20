@@ -14,6 +14,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
     "gatsby-plugin-remove-trailing-slashes": "next",
     "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-plugin-styled-components": "next",
     "gatsby-plugin-typography": "next",
     "gatsby-remark-component": "next",

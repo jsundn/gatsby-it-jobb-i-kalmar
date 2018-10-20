@@ -3,7 +3,8 @@ title: "IT-jobb i Kalmar - Leva och bo i Kalmar"
 date: "2016-03-01T22:12:03.284Z"
 layout: page
 path: "/leva-och-bo-i-kalmar"
-description: "Kalmar"
+description: "Här kan du läsa mer om Kalmarsundsregionen"
+keywords: "Kalmar, Kalmarsundsregionen, jobb, utbbildning, bostad, evenemang"
 subdescription: "Här hittar du information om Kalmar och regionen. Är du nyfiken på att flytta till Kalmar så hittar du länkar om boende och jobb till medflyttande partner här."
 ---
 

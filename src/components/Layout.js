@@ -588,21 +588,20 @@ const Layout = ({
   siteMetadata,
   pageMetadata,
   fullBleedCoverImage,
-  logo,
   children
 }) => console.log("pageMetadata", pageMetadata, siteMetadata) || (
   <SiteWrapper flexDirection="column">
     <Helmet
       title={siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: pageMetadata.description },
+        { name: 'keywords', content: pageMetadata.keywords },
       ]}
     />
 
     <Organization />
 
-    <Header logo={logo} />
+    <Header />
 
     {
       fullBleedCoverImage ?
