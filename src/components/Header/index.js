@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import LogoString from './LogoString'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
-import Img from 'gatsby-image'
 import { Menu as MenuIcon } from 'styled-icons/Feather'
 
 const StyledHeader = styled(Flex)`

@@ -4,10 +4,16 @@ module.exports = {
 		description: "IT-jobben finns i Kalmar",
 		subheader: "IT-jobben finns i Kalmar",
 		seo: {
-			footer: "IT-jobb i Kalmar är till för att boosta IT i Kalmarregionen. Vi vill hjälpa dig att hitta ditt nya jobb inom IT, eller bara ge dig en bättre bild av vilka IT-företag som finns i regionen. Samtidigt kan vi främja IT-branschen och hjälpa företag att synas bättre utåt."
+			footer: `
+			IT-jobb i Kalmar är till för att boosta IT i Kalmarregionen.
+			Vi vill hjälpa dig att hitta ditt nya jobb inom IT, eller bara ge dig en bättre bild av vilka IT-företag som finns i regionen.
+			Samtidigt kan vi främja IT-branschen och hjälpa företag att synas bättre utåt.
+			`
 		},
 		social: {
-			facebook: "https://www.facebook.com/itjobbikalmar"
+			facebook: "https://www.facebook.com/itjobbikalmar",
+			linkedin: "https://www.linkedin.com/company/it-jobb-i-kalmar/",
+			instagram: "https://www.instagram.com/itjobbikalmar/"
 		}
 	},
 	plugins: [

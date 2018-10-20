@@ -594,8 +594,8 @@ const Layout = ({
     <Helmet
       title={siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: pageMetadata.description },
+        { name: 'keywords', content: pageMetadata.keywords },
       ]}
     />
 
