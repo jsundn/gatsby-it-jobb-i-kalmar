@@ -98,6 +98,7 @@ const Footer = ({ siteMetadata }) => {
 		<SocialWrapper>
 			<Anchor
 				href={social.linkedin}
+				rel="nofollow"
 				title={t('Besök vår Linkedin')}
 				target="_blank"
 			>
@@ -108,6 +109,7 @@ const Footer = ({ siteMetadata }) => {
 
 			<Anchor
 				href={social.facebook}
+				rel="nofollow"
 				title={t('Besök vår Facebook')}
 				target="_blank"
 			>
@@ -118,6 +120,7 @@ const Footer = ({ siteMetadata }) => {
 
 			<Anchor
 				href={social.instagram}
+				rel="nofollow"
 				title={t('Besök vår Instagram')}
 				target="_blank"
 			>
