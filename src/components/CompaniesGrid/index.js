@@ -272,7 +272,7 @@ class Companies extends Component {
 	                        </CompanyContent>
 
 	                        <CompanyFooter>
-	                            <CompanyLink href={company.url}>Hemsida</CompanyLink>
+	                            <CompanyLink href={company.website}>Hemsida</CompanyLink>
 	                        </CompanyFooter>
 	                    </CompanyInner>
 	                </Company>
