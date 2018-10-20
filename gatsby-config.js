@@ -1,5 +1,6 @@
 module.exports = {
 	siteMetadata: {
+		siteUrl: `https://www.itjobbikalmar.se`,
 		title: 'IT-jobb i Kalmar',
 		description: "IT-jobben finns i Kalmar",
 		subheader: "IT-jobben finns i Kalmar",
@@ -22,6 +23,7 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
 		'gatsby-plugin-remove-trailing-slashes',
+		'gatsby-plugin-sitemap',
 		'gatsby-transformer-json',
 		{
 			resolve: 'gatsby-source-filesystem',
