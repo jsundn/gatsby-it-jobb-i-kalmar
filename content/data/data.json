@@ -13,6 +13,25 @@
         "tags": []
       },
       {
+        "name": "Royal design",
+        "description": "Vi är ett team utvecklare som sitter ute på Svensknabben i Kalmar. Just nu bygger vi upp en helt ny omnikanalplattform för över tio internationella marknader och 14 fysiska butiker. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
+        "level": "gold",
+        "logo": "../img/partners/royaldesign.png",
+        "website": "http://royaldesign.se/",
+        "facebook": "https://www.facebook.com/RoyalDesign.se",
+        "twitter": "https://twitter.com/RoyalDesigncom",
+        "tags": [
+          ".NET",
+          "JavaScript",
+          "React",
+          "Redux",
+          "Azure",
+          "Dynamics NAV",
+          "e-handel",
+          "Inhouse"
+        ]
+      },
+      {
         "name": "Infomaker",
         "description": "Infomaker arbetar med lösningar för publicering, arkivering och distribution av innehåll åt marknadens största mediehus och tidningar. Med över 250 kunder i Sverige, Norge, Finland och Holland, och mer än 20 års branscherfarenhet, kan vi erbjuda våra kunder det allra bästa när det kommer till publicering, oavsett om det gäller print eller digitalt.",
         "level": "gold",
@@ -61,16 +80,6 @@
         ]
       },
       {
-        "name": "Atea",
-        "description": "Vi bygger Sverige med it. Vi har ett heltäckande erbjudande inom it-infrastruktur. Våra it-specialister hjälper dig med lösningar, från en lokalt installerad lösning till it som tjänst - det som passar din verksamhet bäst. I Sverige är vi 2 200 medarbetare på ett trettiotal orter från Malmö i söder till Kiruna i norr. Omkring 1 000 av oss är konsulter.",
-        "level": "gold",
-        "logo": "../img/partners/atea.png",
-        "website": "https://www.atea.se/",
-        "facebook": "https://www.facebook.com/ateasverige",
-        "twitter": "https://twitter.com/ateasverige",
-        "tags": []
-      },
-      {
         "name": "Vitec",
         "description": "Vitec är ett programvarubolag som erbjuder specifika affärssystem till bygg- och fastighetsbolag, fastighetsmäklare, energibolag, banker och försäkringsmäklare, tidningsföretag samt hälsoföretag.",
         "level": "gold",
@@ -81,25 +90,6 @@
         "tags": [
           ".NET",
           "JavaScript"
-        ]
-      },
-      {
-        "name": "Royal design",
-        "description": "Vi är ett team utvecklare som sitter ute på Svensknabben i Kalmar. Just nu bygger vi upp en helt ny omnikanalplattform för över tio internationella marknader och 14 fysiska butiker. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
-        "level": "gold",
-        "logo": "../img/partners/royaldesign.png",
-        "website": "http://royaldesign.se/",
-        "facebook": "https://www.facebook.com/RoyalDesign.se",
-        "twitter": "https://twitter.com/RoyalDesigncom",
-        "tags": [
-          ".NET",
-          "JavaScript",
-          "React",
-          "Redux",
-          "Azure",
-          "Dynamics NAV",
-          "e-handel",
-          "Inhouse"
         ]
       },
       {
@@ -420,6 +410,16 @@
           "Support",
           "CAD"
         ]
+      },
+      {
+        "name": "Atea",
+        "description": "Vi bygger Sverige med it. Vi har ett heltäckande erbjudande inom it-infrastruktur. Våra it-specialister hjälper dig med lösningar, från en lokalt installerad lösning till it som tjänst - det som passar din verksamhet bäst. I Sverige är vi 2 200 medarbetare på ett trettiotal orter från Malmö i söder till Kiruna i norr. Omkring 1 000 av oss är konsulter.",
+        "level": "bronze",
+        "logo": "../img/partners/atea.png",
+        "website": "https://www.atea.se/",
+        "facebook": "https://www.facebook.com/ateasverige",
+        "twitter": "https://twitter.com/ateasverige",
+        "tags": []
       },
       {
         "name": "IP-only",

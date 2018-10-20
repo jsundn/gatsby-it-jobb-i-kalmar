@@ -16,7 +16,7 @@ const Content = styled(Box)`
 
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
-	`: ''}
+	`: ''};
 
 	background-color: ${({background}) => background ? darken(0.1, background) : 'transparent'};
 `
@@ -28,7 +28,7 @@ const Title = styled('h3')`
 	
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
-	`: 'center'}
+	`: 'center'};
 
 	background-color: ${({background}) => background || 'transparent'};
 	color: white;

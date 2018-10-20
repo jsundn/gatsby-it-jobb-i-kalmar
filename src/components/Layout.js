@@ -7,6 +7,7 @@ import Header from 'components/Header'
 import Footer from 'components/Footer'
 import FullBleedCoverImage from 'components/FullBleedCoverImage'
 import { Flex } from 'components/UI/Base'
+import Organization from 'components/SEO/Google/Organization'
 
 injectGlobal`
   html {
@@ -589,7 +590,7 @@ const Layout = ({
   fullBleedCoverImage,
   logo,
   children
-}) => console.log("pageMetadata", pageMetadata) || (
+}) => console.log("pageMetadata", pageMetadata, siteMetadata) || (
   <SiteWrapper flexDirection="column">
     <Helmet
       title={siteMetadata.title}
@@ -598,6 +599,8 @@ const Layout = ({
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+
+    <Organization />
 
     <Header logo={logo} />
 
