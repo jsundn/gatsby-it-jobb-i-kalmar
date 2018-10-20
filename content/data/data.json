@@ -1,6 +1,7 @@
 {
   "partners": {
     "title": "IT-Företag i Kalmarregionen",
+    "subtitle": "Här har vi sammanställt IT-företag som finns i Kalmar med en kortfattad beskrivning och lite hjälpfunktioner för att du enkelt ska kunna filtrera fram de företag som passar dina intressen bäst.",
     "items": [
       {
         "name": "Kalmar kommun",
@@ -725,5 +726,454 @@
     {
       "name": "Kalmar Science Park"
     }
-  ]
+  ],
+  "listings": {
+    "title": "IT-jobb i Kalmarregionen",
+    "subtitle": "Kalmar som IT-stad växer så det knakar. På den här sidan hjälper vi dig att sammanställa tillgängliga jobb inom IT för att underlätta dels för dig som letar nya utmaningar, men även för IT-företag i regionen att nå ut till rätt mottagare.",
+    "items": [
+        {
+          "date": "2018-04-23",
+          "link": "https: //www.infomaker.se/career/javascript-react-dashboard-utvecklare/",
+          "company": "Infomaker",
+          "text": "Frontend developer"
+        },
+        {
+          "date": "2018-04-23",
+          "link": "https: //codebet.se/karriar.html#projektledare",
+          "company": "Codebet",
+          "text": "Codebet söker Projektledare, UX-designer och JavaScript utvecklare"
+        },
+        {
+          "date": "2018-04-23",
+          "link": "https: //www.alpacha.se/",
+          "company": "Alpacha",
+          "text": "Frontend developer"
+        },
+        {
+          "date": "2018-04-24",
+          "link": "http: //www.comenius.se/karriar",
+          "company": "Comenius",
+          "text": "Systemutvecklare"
+        },
+        {
+          "date": "2018-04-25",
+          "link": "http: //barometern.lokusjobb.se/jobb/ovriga-yrken/front-end-developer/8392218",
+          "company": "Gota",
+          "text": "Frontend developer"
+        },
+        {
+          "date": "2018-04-25",
+          "link": "https: //jobb.contribe.se/jobs/61904-contribe-kalmar-seeking-javadeveloper",
+          "company": "Contribe",
+          "text": "Java developer"
+        },
+        {
+          "date": "2018-04-25",
+          "link": "https: //careers.hypergene.se/jobs/91927-business-intelligence-konsult",
+          "company": "Hypergene",
+          "text": "Business Intelligence-konsult"
+        },
+        {
+          "date": "2018-04-25",
+          "link": "https: //docs.google.com/forms/d/e/1FAIpQLSe56AWiufWDGgxKUGmxxPGLCssrYXudkKYiczegT4yLnyDYpg/viewform",
+          "company": "Female network",
+          "text": "Kick-off kvinnligt nätverk inom IT"
+        },
+        {
+          "date": "2018-04-26",
+          "link": "https: //career.playngo.com/jobs/84327-front-end-developer",
+          "company": "Play n go",
+          "text": "Frontend developer"
+        },
+        {
+          "date": "2018-04-26",
+          "link": "https: //www.atea.se/karriar/ledigt-jobb/?id=187887&name=Nyexaminerad+och+redo+for+nasta+utmaning",
+          "company": "Atea",
+          "text": "Atea accelerate söker nyexaminerade"
+        },
+        {
+          "date": "2018-04-27",
+          "link": "http: //milou.se/jobba-hos-oss/front-end-utvecklare/",
+          "company": "Milou",
+          "text": "Frontend utvecklare"
+        },
+        {
+          "date": "2018-04-28",
+          "link": "https: //www.academicwork.se/annons/royal-design-soker-systemutvecklare-i-kalmar/15004204",
+          "company": "Royal design",
+          "text": "Systemutvecklare"
+        },
+        {
+          "date": "2018-04-30",
+          "link": "http: //www.ltkalmar.se/lediga-jobb/sok-lediga-jobb/13837/",
+          "company": "Landstinget",
+          "text": "Systemspecialist server/lagring"
+        },
+        {
+          "date": "2018-05-01",
+          "link": "https: //www.infomaker.se/article/app-utvecklare-android/",
+          "company": "Infomaker",
+          "text": "App-utvecklare Android"
+        },
+        {
+          "date": "2018-05-02",
+          "link": "https: //lnu.se/mot-linneuniversitetet/Lediga-jobb/?rmpage=job&rmjob=3500&rmlang=SE",
+          "company": "LNU",
+          "text": "Linnéuniversitetet söker systemutvecklare"
+        },
+        {
+          "date": "2018-05-02",
+          "link": "https: //kahrs.mynetworkglobal.com/se/what:job/jobID:205184/type:job/where:4/apply:1",
+          "company": "Kährs",
+          "text": "Verksamhetsutvecklare IT"
+        },
+        {
+          "date": "2018-05-03",
+          "link": "https: //www.clxcommunications.com/current-vacancies/software-engineer-kalmar/",
+          "company": "CLX",
+          "text": "Software engineer"
+        },
+        {
+          "date": "2018-04-05",
+          "link": "https: //www.meritglobe.com/meritfamily/career",
+          "company": "Merit consulting",
+          "text": "Associate ERP Consultant"
+        },
+        {
+          "date": "2018-05-04",
+          "link": "https: //www.atea.se/karriar/ledigt-jobb/?id=187940&name=IT-arkitekt+",
+          "company": "Atea",
+          "text": "IT-arkitekt"
+        },
+        {
+          "date": "2018-05-05",
+          "link": "http: //www.milou.se/kalmar/",
+          "company": "Milou",
+          "text": "Milou Kalmar växer"
+        },
+        {
+          "date": "2018-05-07",
+          "link": "https: //jobb.contribe.se/jobs/48905-contribe-kalmar-seeking-manual-tester",
+          "company": "Contribe",
+          "text": "Manual tester"
+        },
+        {
+          "date": "2018-05-08",
+          "link": "https: //career.playngo.com/jobs/63569-software-developer",
+          "company": "Play n go",
+          "text": "Software developer"
+        },
+        {
+          "date": "2018-05-08",
+          "link": "https: //www.academicwork.se/annons/studerande-wordpressexpert-sokes/15006316?apply=1",
+          "company": "Academic work",
+          "text": "Studerande WordPressexpert sökes"
+        },
+        {
+          "date": "2018-05-08",
+          "link": "https: //www.ehalsomyndigheten.se/lediga-tjanster/",
+          "company": "e-häslomyndigheten",
+          "text": "eHälsomyndigheten söker Systemutvecklare/Javautvecklare"
+        },
+        {
+          "date": "2018-05-12",
+          "link": "https: //jobb.academicwork.se/annons/itsupporttekniker-till-landstinget-i-kalmar/15004667",
+          "company": "Landstinget kalmar",
+          "text": "IT-SUPPORTTEKNIKER TILL LANDSTINGET I KALMAR"
+        },
+        {
+          "date": "2018-05-14",
+          "link": "https: //jobb.academicwork.se/annons/applikationsspecialist-till-telia-company-i-kalmar/14996416",
+          "company": "Telia / Academic work",
+          "text": "APPLIKATIONSSPECIALIST TILL TELIA COMPANY I KALMAR"
+        },
+        {
+          "date": "2018-05-15",
+          "link": "https: //webbjobb.io/jobb/79202/juniora-systemutvecklare-java-utvecklare-for-direktrekrytering",
+          "company": "Student consulting",
+          "text": "Juniora systemutvecklare/ Java-utvecklare/ för direktrekrytering"
+        },
+        {
+          "date": "2018-05-15",
+          "link": "https://jobberbjudande.monster.se/IT-tekniker-Drifttekniker-till-Royal-Design-i-Kalmar-Kalmar-KLMR-Sweden-Royal-Design/11/19577750",
+          "text": "IT- tekniker / Drifttekniker till Royal Design i Kalmar"
+        },
+        {
+          "date": "2018-05-18",
+          "link": "https: //csjobb.idg.se/jobb-info/57447132/it-forvaltningen-soker-systemspecialist-server-lagring-till-bade-kalmar-och-vastervik/",
+          "company": "Landstinget kalmar",
+          "text": "IT-förvaltningen söker Systemspecialist server/lagring, till både Kalmar och Västervik"
+        },
+        {
+          "date": "2018-05-18",
+          "link": "https: //csjobb.idg.se/jobb-info/57446395/biztalk-consultant-kalmar/",
+          "company": "CGI",
+          "text": "Biztalk Consultant, Kalmar"
+        },
+        {
+          "date": "2018-05-18",
+          "link": "https: //www.infomaker.se/article/app-utvecklare-android/",
+          "company": "Infomaker",
+          "text": "App-utvecklare Android"
+        },
+        {
+          "date": "2018-05-21",
+          "link": "https: //www.ehalsomyndigheten.se/lediga-tjanster/?rmpage=job&rmjob=155&rmlang=SE",
+          "company": "eHälsomyndigheten",
+          "text": "eHälsomyndigheten söker Mjukvaruarkitekt och systemutvecklare"
+        },
+        {
+          "date": "2018-05-24",
+          "link": "https: //kalmarenergi.se/om-oss/arbeta-hos-oss/lediga-tjanster/verksamhetsutvecklare/",
+          "company": "Kalmar energi",
+          "text": "Kalmar energi söker versamhetsutvecklare IT"
+        },
+        {
+          "date": "2018-05-30",
+          "link": "https: //jobb.contribe.se/jobs/48905-contribe-kalmar-seeking-manual-tester",
+          "company": "Contribe",
+          "text": "Contribe Kalmar seeking: Manual tester"
+        },
+        {
+          "date": "2018-05-31",
+          "link": "https: //www.atea.se/karriar/ledigt-jobb/?id=187953&name=Citrixkonsult",
+          "company": "Atea",
+          "text": "Citrixkonsult - Atea Kalmar"
+        },
+        {
+          "date": "2018-06-05",
+          "link": "https: //webbjobb.io/jobb/83321/spannande-roll-inom-frontendutveckling-sokes-till-gota-media",
+          "company": "Gota",
+          "text": "Spännande roll inom frontendutveckling sökes till Gota Media"
+        },
+        {
+          "date": "2018-06-13",
+          "link": "https: //telinrekrytering.se/jobs/729/",
+          "company": "Kodbruket",
+          "text": "Kodbruket i Kalmar söker Senior Web Developer"
+        },
+        {
+          "date": "2018-06-18",
+          "link": "https: //www.clxcommunications.com/current-vacancies/security-engineer/",
+          "company": "CLX",
+          "text": "CLX is now looking for a Security Engineer to join our operations team in Kalmar."
+        },
+        {
+          "date": "2018-06-28",
+          "link": "https: //telinrekrytering.se/jobs/702/",
+          "company": "Designonline",
+          "text": "Driven Utvecklare inom e-handel till Designonline i Kalmar sökes."
+        },
+        {
+          "date": "2018-06-29",
+          "link": "http: //www.milou.se/jobba-hos-oss/byraansvarig-kalmar/",
+          "company": "Milou",
+          "text": "Byråansvarig i Kalmar"
+        },
+        {
+          "date": "2018-06-30",
+          "link": "https://jobs.academicwork.se/annons/examen-i-sommar-och-soker-ditt-forsta-utvecklarjobb/15001382",
+          "company": "Tieto",
+          "text": "Tieto Kalmar söker nyexade utvecklare för Java programmering"
+        },
+        {
+          "date": "2018-07-03",
+          "link": "https://www.easyfy.se/",
+          "company": "Easyfy",
+          "text": "Easyfy söker frontend utvecklare!"
+        },
+        {
+          "date": "2018-07-12",
+          "link": "https://www.ltkalmar.se/lediga-jobb/sok-lediga-jobb/senior-it-systemanalytiker/",
+          "company": "Landstinget i Kalmar",
+          "text": "Senior IT Systemanalytiker"
+        },
+        {
+          "date": "2018-07-13",
+          "link": "https://www.meridium.se/sv/jobba-hos-oss/frontendutvecklare/",
+          "company": "Meridium",
+          "text": "Erfaren Webbutvecklare med tyngd på frontend"
+        },
+        {
+          "date": "2018-07-18",
+          "link": "https://www.atea.se/karriar/ledigt-jobb/?id=189133&name=Accelerate+%E2%80%93+Utvecklingsprogram+for+blivande+IT-konsulter",
+          "company": "Atea",
+          "text": "Vill du få en kickstart in i it-branschen?"
+        },
+        {
+          "date": "2018-07-28",
+          "link": "https://codebet.se/karriar.html#javascript",
+          "company": "Codebet",
+          "text": "Codebet söker JavaScript utvecklare och UX-designer"
+        },
+        {
+          "date": "2018-08-02",
+          "link": "https://www.onepartnergroup.se/lediga-jobb/kalmar/software-qa-engineer/",
+          "company": "Södra",
+          "text": "Södras digitala innovationsavdelning söker Software QA Engineer"
+        },
+        {
+          "date": "2018-08-03",
+          "link": "https://lnu.se/mot-linneuniversitetet/Lediga-jobb/?rmpage=job&rmjob=3676&rmlang=SE",
+          "company": "Linnéuniversitetet",
+          "text": "Linnéuniversitetet söker systemutvecklare"
+        },
+        {
+          "date": "2018-08-09",
+          "link": "https://jobs.academicwork.se/annons/utvecklare-sokes-till-telia-i-kalmar/15010837",
+          "company": "Telia",
+          "text": "Utvecklare sökes till Telia i Kalmar"
+        }
+        {
+          "date": "2018-08-10",
+          "link": "https://www.internetbyran.com/jobba-hos-oss/?fbclid=IwAR0fSH9pz_j8OG3AhSUqtBZHskzuOwQXOFZ9WLE0hKTNdpHJLOFMD-RohAI",
+          "company": "Internetbyrån",
+          "text": "Frontendutvecklare / CSS-guru"
+        },
+        {
+          "date": "2018-08-14",
+          "link": "https://webbjobb.io/jobb/88125/webbutvecklare-hatstore?fbclid=IwAR2pynOS2cZ4IJc4i806QudkBALAhw8Ql_ift6GO-w4SAac1apWfnQv2Vcw",
+          "company": "Hatstore",
+          "text": "Webbutvecklare - Hatstore"
+        },
+        {
+          "date": "2018-08-15",
+          "link": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2F811763700%2F%3Ffbclid%3DIwAR3MZ0HSSuvq8_MO_xcdWdttMCcdw8x6hvtRl-5Bz5BrFHXgLiSA9DNpMIE&h=AT26dM9DSs-Q_RZom9-vxpA84AGa5XJ-0d47zUHpWS7NobGm6_rsgKY9d3ogycAP0LxpG89yiHnNcaBXusBaF6JGwILchPdjmB25bEEj_rz5y23tLUySvrf1IltXk1S4nv_AzFSifo5PL-xXq5cW-7w_JcKctidprEl7VdtBnrB9rjnmCt-pQ8LNy3eHzvbEK1pkFGzeXfWZLYDhDS_l-3d9CG2ScF9IzraB1835JUKYLaJHBTRWTsESSgmk59WPAxGNt_LBPIFL3VPrFjvrjilBOcVgF-BL8IOwXY_X7dlnUrZ4R5yhb-ZFJ0y7k4Ca6j_l9wlBMBZyYbpjAx34duhQa88O4uMgSVgYNcviYZZqLsUyFm-UIRuC2teDTXdTaONGYQ0UB5_YW-Wv-hma_dFw2tYHNk1DUJLzxJPrjL8mkB9XxOW28lVdH8iQgbiiiHq2XlQ726gFNmHHoHfr4Q",
+          "company": "RoyalDesign",
+          "text": "RoyalDesign söker sex nya medarbetare till sitt utvecklingsteam i Kalmar! Frontend- och Backendutvecklare, DevOps och NAV-specialister sökes."
+        },
+        {
+          "date": "2018-08-18",
+          "link": "https://kodbruket.se/senior-developer?fbclid=IwAR11WfVKieuZmjEJ07s38UhPjRkgp7F1yIGxAkgMdLWR1S6A6ND0_7VQu7E",
+          "company": "Kodbbruket",
+          "text": "Vi söker senior webbbutvecklare"
+        },
+        {
+          "date": "2018-08-21",
+          "link": "https://www.eventonline.se/anmalan.php?eid=7700&key=938&fbclid=IwAR2oUXndOYHmvAUCzT1md70WAvEWHBDri_M49-GWgKkiBMzopTbd0Xv2pxQ#errorDiv",
+          "company": "Kalmar Science Park",
+          "text": "Kalmar Science Park bjuder in till höstens första AI-nätverksmöte som denna gång gästas av Anders Arpteg."
+        },
+        {
+          "date": "2018-08-24",
+          "link": "https://candidate.hr-manager.net/ApplicationInit.aspx?cid=1588&ProjectId=144651&DepartmentId=18959&MediaId=5&SkipAdvertisement=False&fbclid=IwAR1ee4jCuH4U7Kt4S000_y_fNUfNudLeKqFS2YLcuULMoGGbRSjW-qLVQRY",
+          "company": "Länsförsäkringar",
+          "text": "Länsförsäkringar söker IT-tekniker"
+        },
+        {
+          "date": "2018-08-31",
+          "link": "https://lnu.se/utbildning/kompetensutveckling/digitalisering-it/tillampad-maskininlarning/?fbclid=IwAR2A4aid0hw7sByDFPK6ZUy5npHdifudPxWC5DyE6XXvWuL4qlrPQ7kBSzE",
+          "company": "Linnéuniversitetet",
+          "text": "Linnéuniversitetet erbjuder utvecklare chansen att lära sig mer om AI och ML"
+        },
+        {
+          "date": "2018-09-05",
+          "link": "https://jobs.academicwork.se/annons/student-sokes-for-extrajobb-inom-webbutveckling-till-connectmedia-i-kalmar/15012360",
+          "company": "ConnectMedia",
+          "text": "Student sökes för extrajobb inom webbutveckling till connectmedia i kalmar"
+        },
+        {
+          "date": "2018-09-07",
+          "link": "https://www.clxcommunications.com/current-vacancies/support-engineer-kalmar/?fbclid=IwAR1h_GLvSqgW8IaUhx31QmPsPeso8J8y4zeBCljm9R-48lgHSTb4mWGlrTM",
+          "company": "CLX",
+          "text": "Support Engineer – Kalmar"
+        },
+        {
+          "date": "2018-09-11",
+          "link": "https://telinrekrytering.se/jobs/702/?fbclid=IwAR2xkP7PUb9vJPH7S6-4EM9OoeIgGUzUfYTovN3W6RBinWVhO03gfmMBnJE",
+          "company": "Designonline",
+          "text": "Drivna utvecklare inom E-handel sökes till Designonline"
+        },
+        {
+          "date": "2018-09-17",
+          "link": "http://barometern.lokusjobb.se/jobb/Ledigt-jobb-i-Kalmar-l%C3%A4n-Kalmar/Exceptional-front-end-developer/8785776?fbclid=IwAR2hm5PWnoU9qJUBj9Qk9O3VyP0EKBK5WzCLAdfB_RJqlwUvY0TWoeyaqlY",
+          "company": "Gotamedia",
+          "text": "Exceptional front-end developer"
+        },
+        {
+          "date": "2018-09-19",
+          "link": "https://jobb.vitecsoftware.com/jobs/127491-webbutvecklare?fbclid=IwAR2U5G4RjzqfArZCUGF_d_wronogfdEZmOBuHwZlgBIT5iWh9IvUnfP4AbI",
+          "company": "Vitec",
+          "text": "Webbutvecklare"
+        },
+        {
+          "date": "2018-09-19",
+          "link": "https://www.tieto.com/en/careers/open-positions/search-our-jobs/",
+          "company": "Tieto",
+          "text": "Tieto söker mjukvaruarkitekt"
+        },
+        {
+          "date": "2018-09-24",
+          "link": "https://www.infomaker.se/karriar/?fbclid=IwAR1Y3LR0VAbP75W91lBBvvSsvuxlNKcFhYQ0t6P4BfeOOMVVr-X3fM7Q9p4",
+          "company": "Infomaker",
+          "text": "Infomaker söker både juniora och seniora utvecklare"
+        },
+        {
+          "date": "2018-09-25",
+          "link": "https://www.facebook.com/events/1813152765446931/",
+          "company": "WiTech",
+          "text": "Women In Tech Kalmar bjuder in till after work!"
+        },
+        {
+          "date": "2018-09-26",
+          "link": "https://www.tieto.com/careers/all-open-jobs?search_api_views_fulltext=kalmar",
+          "company": "Tieto",
+          "text": "Tieto is looking for developers, architects, project managers and test managers to their office in Kalmar. Do you want to take part in shaping a smarter society? Apply now."
+        },
+        {
+          "date": "2018-09-28",
+          "link": "https://www.facebook.com/itjobbikalmar/",
+          "company": "IT-jobb i Kalmar",
+          "text": "Nu har vi passerat 200 följare av IT-jobb i Kalmar! Jättekul! Intresset har varit otroligt stort och vi får massor med bra feedback. Tack till alla som följer oss, fortsätt gärna hjälpa oss sprida annonser genom att gilla och dela. Det bidrar till en starka IT-region och en ökad medvetenhet om hur mycket spännande som faktiskt händer här."
+        },
+        {
+          "date": "2018-10-03",
+          "link": "https://telinrekrytering.se/jobs/770/?fbclid=IwAR2aFfA5Gm__YlXgtffZe6HOTrijxcb6kLe1fBvqZyVQ1yahtZV3WK-OQvY",
+          "company": "Advitum",
+          "text": "Lösningsområdesansvarig för området Cloud sökes till Advitum"
+        },
+        {
+          "date": "2018-10-05",
+          "link": "https://jobb.vitecsoftware.com/jobs/130907-systemtekniker-operations?fbclid=IwAR36WcB4jCHHcMvrQxSEnxfh6aS4LFKDKTokqm65y1sL7hE05_pzyvj4NNY",
+          "company": "Vitec",
+          "text": "Vitec söker Systemtekniker - Operations"
+        },
+        {
+          "date": "2018-10-07",
+          "link": "https://www.sodra.com/sv/karriar/lediga-jobb/2157383_sv/?fbclid=IwAR1c-YZ2iHOqlx-cNHQAfwsFiIcxcxNVmL9bulWO8NWIPy6RDigTytV0jNQ",
+          "company": "Södra",
+          "text": "Södra söker iOS utvecklare till sitt innovationskontor i Kalmar"
+        },
+        {
+          "date": "2018-10-10",
+          "link": "https://www.ehalsomyndigheten.se/lediga-tjanster/?rmpage=job&rmjob=218&rmlang=SE&fbclid=IwAR0Iq_YOTBygnok1NDc1lDmtEXK64OrhzNeEeJpfL4Xb4ojOaH-uice0VBI",
+          "company": "eHälsomyndigheten",
+          "text": "IT-/informationssäkerhetsspecialist till eHälsomyndigheten"
+        },
+        {
+          "date": "2018-10-11",
+          "link": "https://www.tieto.com/careers/all-open-jobs?search_api_views_fulltext=kalmar",
+          "company": "Tieto",
+          "text": "Tieto is looking for architects, project managers and test managers to their office in Kalmar. Do you want to take part in shaping a smarter society?"
+        },
+        {
+          "date": "2018-10-16",
+          "link": "https://kodbruket.se/senior-developer?fbclid=IwAR3lqh8yKCjjeCZ0SAhn39qGdxSrcDUVhik1vB7X0Wr9DbvU2aOniRi0X-A",
+          "company": "Kodbruket",
+          "text": "vi söker senior web developer"
+        },
+        {
+          "date": "2018-10-19",
+          "link": "https://telinrekrytering.se/jobs/782/?fbclid=IwAR0Hp9NtII0xN7T0Xd0tM0iq6URK_DOBIgL4y2L4lNnwN8REENZCOpP5YCA",
+          "company": "Objektvision AB",
+          "text": "Senior systemutvecklare till Sveriges största marknadsplats"
+        },
+        {
+          "date": "2018-10-20",
+          "link": "https://webbjobb.io/jobb/94231/grafisk-formgivare-webb-och-print",
+          "company": "Internetbbyrån",
+          "text": "Grafisk formgivare webb och print"
+        }
+    ]
+  }
 }
