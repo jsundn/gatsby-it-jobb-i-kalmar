@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Layout from 'components/Layout'
 import rehypeReact from "rehype-react"
+import CompaniesGrid from "components/CompaniesGrid"
 import Grid from "components/Grid"
 import GridItem, { GridItemLink } from "components/Grid/GridItem"
 import Logos from "components/Partners/Logos"
@@ -10,6 +11,7 @@ import Logos from "components/Partners/Logos"
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
+    "companies-grid": CompaniesGrid,
   	"grid": Grid,
   	"grid-item": GridItem,
   	"grid-item-link": GridItemLink,
