@@ -71,13 +71,13 @@ const AnimatedDiv = styled(Flex) `
   }
 `
 
-const Menu = ({open}) => (
+const Menu = ({open, close}) => (
   <AnimatedDiv className={open ? 'open' : ''}>
-    <StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink>
-    <StyledGatsbyLink to="/jobb">{ t('Se alla jobb') }</StyledGatsbyLink>
-    <StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink>
-    <StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink>
-    <StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink>
+    <div onClick={close}><StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink></div>
   </AnimatedDiv>
 )
 
@@ -109,7 +109,7 @@ class Header extends Component {
           className={renderMenu ? 'active' : ''}
         />
 
-        <Menu open={renderMenu} />
+        <Menu open={renderMenu} close={() => this.setState({renderMenu: false})} />
       </StyledHeader>
     )
   }
