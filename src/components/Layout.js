@@ -588,7 +588,7 @@ const Layout = ({
   pageMetadata,
   fullBleedCoverImage,
   children
-}) => console.log("pageMetadata", pageMetadata, siteMetadata) || (
+}) => (
   <SiteWrapper flexDirection="column">
     <Helmet
         title={`${siteMetadata.title} | ${pageMetadata.title}`}

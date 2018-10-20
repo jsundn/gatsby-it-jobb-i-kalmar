@@ -6,6 +6,7 @@ import Flex from 'components/UI/Base/Flex'
 import Select from 'react-select'
 import makeAnimated from 'react-select/lib/animated'
 import t from 'format-message'
+import { BREAKPOINT as RespBreakpoint } from 'constants/responsive'
 
 const BREAKPOINT = 500
 
@@ -16,12 +17,21 @@ const Title = styled('h1')`
 const Filters = styled(Flex)`
 	flex-direction: row;
 	flex: 1;
+
+	@media (max-width: ${RespBreakpoint}px) {
+		flex-direction: column;
+	}
 `
 
 const FilterSection = styled(Flex)`
 	flex: 2;
 	height: 40px;
 	margin: 10px;
+
+	@media (max-width: ${RespBreakpoint}px) {
+		flex: 1;
+		margin-bottom: 20px;
+	}
 `
 
 const TagsSelect = styled(Select)`
@@ -103,7 +113,7 @@ const CompanyDescription = styled('p')`
 `
 
 const CompanyFooter = styled('footer')`
-	background: #1e1f20;
+	background: #151a20;
 	padding: 10px;
 	color: white;
 	font-size: 14px;

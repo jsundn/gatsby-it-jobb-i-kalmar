@@ -4635,6 +4635,12 @@ gatsby-plugin-catch-links@next:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+gatsby-plugin-google-tagmanager@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.0.5.tgz#391eeb14b0f0445a8dc8cb9ae30a7bc25dbc70bc"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-page-creator@^2.0.0-rc.1:
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.0.0-rc.1.tgz#98e02ea80e3511cc03287f69e352f053cc1f80f9"

@@ -6,7 +6,7 @@ import { Flex } from 'components/UI/Base'
 import t from 'format-message'
 
 const Wrapper = styled(Flex)`
-	background: #23272e;
+	background: #151a20;
 	padding: 60px;
 	flex-direction: column;
 

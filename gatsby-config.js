@@ -69,5 +69,12 @@ module.exports = {
 	        ]
 	      }
 	    },
+	    {
+	    	resolve: `gatsby-plugin-google-tagmanager`,
+			options: {
+				id: 'GTM-TCNFMLD',
+				includeInDevelopment: true
+			}
+	    },
 	]
 }

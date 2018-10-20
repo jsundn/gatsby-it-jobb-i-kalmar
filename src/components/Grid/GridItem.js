@@ -24,7 +24,7 @@ const Content = styled(Box)`
 const Title = styled('h3')`
 	margin: 0;
 	padding: 40px;
-	font-size: 40px;
+	font-size: 30px;
 
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
