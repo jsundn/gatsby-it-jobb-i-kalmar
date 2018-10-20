@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 import Flex from 'components/UI/Base/Flex'
 import Select from 'react-select'
 import makeAnimated from 'react-select/lib/animated'
@@ -58,6 +59,11 @@ const Company = styled('div')`
 	margin: 0;
 	padding: 5px;
 	position: relative;
+`
+
+const CompanyLogo = styled(Img)`
+	margin-bottom: 40px;
+	max-width: 200px;
 `
 
 const CompanyInner = styled('div')`
@@ -261,6 +267,7 @@ class Companies extends Component {
 	                            <CompanyTitle>{ company.name }</CompanyTitle>
 	                        </CompanyHeader>
 	                        <CompanyContent>
+	                        	{ company.logo && company.logo.childImageSharp && <CompanyLogo fluid={company.logo.childImageSharp.fluid} /> }
 	                            <CompanyDescription>{ company.description }</CompanyDescription>
 	                        </CompanyContent>
 
