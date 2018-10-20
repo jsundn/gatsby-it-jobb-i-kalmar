@@ -44,11 +44,6 @@ const StyledGatsbyLink = styled(Link)`
 	text-decoration: none;
 `
 
-const StyledNormalLink = styled('a')`
-	color: white;
-	text-decoration: none;
-`
-
 const AnimatedDiv = styled(Flex) `
   width: 0px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -78,7 +73,7 @@ const AnimatedDiv = styled(Flex) `
 const Menu = ({open}) => (
   <AnimatedDiv className={open ? 'open' : ''}>
     <StyledGatsbyLink to="/">Hem</StyledGatsbyLink>
-    <StyledNormalLink to="https://www.facebook.com/itjobbikalmar/">Se alla jobb</StyledNormalLink>
+    <StyledGatsbyLink to="/jobb">Se alla jobb</StyledGatsbyLink>
     <StyledGatsbyLink to="/foretag">Hitta företag</StyledGatsbyLink>
     <StyledGatsbyLink to="/leva-och-bo-i-kalmar">Livet i Kalmar</StyledGatsbyLink>
     <StyledGatsbyLink to="/om-it-jobb-i-kalmar">Om sidan</StyledGatsbyLink>
