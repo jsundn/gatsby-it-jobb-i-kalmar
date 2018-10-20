@@ -588,7 +588,6 @@ const Layout = ({
   siteMetadata,
   pageMetadata,
   fullBleedCoverImage,
-  logo,
   children
 }) => console.log("pageMetadata", pageMetadata, siteMetadata) || (
   <SiteWrapper flexDirection="column">
@@ -602,7 +601,7 @@ const Layout = ({
 
     <Organization />
 
-    <Header logo={logo} />
+    <Header />
 
     {
       fullBleedCoverImage ?

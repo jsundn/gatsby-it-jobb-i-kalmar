@@ -25,7 +25,7 @@ const Title = styled('h3')`
 	margin: 0;
 	padding: 40px;
 	font-size: 40px;
-	
+
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
 	`: 'center'};
@@ -43,11 +43,16 @@ const TextLink = styled(Link)`
 	text-decoration: none;
 
 	&:hover {
-		text-decoration: underline;		
+		text-decoration: underline;
 	}
 `
 
-const StyledLink = styled(Link)`
+const StyledGatsbyLink = styled(Link)`
+	color: white;
+	text-decoration: none;
+`
+
+const StyledNormalLink = styled('a')`
 	color: white;
 	text-decoration: none;
 `
@@ -56,6 +61,7 @@ const InnerContent = styled(Flex)`
 	padding: 40px;
 `
 
+const internal = (href) => /^\/(?!\/)/.test(href)
 const GridItem = ({
 	href,
 	title,
@@ -66,9 +72,14 @@ const GridItem = ({
 }) => (
 	<StyledGridItem flex={flex}>
 		<Content background={background} aligntext={aligntext}>
-			<StyledLink to={href}>
-				<Title background={background} aligntext={aligntext}>{title}</Title>
-			</StyledLink>
+			{internal(href) ?
+				<StyledGatsbyLink to={href}>
+					<Title background={background} aligntext={aligntext}>{title}</Title>
+				</StyledGatsbyLink> :
+				<StyledNormalLink href={href} target="_blank">
+						<Title background={background} aligntext={aligntext}>{title}</Title>
+				</StyledNormalLink>
+			}
 			{children}
 		</Content>
 	</StyledGridItem>

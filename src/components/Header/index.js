@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LogoString from './LogoString'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import Img from 'gatsby-image'
@@ -27,6 +28,11 @@ const StyledMenuIcon = MenuIcon.extend`
   }
 `
 
+const StyledMainLogo = styled('img') `
+    width: auto;
+    height: 100%;
+`
+
 const Menu = () => (
   <Flex>
     Menu
@@ -38,17 +44,23 @@ class Header extends Component {
     renderMenu: false
   }
 
+  goToHome = () => {
+    console.log('????')
+    window.location.assign(window.location.origin)
+  }
+
   toggleMenu = () => {
     this.setState({renderMenu: !this.state.renderMenu})
   }
 
   render() {
-    const { logo } = this.props
     const { renderMenu } = this.state
 
     return (
       <StyledHeader>
-        <Img fixed={logo.childImageSharp.fixed} />
+        <a href="/">
+          <StyledMainLogo src={LogoString} />
+        </a>
 
         <StyledMenuIcon
           size={50}

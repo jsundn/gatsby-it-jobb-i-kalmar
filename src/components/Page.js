@@ -27,7 +27,6 @@ const Page = ({data, pageContext}) => {
 	return <Layout
 	    siteMetadata={data.site.siteMetadata}
 	    pageMetadata={frontmatter}
-	    logo={data.logo}
 	    fullBleedCoverImage={frontmatter.fullBleedCoverImage}
 	  >
 		<HTML>
@@ -50,14 +49,6 @@ export const query = graphql`
         },
         social {
         	facebook
-        }
-      }
-    }
-
-    logo: file(relativePath: { eq: "logo.png" }) {
-      childImageSharp {
-        fixed(height: 70) {
-          ...GatsbyImageSharpFixed_withWebp
         }
       }
     }
