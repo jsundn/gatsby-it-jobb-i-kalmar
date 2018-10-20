@@ -3,6 +3,7 @@ import LogoString from './LogoString'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import Link from 'gatsby-link'
+import t from 'format-message'
 import { Menu as MenuIcon } from 'styled-icons/Feather'
 
 const StyledHeader = styled(Flex)`
@@ -70,13 +71,13 @@ const AnimatedDiv = styled(Flex) `
   }
 `
 
-const Menu = ({open}) => (
+const Menu = ({open, close}) => (
   <AnimatedDiv className={open ? 'open' : ''}>
-    <StyledGatsbyLink to="/">Hem</StyledGatsbyLink>
-    <StyledGatsbyLink to="/jobb">Se alla jobb</StyledGatsbyLink>
-    <StyledGatsbyLink to="/foretag">Hitta företag</StyledGatsbyLink>
-    <StyledGatsbyLink to="/leva-och-bo-i-kalmar">Livet i Kalmar</StyledGatsbyLink>
-    <StyledGatsbyLink to="/om-it-jobb-i-kalmar">Om sidan</StyledGatsbyLink>
+    <div onClick={close}><StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink></div>
+    <div onClick={close}><StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink></div>
   </AnimatedDiv>
 )
 
@@ -86,7 +87,6 @@ class Header extends Component {
   }
 
   goToHome = () => {
-    console.log('????')
     window.location.assign(window.location.origin)
   }
 
@@ -109,7 +109,7 @@ class Header extends Component {
           className={renderMenu ? 'active' : ''}
         />
 
-        <Menu open={renderMenu} />
+        <Menu open={renderMenu} close={() => this.setState({renderMenu: false})} />
       </StyledHeader>
     )
   }
