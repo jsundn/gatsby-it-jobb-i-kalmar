@@ -49,9 +49,9 @@ const Wrapper = styled(Flex, {
 			if (level === GOLD) {
 				return `max-width: 350px;`
 			} else if (level === SILVER) {
-				return `max-width: 200px;`
+				return `max-width: 145px;`
 			} else if (level === BRONZE) {
-				return `max-width: 150px;`
+				return `max-width: 120px;`
 			}
 		}}
 	}
