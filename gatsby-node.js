@@ -19,22 +19,22 @@ exports.createPages = ({ graphql, actions }) => {
                     id
                     htmlAst
                     frontmatter {
-                		title
+                		  title
                     	path
                       description
                       keywords
                     	subdescription
-	                	fullBleedCoverImage {
+  	                	fullBleedCoverImage {
 	                  		childImageSharp {
-								fluid(maxWidth: 2000, maxHeight: 1000) {
-									aspectRatio
-									src
-									srcSet
-									sizes
-									srcWebp
-									srcSetWebp
-								}
-							}
+          								fluid(maxWidth: 2000, maxHeight: 1000) {
+          									aspectRatio
+          									src
+          									srcSet
+          									sizes
+          									srcWebp
+          									srcSetWebp
+          								}
+        							 }
 	                  	}
                     }
                   }

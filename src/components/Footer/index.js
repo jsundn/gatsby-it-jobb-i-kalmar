@@ -6,7 +6,7 @@ import { Flex } from 'components/UI/Base'
 import t from 'format-message'
 
 const Wrapper = styled(Flex)`
-	background: #013760;
+	background: #23272e;
 	padding: 60px;
 	flex-direction: column;
 
@@ -44,7 +44,7 @@ const Seo = styled(Flex)`
 	}
 `
 
-const SocialWrapper = styled('div') `
+const SocialWrapper = styled('div')`
 	text-align: center;
 	color: white;
 

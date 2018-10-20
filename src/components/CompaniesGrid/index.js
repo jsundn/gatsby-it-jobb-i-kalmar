@@ -301,8 +301,6 @@ class Companies extends Component {
     }
 
     componentDidMount() {
-
-    	console.log("NUM OF COLS", getNumberOfColumns(this.mainRef))
     	this.setState({
     		tags: getTags(this.props.items),
     		companies: this.props.items,
