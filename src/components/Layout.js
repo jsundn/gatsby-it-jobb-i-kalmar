@@ -592,11 +592,11 @@ const Layout = ({
   <SiteWrapper flexDirection="column">
     <Helmet
         title={`${siteMetadata.title} | ${pageMetadata.title}`}
-      meta={[
-        { name: 'title', content: `${siteMetadata.title} | ${pageMetadata.title}` },
-        { name: 'description', content: pageMetadata.description },
-        { name: 'keywords', content: pageMetadata.keywords },
-      ]}
+        meta={[
+          { name: 'title', content: `${siteMetadata.title} | ${pageMetadata.title}` },
+          { name: 'description', content: pageMetadata.description },
+          { name: 'keywords', content: pageMetadata.keywords },
+        ]}
     />
 
     <Organization />
