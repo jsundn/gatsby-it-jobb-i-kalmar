@@ -15,6 +15,11 @@ module.exports = {
 			facebook: "https://www.facebook.com/itjobbikalmar",
 			linkedin: "https://www.linkedin.com/company/it-jobb-i-kalmar/",
 			instagram: "https://www.instagram.com/itjobbikalmar/"
+		},
+		pageNotFound: {
+			title: 'IT-jobb i Kalmar',
+			description: "Den här sidan kunde inte hittas. Den kan har flyttats eller så fanns den aldrig :/",
+			subheader: "Ojdå, nu blev något knas"
 		}
 	},
 	plugins: [

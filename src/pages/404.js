@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from 'components/Layout'
 import styled from 'styled-components'
 import UFO from 'img/ufo.png'
+import t from 'format-message'
 
 const pageMetadata = {}
 const StyledWrapper = styled('div')`
@@ -28,7 +29,10 @@ const UFOWrapper = styled('div')`
 
 const NotFoundPage = ({data}) => (
   <Layout
-    siteMetadata={data.site.siteMetadata}
+    siteMetadata={{
+      ...data.site.siteMetadata.pageNotFound,
+      ...data.site.siteMetadata
+    }}
     pageMetadata={pageMetadata}
     fullBleedCoverImage={null}
   >
@@ -37,7 +41,7 @@ const NotFoundPage = ({data}) => (
       <UFOWrapper>
         <img src={UFO} />
       </UFOWrapper>
-      <p>Ojdå. Den här sidan verkar inte finnas.</p>
+      <p>{t('Den här sidan verkar inte finnas.')}</p>
     </StyledWrapper>
   </Layout>
 )
@@ -46,10 +50,12 @@ export default NotFoundPage
 export const query = graphql`
   query {
     site {
-      siteMetadata {
-        title,
-        description,
-        subheader,
+      siteMetadata {,
+        pageNotFound {
+          title,
+          description,
+          subheader
+        }
         seo {
         	footer
         },

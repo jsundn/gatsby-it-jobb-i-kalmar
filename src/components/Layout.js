@@ -10,6 +10,7 @@ import FullBleedCoverImage from 'components/FullBleedCoverImage'
 import { Flex } from 'components/UI/Base'
 import Organization from 'components/SEO/Google/Organization'
 import Breadcrumbs from 'components/SEO/Google/Breadcrumbs'
+import { BREAKPOINT } from 'constants/responsive'
 
 require('typeface-roboto')
 
@@ -28,12 +29,16 @@ const HeaderText = styled('h1')`
 `
 
 const SubDescription = styled('p')`
-  font-size: 22px;
-  line-height: 1.3;
-  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 300;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 20px 0 20px;
+  padding: 60px 40px 0 40px;
+
+  @media (min-width: ${BREAKPOINT}px) {
+    font-size: 2.5rem;
+  }
 `
 
 const Layout = ({

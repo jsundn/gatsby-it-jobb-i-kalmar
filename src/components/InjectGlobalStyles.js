@@ -7,6 +7,10 @@ injectGlobal`
     -webkit-text-size-adjust: 100%;
   }
   
+  p:empty {
+    display: none;
+  }
+
   body {
     margin: 0;
   }
