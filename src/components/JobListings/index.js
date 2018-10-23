@@ -26,7 +26,9 @@ export default class JobListings extends Component {
 			                  date,
 			                  link,
 			                  company,
-			                  text
+			                  text,
+			                  location,
+			                  title
 			                }
 			              }
 			            }
@@ -35,6 +37,7 @@ export default class JobListings extends Component {
 			      }
 			    `}
 			    render={data => {
+			    	console.log("JEJEJEJE")
 			      let { title, items } = data.allDataJson.edges[0].node.listings
 
 			      const sorted = items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -48,6 +51,8 @@ export default class JobListings extends Component {
 			          		link={item.link}
 			          		company={item.company}
 			          		text={item.text}
+			          		location={item.location}
+			          		title={item.title}
 			          	/>
 			          )) }
 			        </Wrapper>

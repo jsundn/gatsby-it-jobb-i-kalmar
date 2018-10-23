@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import { darken } from 'polished'
 import { BREAKPOINT } from 'constants/responsive'
+import JobPosting from 'components/SEO/Google/JobPosting'
 
 const Wrapper = styled('li')`
 	font-size: 1rem;
@@ -74,12 +75,16 @@ export default class Job extends Component {
 			date,
       		link,
       		company,
-      		text
+      		text,
+      		location,
+      		title
 		} = this.props
 
 		return (
 			<Wrapper>
 				<Row>
+					<JobPosting description={text} date={date} company={company} location={location} title={title} />
+
 					<DescriptionLink href={link}>
 						{ text }
 					</DescriptionLink>

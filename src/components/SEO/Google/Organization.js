@@ -13,10 +13,18 @@ const Organization = () => {
       founders: [
         {
           "@type": "Person",
+          "gender": "male",
+          "alumniOf": "Linnaeus University",
+          "jobTitle": "Software developer",
+          "nationality": "Swedish",
           "name": "Johan Sundén"
         },
         {
           "@type": "Person",
+          "gender": "male",
+          "alumniOf": "Linnaeus University",
+          "jobTitle": "Software developer",
+          "nationality": "Swedish",
           "name": "Peter Persson"
         }
       ],
