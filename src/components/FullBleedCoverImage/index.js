@@ -6,11 +6,13 @@ import { BREAKPOINT } from 'constants/responsive'
 
 const Bleed = styled(Flex)`
   position: relative;
+  max-height: 700px;;
 `
 
 const ImgWrapper = styled(Box)`
   position: relative;
   width: 100%;
+  overflow: hidden;
 `
 
 const TitleWrapper = styled(Flex)`
