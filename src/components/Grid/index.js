@@ -7,7 +7,8 @@ import { BREAKPOINT } from 'constants/responsive'
 const StyledGrid = styled(Flex)`
 	max-width: 1200px;
 	margin: 0 auto;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
 	@media (max-width: ${BREAKPOINT}px) {
 		flex-direction: column;

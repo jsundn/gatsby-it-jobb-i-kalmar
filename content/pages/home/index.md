@@ -17,5 +17,3 @@ fullBleedCoverImage: "./cover.jpg"
 	</grid-item>
 </grid>
 
-<partners-logos></partners-logos>
-

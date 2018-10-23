@@ -1,18 +1,16 @@
 import React from 'react'
 import EU from 'img/eu.png'
-import { Facebook, Instagram, Linkedin } from 'styled-icons/Feather'
+import { Facebook, Instagram, Linkedin } from 'styled-icons/fa-brands'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import t from 'format-message'
+import { BREAKPOINT } from 'constants/responsive'
 
 const Wrapper = styled(Flex)`
+	position: relative;
 	background: #151a20;
 	padding: 60px;
 	flex-direction: column;
-
-	@media (max-width: 600px) {
-		flex-direction: column;
-	}
 `
 
 const Title = styled('h3')`
@@ -44,40 +42,62 @@ const Seo = styled(Flex)`
 	}
 `
 
-const SocialWrapper = styled('div')`
+const SocialWrapper = styled(Flex)`
 	text-align: center;
+    align-self: center;
 	color: white;
+	flex-direction: column;
 
-	a {
-		padding: 5px;
-		&:active, &:visited {
-			color: white;
-		}
-		&:hover {
-			cursor: pointer;
-			color: #006058;
-		}
+	@media (max-width: ${BREAKPOINT}px) {
+		align-items: center;
+	}
+
+	@media (min-width: ${BREAKPOINT}px) {
+		flex-direction: row;
 	}
 `
 
 const Anchor = styled('a')`
-	height: 50px;
+	border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    cursor: pointer;
+
+    &:hover {
+    	border: 1px solid white;
+    	background: #0e1216;
+    }
+
+    &:active, &:visited {
+    	color: white;
+    }
 `
 
-const Copy = styled(Flex) `
+const Copy = styled('span')`
 	color: white;
-	align-items: center;
 	margin: 30px 0 0;
-	p {
-		color: whitesmoke;
-		font-size: 14px;
-		line-height: 1.85;
-		font-family: Titillium Web,sans-serif;
-		flex: 1;
-	}
-	img {
-		height: 30px;
-		width: auto;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.85;
+	font-family: Titillium Web,sans-serif;
+	text-align: center;
+	margin-bottom: 100px;
+`
+
+const EULogo = styled('img')`
+	height: 40px;
+	margin: 0 auto;
+
+	@media (min-width: ${BREAKPOINT}px) {
+		position: absolute;
+		bottom: 40px;
+		right: 0;
+		margin: 0;
+
 	}
 `
 
@@ -130,10 +150,9 @@ const Footer = ({ siteMetadata }) => {
 			</Anchor>
 		</SocialWrapper>
 
-		<Copy>
-			<p>&copy; IT-jobb i Kalmar</p>
-			<img src={EU} alt="EU"/>
-		</Copy>
+		<Copy>&copy; IT-jobb i Kalmar</Copy>
+
+		<EULogo src={EU} alt="EU"/>
 
 	</Wrapper>
 }

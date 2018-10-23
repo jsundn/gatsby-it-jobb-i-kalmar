@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import Link from 'gatsby-link'
 import t from 'format-message'
-import { Menu as MenuIcon } from 'styled-icons/Feather'
+import { Bars as MenuIcon } from 'styled-icons/fa-solid'
+import { BREAKPOINT } from 'constants/responsive'
 
 const StyledHeader = styled(Flex)`
   position: fixed;
@@ -23,20 +24,24 @@ const StyledMenuIcon = MenuIcon.extend`
   top: 10px;
   right: 5px;
   cursor: pointer;
-  border-radius: 35px;
-  transition: all 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  border: 1px all transparent;
+  border-radius: 10px;
 
   &:hover {
-    -background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,.3);
+    border: 1px solid rgba(0,0,0,.);
   }
 
   &.active {
     background: rgba(0,0,0,.8);
+    border: 1px solid #003d6e;
   }
 `
 
 const StyledMainLogo = styled('img') `
     width: auto;
+    margin-left: 10px;
     height: 100%;
 `
 
@@ -47,7 +52,7 @@ const StyledGatsbyLink = styled(Link)`
 
 const AnimatedDiv = styled(Flex) `
   width: 0px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   transition: width 0.3s ease-in-out;
   flex-direction: column;
   position: fixed;
@@ -56,18 +61,21 @@ const AnimatedDiv = styled(Flex) `
   bottom: 0;
   white-space: nowrap;
   overflow: hidden;
-  padding: 20px 0;
 
   a {
     cursor:pointer;
     width: 100%;
     display: block;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 30px;
   }
 
   &.open {
-    width: 240px;
+    width: 100%;
+
+    @media (min-width: ${BREAKPOINT}px) {
+      width: 400px;
+    }
   }
 `
 

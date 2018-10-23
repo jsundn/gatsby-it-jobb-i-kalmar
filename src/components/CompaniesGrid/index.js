@@ -7,16 +7,34 @@ import Select from 'react-select'
 import makeAnimated from 'react-select/lib/animated'
 import t from 'format-message'
 import { BREAKPOINT as RespBreakpoint } from 'constants/responsive'
+import SadMonsterGif from 'img/sad-monster.gif'
+import {
+	addedFilteringTag,
+	addedFilteringInput,
+	filteringNoHits
+} from 'lib/GTM'
 
 const BREAKPOINT = 500
+
+let _inputChangeTimeoutId = null
 
 const Title = styled('h1')`
 
 `
 
+const MatchesText = styled('p')`
+	color: #333;
+    font-size: 12px;
+    font-style: italic;
+    margin: auto auto auto 10px;
+`
+
 const Filters = styled(Flex)`
 	flex-direction: row;
 	flex: 1;
+	padding: 20px;
+	margin: 30px;
+	background: #efefef;
 
 	@media (max-width: ${RespBreakpoint}px) {
 		flex-direction: column;
@@ -67,7 +85,7 @@ const Column = styled('div')`
 const Company = styled('div')`
 	overflow: hidden;
 	margin: 0;
-	padding: 5px;
+	padding: 10px;
 	position: relative;
 `
 
@@ -128,12 +146,26 @@ const CompanyLink = styled('a')`
 	text-decoration: none;
 `
 
+const NoResultsWrapper = styled(Flex)`
+	width: 100%;
+`
+
+const NoResultsInner = styled(Flex)`
+	margin: auto;
+	flex-direction: column;
+`
+
 const NoResults = styled('span')`
 	color: #333;
-	margin: 0 auto;
 	font-weight: 800;
 	font-size: 15px;
 	padding: 20px;
+	margin: auto;
+`
+
+const NoResultsImage = styled('img')`
+	width: 300px;
+	margin: auto;
 `
 
 const Name = styled('p')`
@@ -188,12 +220,20 @@ class Companies extends Component {
     }
 
     handleInputChange = e => {
+    	window.clearTimeout(_inputChangeTimeoutId)
+
     	this.setState({
     		filters: {
     			...this.state.filters,
     			input: e.target.value
     		}
     	})
+
+    	_inputChangeTimeoutId = window.setTimeout(() => {
+    		if (this.state.filters.input) {
+    			addedFilteringInput(this.state.filters.input)
+    		}
+    	}, 500)
     }
 
     render() {
@@ -216,6 +256,8 @@ class Companies extends Component {
 			        			options={this.state.tags}
 		        			/>
 	        			</FilterSection>
+
+	        			<MatchesText>{ t('{number} företag matchar filtreringen', { number: columns.reduce((total, column) => total + column.length, 0) }) }</MatchesText>
 	        		</Filters>
 
 	        		<CompaniesWrapper>
@@ -225,7 +267,16 @@ class Companies extends Component {
 	                            { column.map(item => item) }
 
 	                        </Column>
-	                    )) : <NoResults>{ t('Det finns inga företag som matchar din sökning') }</NoResults> }
+	                    )) : (
+	                    	<NoResultsWrapper>
+	                    		<NoResultsInner>
+		                    		<NoResults>{ t('Det finns inga företag som matchar din sökning') }</NoResults>
+
+		                    		<NoResultsImage src={SadMonsterGif} />
+		                    	</NoResultsInner>
+	                    	</NoResultsWrapper>
+                    	)
+	                	}
 	                </CompaniesWrapper>
 	        	</Container>
         	</div>
@@ -233,6 +284,12 @@ class Companies extends Component {
     }
     
     handleOnTagSelect = tags => {
+    	const addedTag = tags.filter(tag => !this.state.selectedTags.find(selectedTag => selectedTag !== tag))
+
+    	if (addedTag && addedTag[0]) {
+    		addedFilteringTag(addedTag[0])
+    	}
+
         this.setState({ selectedTags: tags })
     }
 

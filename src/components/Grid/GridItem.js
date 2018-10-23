@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Flex, Box } from 'components/UI/Base'
 import Link from 'gatsby-link'
 import { darken } from 'polished'
+import { BREAKPOINT } from 'constants/responsive'
 
 const StyledGridItem = styled(Flex)`
 	flex: ${({flex}) => flex};
@@ -23,8 +24,12 @@ const Content = styled(Box)`
 
 const Title = styled('h3')`
 	margin: 0;
-	padding: 40px;
-	font-size: 30px;
+	padding: 20px;
+	font-size: 1rem;
+
+	@media (min-width: ${BREAKPOINT}px) {
+		font-size: 1.5rem;
+	}
 
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
@@ -62,8 +67,10 @@ const InnerContent = styled(Flex)`
 `
 
 const internal = (href) => /^\/(?!\/)/.test(href)
+
 const GridItem = ({
 	href,
+	nofollow = false,
 	title,
 	flex,
 	aligntext,
@@ -72,19 +79,20 @@ const GridItem = ({
 }) => (
 	<StyledGridItem flex={flex}>
 		<Content background={background} aligntext={aligntext}>
-			{internal(href) ?
-				<StyledGatsbyLink to={href}>
+			{ internal(href) ?
+				<StyledGatsbyLink nofollow to={href}>
 					<Title background={background} aligntext={aligntext}>{title}</Title>
+					{children}
 				</StyledGatsbyLink> :
-				<StyledNormalLink href={href} target="_blank">
+				<StyledNormalLink nofollow href={href} target="_blank">
 						<Title background={background} aligntext={aligntext}>{title}</Title>
+						{children}
 				</StyledNormalLink>
 			}
-			{children}
 		</Content>
 	</StyledGridItem>
 )
 
-export const GridItemLink = ({href, target, children}) => <TextLink to={href} target={target || "_blank"}>{children}</TextLink>
+export const GridItemLink = ({href, nofollow = false, target, children}) => <TextLink nofollow to={href} target={target || "_blank"}>{children}</TextLink>
 
 export default GridItem

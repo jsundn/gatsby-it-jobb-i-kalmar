@@ -8,6 +8,7 @@ import Footer from 'components/Footer'
 import FullBleedCoverImage from 'components/FullBleedCoverImage'
 import { Flex } from 'components/UI/Base'
 import Organization from 'components/SEO/Google/Organization'
+import Breadcrumbs from 'components/SEO/Google/Breadcrumbs'
 
 injectGlobal`
   html {
@@ -600,6 +601,7 @@ const Layout = ({
     />
 
     <Organization />
+    <Breadcrumbs name={pageMetadata.title} id={""} image={""}  />
 
     <Header />
 

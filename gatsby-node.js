@@ -34,7 +34,7 @@ exports.createPages = ({ graphql, actions }) => {
           									srcWebp
           									srcSetWebp
           								}
-        							 }
+        							  }
 	                  	}
                     }
                   }
