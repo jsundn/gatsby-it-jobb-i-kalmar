@@ -9,7 +9,7 @@ fullBleedCoverImage: "./cover.jpg"
 ---
 
 <grid flexdirection="row">
-	<grid-item href="https://www.facebook.com/itjobbikalmar" title="Visa alla IT-jobb" background="#006058" flex="2">
+	<grid-item href="/lediga-it-jobb" title="Visa alla IT-jobb" background="#006058" flex="2">
 		<img src="./listings.jpg" />
 	</grid-item>
 	<grid-item href="/leva-och-bo-i-kalmar" title="Kalmar" background="#60005d" flex="2">
