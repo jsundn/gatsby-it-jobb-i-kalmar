@@ -8,7 +8,7 @@ import { BREAKPOINT } from 'constants/responsive'
 
 const Wrapper = styled(Flex)`
 	position: relative;
-	background: #151a20;
+	background: #141516;
 	padding: 60px;
 	flex-direction: column;
 `
@@ -68,8 +68,7 @@ const Anchor = styled('a')`
     cursor: pointer;
 
     &:hover {
-    	border: 1px solid white;
-    	background: #0e1216;
+    	color: #adb0b2;
     }
 
     &:active, &:visited {

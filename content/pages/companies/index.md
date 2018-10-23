@@ -5,7 +5,7 @@ layout: page
 path: "/foretag"
 description: "IT-Företag i Kalmarregionen"
 keywords: "IT-Företag, Kalmar, Kalmarsundsregionen"
-fullBleedCoverImage: "./cover.jpg"
+fullBleedCoverImage: ""
 ---
 
 <companies-grid></companies-grid>

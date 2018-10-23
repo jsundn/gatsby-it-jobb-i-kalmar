@@ -52,7 +52,6 @@ const StyledGatsbyLink = styled(Link)`
 
 const AnimatedDiv = styled(Flex) `
   width: 0px;
-  background-color: rgba(0, 0, 0, 0.9);
   transition: width 0.3s ease-in-out;
   flex-direction: column;
   position: fixed;
@@ -61,6 +60,8 @@ const AnimatedDiv = styled(Flex) `
   bottom: 0;
   white-space: nowrap;
   overflow: hidden;
+  border-top: 1px solid #002643;
+  background-color: rgb(2, 46, 80);
 
   a {
     cursor:pointer;

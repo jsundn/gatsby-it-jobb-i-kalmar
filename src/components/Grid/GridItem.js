@@ -26,6 +26,7 @@ const Title = styled('h3')`
 	margin: 0;
 	padding: 20px;
 	font-size: 1rem;
+	font-weight: 900;
 
 	@media (min-width: ${BREAKPOINT}px) {
 		font-size: 1.5rem;
@@ -33,7 +34,7 @@ const Title = styled('h3')`
 
 	${({aligntext}) => aligntext ? `
 		text-align: ${aligntext}!important;
-	`: 'center'};
+	`: 'text-align: center;'};
 
 	background-color: ${({background}) => background || 'transparent'};
 	color: white;

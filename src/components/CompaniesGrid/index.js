@@ -22,6 +22,43 @@ const Title = styled('h1')`
 
 `
 
+const customSelectStyles = {
+  option: (base, state) => ({
+    ...base,
+    borderBottom: '1px dashed #ccc',
+    padding: 10,
+    ':hover': {
+		cursor: 'pointer'
+	}
+  }),
+  control: (base) => ({
+  	...base,
+  	height: 50,
+    border: '1px solid #ccc',
+	'border-radius': '4px'
+  }),
+  multiValue: (styles, { data }) => {
+    return {
+		...styles,
+		width: 'auto',
+		backgroundColor: '#efefef',
+		padding: '2px 8px',
+		'font-size': 12,
+		color: '#333',
+		'border-radius': 3,
+		'white-space': 'nowrap'
+    }
+  },
+  multiValueRemove: (styles, { data }) => ({
+    ...styles,
+    color: data.color,
+    ':hover': {
+      color: '#d33131',
+      cursor: 'pointer'
+    },
+  })
+}
+
 const MatchesText = styled('p')`
 	color: #333;
     font-size: 12px;
@@ -43,7 +80,7 @@ const Filters = styled(Flex)`
 
 const FilterSection = styled(Flex)`
 	flex: 2;
-	height: 40px;
+	height: 50px;
 	margin: 10px;
 
 	@media (max-width: ${RespBreakpoint}px) {
@@ -55,20 +92,18 @@ const FilterSection = styled(Flex)`
 const TagsSelect = styled(Select)`
 	flex: 1;
 	border-radius: 3px;
-	height: 40px;
+	height: 50px;
 `
 
 const Search = styled('input')`
 	flex: 1;
-	height: 40px;
+	height: 50px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	padding: 10px;
 `
 
 const Container = styled(Flex)`
-	padding-top: 120px;
-	padding-bottom: 60px;
 	flex-direction: column;
 `
 
@@ -92,6 +127,7 @@ const Company = styled('div')`
 const CompanyLogo = styled(Img)`
 	margin-bottom: 40px;
 	max-width: 200px;
+	padding-left: 1px;
 `
 
 const CompanyInner = styled('div')`
@@ -131,10 +167,12 @@ const CompanyDescription = styled('p')`
 `
 
 const CompanyFooter = styled('footer')`
-	background: #151a20;
-	padding: 10px;
-	color: white;
-	font-size: 14px;
+	padding: 0 4px;
+`
+
+const TagWrapper = styled(Flex)`
+	flex-direction: row;
+	flex-flow: wrap;
 `
 
 const CompanyLink = styled('a')`
@@ -171,6 +209,25 @@ const NoResultsImage = styled('img')`
 const Name = styled('p')`
 	color: #333;
 `
+
+const TagText = styled('span')`
+    margin: 0 4px 8px 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    color: #333;
+    background: #efefef;
+    border-radius: 3px;
+    white-space: nowrap;
+    text-transform: uppercase;
+`
+
+const Tag = ({
+	text
+}) => {
+	return (
+		<TagText>{ text }</TagText>
+	)
+}
 
 const getTags = items => {
 	let tags = []
@@ -250,6 +307,7 @@ class Companies extends Component {
 	        			<FilterSection>
 	        				<TagsSelect
 			        			isMulti={true}
+			        			styles={customSelectStyles}
 			        			onChange={this.handleOnTagSelect}
 			        			closeMenuOnSelect={false}
 			        			components={makeAnimated()}
@@ -337,9 +395,15 @@ class Companies extends Component {
 	                        	{ company.logo && company.logo.childImageSharp && <CompanyLogo fluid={company.logo.childImageSharp.fluid} /> }
 	                            <CompanyDescription>{ company.description }</CompanyDescription>
 	                        </CompanyContent>
-
 	                        <CompanyFooter>
-	                            <CompanyLink href={company.website}>Hemsida</CompanyLink>
+	                        	<TagWrapper>
+	                        		{ company.tags.map(tag => (
+	                        			<Tag
+	                        				key={`tag-${company.id}-${tag}`}
+	                        				text={tag}
+                        				/>
+	                        		)) }
+	                        	</TagWrapper>
 	                        </CompanyFooter>
 	                    </CompanyInner>
 	                </Company>
