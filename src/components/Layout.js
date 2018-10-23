@@ -58,7 +58,7 @@ const Layout = ({
     />
 
     <Organization />
-    <Breadcrumbs name={pageMetadata.title} id={""} image={""}  />
+    <Breadcrumbs name={pageMetadata.title} url={pageMetadata.path}  />
 
     <Header />
 

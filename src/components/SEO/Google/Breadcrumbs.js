@@ -1,24 +1,35 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import t from 'format-message'
 
 const Breadcrumbs = ({
-  id,
-  name,
-  image
+  url,
+  name
 }) => {
+
+  const makeItem = (position, url, name) => (
+    {
+      "@type": "ListItem",
+      "position": position,
+      "item": {
+        "@id": url,
+        "name": name
+      }
+    }
+  )
+
+  let items = []
+
+  items = [makeItem(1, process.env.GATSBY_APP_URL, t('startsida'))]
+
+  if (url !== "/") {
+    items = [...items, makeItem(2, `${process.env.GATSBY_APP_URL}${url}`, name)]
+  }
 
   const schema = {
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": id,
-        "name": name,
-        "image": image
-      }
-    }]
+    "itemListElement": items
   }
 
   return (
