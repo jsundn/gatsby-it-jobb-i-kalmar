@@ -24,6 +24,7 @@ module.exports = {
 		'gatsby-plugin-styled-components',
 		'gatsby-plugin-remove-trailing-slashes',
 		'gatsby-plugin-sitemap',
+		'gatsby-plugin-robots-txt',
 		'gatsby-transformer-json',
 		{
 			resolve: 'gatsby-source-filesystem',
