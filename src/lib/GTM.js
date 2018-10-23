@@ -1,5 +1,18 @@
-const push = payload => (
-	window.dataLayer.push(payload)
+let _enabled = false
+
+
+const push = payload => {
+	if (_enabled) {
+		window.dataLayer.push(payload)
+	}
+}
+
+export const enable = () => (
+	_enabled = true
+)
+
+export const disable = () => (
+	_enabled = false
 )
 
 export const addedFilteringTag = tag => {

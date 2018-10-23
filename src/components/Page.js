@@ -8,6 +8,8 @@ import Grid from "components/Grid"
 import GridItem, { GridItemLink } from "components/Grid/GridItem"
 import Logos from "components/Partners/Logos"
 
+import Notification from 'components/Cookies/Notification'
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
@@ -31,6 +33,9 @@ const Page = ({data, pageContext}) => {
 	    pageMetadata={frontmatter}
 	    fullBleedCoverImage={frontmatter.fullBleedCoverImage}
 	  >
+
+    <Notification />
+
 		<HTML>
 			{renderAst(htmlAst)}
 		</HTML>
