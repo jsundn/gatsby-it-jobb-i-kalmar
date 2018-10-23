@@ -17,6 +17,10 @@ const StyledHeader = styled(Flex)`
   background: #013760;
 `;
 
+const StyledOverlappingHeader = styled(StyledHeader)`
+  border-bottom: 1px solid #002643;
+`
+
 const StyledMenuIcon = MenuIcon.extend`
   color: white;
   position: absolute;
@@ -50,7 +54,7 @@ const StyledGatsbyLink = styled(Link)`
 	text-decoration: none;
 `
 
-const AnimatedDiv = styled(Flex) `
+const StyledMenu = styled(Flex) `
   width: 0px;
   transition: width 0.3s ease-in-out;
   flex-direction: column;
@@ -60,7 +64,6 @@ const AnimatedDiv = styled(Flex) `
   bottom: 0;
   white-space: nowrap;
   overflow: hidden;
-  border-top: 1px solid #002643;
   background-color: rgb(2, 46, 80);
 
   a {
@@ -80,19 +83,32 @@ const AnimatedDiv = styled(Flex) `
   }
 `
 
-const Menu = ({open, close}) => (
-  <AnimatedDiv className={open ? 'open' : ''}>
-    <div onClick={close}><StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink></div>
-    <div onClick={close}><StyledGatsbyLink to="/jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
-    <div onClick={close}><StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink></div>
-    <div onClick={close}><StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink></div>
-    <div onClick={close}><StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink></div>
-  </AnimatedDiv>
-)
+const StyledOverlappingMenu = styled(StyledMenu)`
+  border-top: 1px solid #002643;
+`
+
+const Menu = ({
+  open,
+  close,
+  hasScrollDepth
+}) => {
+  const MenuComponent = hasScrollDepth ? StyledMenu : StyledOverlappingMenu
+
+  return (
+    <MenuComponent className={open ? 'open' : ''}>
+      <div onClick={close}><StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink></div>
+      <div onClick={close}><StyledGatsbyLink to="/jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
+      <div onClick={close}><StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink></div>
+      <div onClick={close}><StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink></div>
+      <div onClick={close}><StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink></div>
+    </MenuComponent>
+  )
+}
 
 class Header extends Component {
   state = {
-    renderMenu: false
+    renderMenu: false,
+    isOverlapping: false
   }
 
   goToHome = () => {
@@ -103,11 +119,29 @@ class Header extends Component {
     this.setState({renderMenu: !this.state.renderMenu})
   }
 
+  handleScroll = () => {
+    this.setState({
+      isOverlapping: window.scrollY > 0
+    })
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, false)
+
+    this.handleScroll()
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
+
   render() {
     const { renderMenu } = this.state
 
+    const HeaderComponent = this.state.isOverlapping ? StyledOverlappingHeader : StyledHeader
+
     return (
-      <StyledHeader>
+      <HeaderComponent>
         <a href="/">
           <StyledMainLogo src={LogoString} />
         </a>
@@ -118,8 +152,8 @@ class Header extends Component {
           className={renderMenu ? 'active' : ''}
         />
 
-        <Menu open={renderMenu} close={() => this.setState({renderMenu: false})} />
-      </StyledHeader>
+        <Menu open={renderMenu} hasScrollDepth={this.state.isOverlapping} close={() => this.setState({renderMenu: false})} />
+      </HeaderComponent>
     )
   }
 }
