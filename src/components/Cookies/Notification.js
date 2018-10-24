@@ -73,12 +73,26 @@ const StyledLink = styled(Link)`
 `
 
 const Accept = styled(Text)`
-	background: green;
+	background: #1aa01a;
 	padding: 10px;
 	color: white;
 	display: inline;
 	cursor: pointer;
 	white-space: nowrap;
+	border-radius: 0 10px 10px 0;
+
+	&:hover {
+		background: #1fba1f;
+	}
+`
+
+const DoNotAccept = styled(Accept)`
+	background: #333;
+	border-radius: 10px 0 0 10px;
+
+	&:hover {
+		background: #666;
+	}
 `
 
 export default class Notification extends Component {
@@ -88,6 +102,16 @@ export default class Notification extends Component {
 
 	handleAccept = () => {
 		cookie.save('allowsCookies', true)
+
+		enable()
+
+		this.setState({
+			display: false
+		})
+	}
+
+	handleDoNotAccept = () => {
+		cookie.save('allowsCookies', false)
 
 		enable()
 
@@ -121,8 +145,9 @@ export default class Notification extends Component {
 
 					<Text>{t('Om vi får så sparar vi information om hur du använder siten. Vi sparar dock inget om dig som person. Detta gör att vi kan förstå dig som användare bättre och bygga en bättre site. Vill du veta mer så följ länken nedan.')}</Text>
 					
-					<StyledLink>{t('Här kan du läsa mer')}</StyledLink>
+					<StyledLink to={`/${t('integritetspolicy')}`}>{t('Här kan du läsa mer')}</StyledLink>
 
+					<DoNotAccept onClick={this.handleDoNotAccept}t>{t('nej')}</DoNotAccept>
 					<Accept onClick={this.handleAccept}t>{t('Det är okej!')}</Accept>
 				</StyledWrapper>
 			)

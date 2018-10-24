@@ -2,6 +2,7 @@ const path = require('path')
 const Page = path.resolve('./src/components/Page.js')
 
 exports.createPages = ({ graphql, actions }) => {
+  
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
@@ -19,12 +20,12 @@ exports.createPages = ({ graphql, actions }) => {
                     id
                     htmlAst
                     frontmatter {
-                		  title
+                		title
                     	path
                       description
                       keywords
                     	subdescription
-  	                	fullBleedCoverImage {
+	                	fullBleedCoverImage {
 	                  		childImageSharp {
           								fluid(maxWidth: 2000, maxHeight: 1000) {
           									aspectRatio
@@ -34,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
           									srcWebp
           									srcSetWebp
           								}
-        							  }
+          							}
 	                  	}
                     }
                   }

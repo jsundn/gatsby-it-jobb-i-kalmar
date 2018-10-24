@@ -35,7 +35,7 @@ const customSelectStyles = {
   	...base,
   	height: 50,
     border: '1px solid #ccc',
-	'border-radius': '4px'
+	'border-radius': 10
   }),
   multiValue: (styles, { data }) => {
     return {
@@ -72,6 +72,7 @@ const Filters = styled(Flex)`
 	padding: 20px;
 	margin: 30px;
 	background: #efefef;
+	border-radius: 10px;
 
 	@media (max-width: ${RespBreakpoint}px) {
 		flex-direction: column;
@@ -91,7 +92,7 @@ const FilterSection = styled(Flex)`
 
 const TagsSelect = styled(Select)`
 	flex: 1;
-	border-radius: 3px;
+	border-radius: 10px;
 	height: 50px;
 `
 
@@ -99,7 +100,7 @@ const Search = styled('input')`
 	flex: 1;
 	height: 50px;
 	border: 1px solid #ccc;
-	border-radius: 4px;
+	border-radius: 10px;
 	padding: 10px;
 `
 

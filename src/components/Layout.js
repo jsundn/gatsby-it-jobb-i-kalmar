@@ -15,11 +15,14 @@ import { BREAKPOINT } from 'constants/responsive'
 require('typeface-roboto')
 
 const SiteWrapper = styled(Flex)`
-padding-top: 70px;
+  padding-top: 70px;
 `
 
 const Content = styled(Flex)`
-  padding: 0;
+  padding: 0 40px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
 `
 
 const HeaderText = styled('h1')`
@@ -32,8 +35,8 @@ const SubDescription = styled('p')`
   font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 300;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto 20px auto;
   padding: 60px 40px 0 40px;
 
   @media (min-width: ${BREAKPOINT}px) {

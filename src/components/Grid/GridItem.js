@@ -51,6 +51,10 @@ const TextLink = styled(Link)`
 	&:hover {
 		text-decoration: underline;
 	}
+
+	&:visited {
+		color: white;
+	}
 `
 
 const StyledGatsbyLink = styled(Link)`

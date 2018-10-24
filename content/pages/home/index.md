@@ -5,6 +5,7 @@ layout: page
 path: "/"
 description: "IT-jobben finns i Kalmar"
 keywords: "IT-jobb, IT-företag, Kalmar, jobb, utveckling, digitalisering"
+subdescription: ""
 fullBleedCoverImage: "./cover.jpg"
 ---
 

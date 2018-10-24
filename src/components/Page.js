@@ -8,6 +8,7 @@ import Grid from "components/Grid"
 import GridItem, { GridItemLink } from "components/Grid/GridItem"
 import Logos from "components/Partners/Logos"
 import JobListings from 'components/JobListings'
+import Leadin from 'components/UI/Leadin'
 
 import Notification from 'components/Cookies/Notification'
 
@@ -19,12 +20,13 @@ const renderAst = new rehypeReact({
   	"grid-item": GridItem,
   	"grid-item-link": GridItemLink,
   	"partners-logos": Logos,
-    "job-listings": JobListings
+    "job-listings": JobListings,
+    "leadin": Leadin
   }
 }).Compiler
 
 const HTML = styled('div')`
-	padding: 20px;
+	padding: 20px 0;
 `
 
 const Page = ({data, pageContext}) => {

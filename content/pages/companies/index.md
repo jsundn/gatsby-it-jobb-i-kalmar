@@ -1,5 +1,5 @@
 ---
-title: "Företag | IT-jobb i Kalmar"
+title: "Företag - IT-jobb i Kalmar"
 date: "2016-03-01T22:12:03.284Z"
 layout: page
 path: "/foretag"

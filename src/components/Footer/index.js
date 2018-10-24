@@ -66,6 +66,7 @@ const Anchor = styled('a')`
     width: 95px;
     height: 95px;
     cursor: pointer;
+    color: white;
 
     &:hover {
     	color: #adb0b2;

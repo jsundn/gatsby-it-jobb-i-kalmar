@@ -223,12 +223,20 @@ injectGlobal`
   }
   h1, h2, h3, h4, h5, h6 {
     margin: auto;
+    margin-bottom: 20px;
     line-height: 1.3;
     font-size: 26px;
     padding: 0;
     font-weight: 700;
     color: #013760;
     text-rendering: optimizeLegibility;
+  }
+  h3, h4 {
+    font-size: 22px;
+  }
+
+  h5, h6 {
+    font-size: 18px;
   }
   h1 {
     font-size: 60px;
@@ -296,6 +304,8 @@ injectGlobal`
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    font-size: 16px;
+    line-height: 24px;
   }
   figure {
     margin-left: 0;
@@ -533,6 +543,14 @@ injectGlobal`
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
+    }
+  }
+
+  a {
+    color: #013760;
+    
+    &:visited {
+      color: #8f044c;
     }
   }
 `

@@ -1,5 +1,5 @@
 ---
-title: "IT-jobb i Kalmar - Leva och bo i Kalmar"
+title: "Leva och bo i Kalmar - IT-jobb i Kalmar"
 date: "2016-03-01T22:12:03.284Z"
 layout: page
 path: "/leva-och-bo-i-kalmar"
@@ -8,8 +8,6 @@ description: "Här kan du läsa mer om Kalmarsundsregionen"
 keywords: "Kalmar, Kalmarsundsregionen, jobb, utbbildning, bostad, evenemang"
 subdescription: "Här hittar du information om Kalmar och regionen. Är du nyfiken på att flytta till Kalmar så hittar du länkar om boende och jobb till medflyttande partner här."
 ---
-
-<p></p>
 
 <grid flexdirection="column">
 	<grid-item href="http://kalmarsundsregionen.com/jobb/" title="Jobb åt partner" background="#4cc178" aligntext="left" flex="1">
