@@ -5,7 +5,7 @@ layout: page
 path: "/lediga-it-jobb"
 description: "Här kan du hitta alla våra länkar till lediga IT-jobb"
 keywords: "jobb, platsannons, jobbannons, IT-Företag, Kalmar, Kalmarsundsregionen"
-fullBleedCoverImage: ""
+fullBleedCoverImage: "./listings.jpg"
 ---
 
 <job-listings></job-listings>

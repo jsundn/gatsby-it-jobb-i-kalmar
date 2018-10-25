@@ -10,6 +10,11 @@ fullBleedCoverImage: "./cover.jpg"
 ---
 
 <grid flexdirection="row">
+	<grid-item href="/foretag" title="Se alla företag" background="#223a55" flex="1">
+		<img src="./desk.jpg" />
+	</grid-item>
+</grid>
+<grid flexdirection="row">
 	<grid-item href="/lediga-it-jobb" title="Visa alla IT-jobb" background="#006058" flex="2">
 		<img src="./listings.jpg" />
 	</grid-item>

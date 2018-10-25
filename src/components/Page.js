@@ -26,7 +26,7 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 const HTML = styled('div')`
-	padding: 20px 0;
+	padding: 40px 0;
 `
 
 const Page = ({data, pageContext}) => {
