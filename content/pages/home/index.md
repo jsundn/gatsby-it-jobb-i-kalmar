@@ -10,15 +10,15 @@ fullBleedCoverImage: "./cover.jpg"
 ---
 
 <grid flexdirection="row">
-	<grid-item href="/foretag" title="Se alla företag" background="#223a55" flex="1">
+	<grid-item href="/foretag" title="Se alla företag" background="#4baac1" flex="1">
 		<img src="./desk.jpg" />
 	</grid-item>
 </grid>
 <grid flexdirection="row">
-	<grid-item href="/lediga-it-jobb" title="Visa alla IT-jobb" background="#006058" flex="2">
+	<grid-item href="/lediga-it-jobb" title="Visa alla IT-jobb" background="#4cc178" flex="2">
 		<img src="./listings.jpg" />
 	</grid-item>
-	<grid-item href="/leva-och-bo-i-kalmar" title="Kalmar" background="#60005d" flex="2">
+	<grid-item href="/leva-och-bo-i-kalmar" title="Kalmar" background="#c14b7f" flex="2">
 		<img src="./live-kalmar.jpg" />
 	</grid-item>
 </grid>

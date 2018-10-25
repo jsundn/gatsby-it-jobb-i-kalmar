@@ -19,10 +19,14 @@ const SiteWrapper = styled(Flex)`
 `
 
 const Content = styled(Flex)`
-  padding: 0 40px;
+  padding: 0 20px;
   margin: 0 auto;
   width: 100%;
   max-width: 1280px;
+
+  @media (min-width: 380px) {
+    padding: 0 40px;
+  }
 `
 
 const HeaderText = styled('h1')`

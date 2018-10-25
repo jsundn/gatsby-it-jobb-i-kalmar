@@ -8,14 +8,14 @@ import { BREAKPOINT } from 'constants/responsive'
 
 const Wrapper = styled(Flex)`
 	position: relative;
-	background: #141516;
+	background: #efefef;
 	padding: 60px;
 	flex-direction: column;
 `
 
 const Title = styled('h3')`
-	color: whitesmoke;
-	font-size: 16px;
+	color: #333;
+	font-size: 20px;
 	font-weight: 700
 	font-family: Titillium Web,sans-serif;
 	max-width: 1200px;
@@ -23,7 +23,7 @@ const Title = styled('h3')`
 `
 
 const Text = styled('p')`
-	color: whitesmoke;
+	color: #333;
 	font-size: 14px;
 	line-height: 1.85;
 	margin: 0 auto;
@@ -36,6 +36,8 @@ const Seo = styled(Flex)`
 	flex: 1;
 	padding: 0 40px 0 0;
 	flex-direction: column;
+	max-width: 800px;
+	margin: 0 auto;
 
 	@media (max-width: 600px) {
 		padding: 0 0 40px 0;
@@ -66,19 +68,23 @@ const Anchor = styled('a')`
     width: 95px;
     height: 95px;
     cursor: pointer;
-    color: white;
+    color: #333;
 
-    &:hover {
-    	color: #adb0b2;
+    &:visited {
+    	color: #333;
     }
 
-    &:active, &:visited {
-    	color: white;
+    &:hover {
+    	color: #a6a6a6;
+    }
+
+    &:active {
+    	color: #333;
     }
 `
 
 const Copy = styled('span')`
-	color: white;
+	color: #333;
 	margin: 30px 0 0;
 	width: 100%;
 	font-size: 14px;
@@ -94,7 +100,7 @@ const EULogo = styled('img')`
 
 	@media (min-width: ${BREAKPOINT}px) {
 		position: absolute;
-		bottom: 40px;
+		bottom: 20px;
 		right: 0;
 		margin: 0;
 

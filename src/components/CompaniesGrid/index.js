@@ -133,6 +133,7 @@ const CompanyLogo = styled(Img)`
 
 const CompanyInner = styled('div')`
 	border: 1px solid #efefef;
+	border-radius: 10px 10px 0 0;
 `
 
 const CompanyHeader = styled('header')`
@@ -142,6 +143,7 @@ const CompanyHeader = styled('header')`
 	line-height: 1.3;
 	background: #efefef;
 	padding: 10px;
+	border-radius: 10px 10px 0 0;
 `
 
 const CompanyTitle = styled('h2')`
