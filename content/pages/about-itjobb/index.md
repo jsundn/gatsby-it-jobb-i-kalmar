@@ -30,6 +30,7 @@ Eftersom vi förväntar oss en del IT-nördar här så kan vi även berätta att
 
 <ul>
  <li><a target="_blank" rel="nofollow" href="https://github.com/facebook/create-react-app">React (create react app)</a></li>
+ <li><a target="_blank" rel="nofollow" href="https://www.gatsbyjs.org/">GatsbyJS</a></li>
  <li><a target="_blank" rel="nofollow" href="https://github.com">Github</a></li>
  <li><a target="_blank" rel="nofollow" href="https://travis-ci.org">Travis CI</a></li>
  <li><a target="_blank" rel="nofollow" href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 static website hosting</a></li>
