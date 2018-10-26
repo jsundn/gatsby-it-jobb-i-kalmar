@@ -97,8 +97,8 @@ const Menu = ({
   return (
     <MenuComponent className={open ? 'open' : ''}>
       <div onClick={close}><StyledGatsbyLink to="/">{ t('Hem') }</StyledGatsbyLink></div>
-      <div onClick={close}><StyledGatsbyLink to="/lediga-it-jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
       <div onClick={close}><StyledGatsbyLink to="/foretag">{ t('Hitta företag') }</StyledGatsbyLink></div>
+      <div onClick={close}><StyledGatsbyLink to="/lediga-it-jobb">{ t('Se alla jobb') }</StyledGatsbyLink></div>
       <div onClick={close}><StyledGatsbyLink to="/leva-och-bo-i-kalmar">{ t('Livet i Kalmar') }</StyledGatsbyLink></div>
       <div onClick={close}><StyledGatsbyLink to="/om-it-jobb-i-kalmar">{ t('Om sidan') }</StyledGatsbyLink></div>
     </MenuComponent>
