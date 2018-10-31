@@ -44,6 +44,7 @@ export default class JobListings extends Component {
 
 			      return (
 			        <Wrapper>
+								<p>Följ gärna vår <a href="https://www.facebook.com/itjobbikalmar/" target="_blank" rel="nofollow">Facebook sida</a> för att hålla dig uppdatera på vad som händer. Där delar vi alla nyheter och jobbmöjligheter som vi får in. Om ni har en jobbannons eller en nyhet som ni vill ska synas i vårt flöde så <a href="mailto:kontakt@itjobbikalmar.se">kontakta oss</a> gärna.</p>
 			          { sorted.map((item, index) => (
 			          	<Job
 			          		key={`job-${index}`}

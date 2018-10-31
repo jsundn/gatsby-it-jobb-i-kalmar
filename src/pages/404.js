@@ -39,7 +39,7 @@ const NotFoundPage = ({data}) => (
     <StyledWrapper>
       <h1>404</h1>
       <UFOWrapper>
-        <img src={UFO} />
+        <img src={UFO} alt="404"/>
       </UFOWrapper>
       <p>{t('Den här sidan verkar inte finnas.')}</p>
     </StyledWrapper>

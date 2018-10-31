@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 // import { BREAKPOINT } from 'constants/responsive'
 
-const StyledLeadin = styled('p')`
+const StyledLeadin = styled('h3')`
 	font-size: 1.3rem;
 	line-height: 1.85;
-	font-weight: 700;
-	margin-top: 20px;
-	margin-bottom: 40px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-align: center;
 `
 
 const Leadin = ({children}) => (

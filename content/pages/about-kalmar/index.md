@@ -5,9 +5,13 @@ layout: page
 path: "/leva-och-bo-i-kalmar"
 fullBleedCoverImage: "./cover.jpg"
 description: "Här kan du läsa mer om Kalmarsundsregionen"
+subdescription: "Här hittar du information om Kalmar och regionen."
 keywords: "Kalmar, Kalmarsundsregionen, jobb, utbbildning, bostad, evenemang"
-subdescription: "Här hittar du information om Kalmar och regionen. Är du nyfiken på att flytta till Kalmar så hittar du länkar om boende och jobb till medflyttande partner här."
 ---
+
+<leadin>
+Är du nyfiken på att flytta till Kalmar så har vi sammanställt länkar om boende, jobb till medflyttandepartner, studier och evenemang här.
+</leadin>
 
 <grid flexdirection="column">
 	<grid-item href="http://kalmarsundsregionen.com/jobb/" title="Jobb åt partner" background="#4cc178" aligntext="left" flex="1">
@@ -23,4 +27,3 @@ subdescription: "Här hittar du information om Kalmar och regionen. Är du nyfik
 		<grid-item-link nofollow href="http://kalmarsundsregionen.com/evenemang">kalmarsundsregionen.com/evenemang</grid-item-link>
 	</grid-item>
 </grid>
-

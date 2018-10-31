@@ -35,8 +35,8 @@ const HeaderText = styled('h1')`
   }
 `
 
-const SubDescription = styled('p')`
-  font-size: 1.8rem;
+const SubDescription = styled('h2')`
+  font-size: 1.9rem;
   line-height: 1.5;
   font-weight: 300;
   max-width: 1280px;

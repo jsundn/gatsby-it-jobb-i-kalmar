@@ -5,12 +5,12 @@ layout: page
 path: "/om-it-jobb-i-kalmar"
 fullBleedCoverImage: "./cover.jpg"
 description: "Här kan du läsa om sidan IT-jobb i Kalmar "
-keywords: "Om, tekniker, varför"
 subdescription: "Den här sidan är skapad för att främja Kalmarregionens IT-bransch och IT-företag."
+keywords: "Om, tekniker, varför"
 ---
 
 <leadin>
-Vårt mål är IT-jobb i Kalmar ska vara en oberoende site som förmedlar information om de företag och jobbbmöjligheter som finns i regionen. Vår förhoppning är att kunna hjälpa studenter, nyinflyttade, eller helt enkelt vem som helst som känner att det är dags för att ta nästa steg i karriären inom IT-branschen, att på enklast möjliga sätt hitta sitt nya drömjobb inom IT.
+Vårt mål är IT-jobb i Kalmar ska vara en oberoende sida som förmedlar information om de företag och jobbbmöjligheter som finns i regionen. Vår förhoppning är att kunna hjälpa studenter, nyinflyttade, eller helt enkelt vem som helst som känner att det är dags för att ta nästa steg i karriären inom IT-branschen, att på enklast möjliga sätt hitta sitt nya drömjobb inom IT.
 </leadin>
 
 <h2>Kontakta oss</h2>

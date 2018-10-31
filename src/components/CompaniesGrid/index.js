@@ -248,7 +248,7 @@ const getTags = items => {
 
         if (a < b) return -1
         if (a > b) return 1
-        
+
         return 0
     })
 
@@ -267,7 +267,7 @@ const getNumberOfColumns = ref => {
 
 class Companies extends Component {
 	mainRef = React.createRef()
-    
+
     state = {
         filters: {
             input: ""
@@ -303,6 +303,7 @@ class Companies extends Component {
         return (
         	<div ref={this.mainRef}>
 	        	<Container>
+					<p>Nedan har vi sammanställt IT-företag verksamma i Kalmarregionen. Om ni vill komma med i listan eller ändra den information eller bibld som är knuten till ert företag så <a href="mailto:kontakt@itjobbikalmar.se">kontakta oss</a> gärna.</p>
 	        		<Filters>
 	        			<FilterSection>
 	        				<Search placeholder={t('Fritext')} value={this.state.filters.input} onChange={this.handleInputChange} />

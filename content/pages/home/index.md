@@ -4,10 +4,14 @@ date: "2016-03-01T22:12:03.284Z"
 layout: page
 path: "/"
 description: "IT-jobben finns i Kalmar"
+subdescription: "Välkommen till IT-jobb i Kalmar."
 keywords: "IT-jobb, IT-företag, Kalmar, jobb, utveckling, digitalisering"
-subdescription: ""
 fullBleedCoverImage: "./cover.jpg"
 ---
+
+<leadin>
+Det här är en sida för dig som är intresserad av IT-jobbb och IT-företag i och omkring Kalmarregionen.
+</leadin>
 
 <grid flexdirection="row">
 	<grid-item href="/foretag" title="Se alla företag" background="#4baac1" flex="1">

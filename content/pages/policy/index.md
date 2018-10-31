@@ -5,7 +5,6 @@ layout: page
 path: "/integritetspolicy"
 description: "Integritetspolicy för IT-jobb i Kalmar"
 keywords: "Integritetspolicy, IT-jobb i Kalmar"
-fullBleedCoverImage: ""
 subdescription: "Integritetspolicy för siten"
 ---
 
