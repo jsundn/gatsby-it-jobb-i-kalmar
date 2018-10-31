@@ -6,9 +6,10 @@ module.exports = {
 		subheader: "IT-jobben finns i Kalmar",
 		seo: {
 			footer: `
-			IT-jobb i Kalmar är till för att boosta IT i Kalmarregionen.
+			IT-jobb i Kalmar är till för att främja IT branschen i Kalmarregionen.
+			En oberoende sida av utvecklare, för utvecklare.
 			Vi vill hjälpa dig att hitta ditt nya jobb inom IT, eller bara ge dig en bättre bild av vilka IT-företag som finns i regionen.
-			Samtidigt kan vi främja IT-branschen och hjälpa företag att synas bättre utåt.
+			Samtidigt kan vi främja IT-branschen och hjälpa företag att synas och nå ut bättre.
 			`
 		},
 		social: {

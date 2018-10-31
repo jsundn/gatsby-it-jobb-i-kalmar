@@ -85,7 +85,7 @@ export default class Job extends Component {
 				<Row>
 					<JobPosting description={text} date={date} company={company} location={location} title={title} />
 
-					<DescriptionLink href={link}>
+					<DescriptionLink href={link} target="_blank" rel="nofollow">
 						{ text }
 					</DescriptionLink>
 
