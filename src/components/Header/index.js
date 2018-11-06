@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import LogoString from './LogoString'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import t from 'format-message'
 import { Bars as MenuIcon } from 'styled-icons/fa-solid'
 import { BREAKPOINT } from 'constants/responsive'

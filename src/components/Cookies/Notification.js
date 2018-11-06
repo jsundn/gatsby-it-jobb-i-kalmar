@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import cookie from 'react-cookies'
 import character from 'img/girl.png'
 import Flex from 'components/UI/Base/Flex'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import t from 'format-message'
 import { BREAKPOINT } from 'constants/responsive'
 import {

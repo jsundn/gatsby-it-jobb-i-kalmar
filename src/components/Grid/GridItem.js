@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Flex, Box } from 'components/UI/Base'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
 import { darken } from 'polished'
 import { BREAKPOINT } from 'constants/responsive'
 
