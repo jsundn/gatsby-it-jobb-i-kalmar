@@ -9,10 +9,11 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -qq bats python-pip python-setuptools
 - sudo pip install awscli
-
+- aws configure
+- aws s3 rm s3://it-jobb-i-kalmar --recursive --region eu-central-1
 install:
 - npm i -g gatsby
-- npm install --dd
+- npm install
 script:
 - npm run build --dd
 deploy:
