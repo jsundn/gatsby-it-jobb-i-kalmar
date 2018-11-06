@@ -1,50 +1,37 @@
 language: node_js
 node_js:
 - node
-
 cache:
   directories:
   - node_modules
-
 before_install:
-  - sudo add-apt-repository ppa:duggan/bats --yes
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq bats python-pip python-setuptools
-  - sudo pip install awscli
-  - echo "---- Clearing bucket it-jobb-i-kalmar"
-  - aws s3 rm s3://it-jobb-i-kalmar --recursive --region eu-central-1
-
+- sudo add-apt-repository ppa:duggan/bats --yes
+- sudo apt-get update -qq
+- sudo apt-get install -qq bats python-pip python-setuptools
+- sudo pip install awscli
+- echo "---- Clearing bucket it-jobb-i-kalmar"
+- aws s3 rm s3://it-jobb-i-kalmar --recursive --region eu-central-1
 install:
 - npm i -g gatsby
 - npm install --dd
-
 script:
 - npm run build --dd
-
 deploy:
   provider: s3
   access_key_id: AKIAJRNJAWH5WTT2BZFA
   secret_access_key:
-    secure: mQgDD8Q1mT1gHeocv15jCS2+yU0ft6i/FyLThVPUO4uAci6QRYfwlcjYuhmBcsqhbtDIk5k602t3fZ3MyPt9QKtoCQI5pv1+MDHHWbuji82OvmpfwDOmlC3Dwbz5iJwddOQtFD2bsa0ea+DZZJ/DoXrxZaddSroDruP+LwlKRK/wckgYadVWstO94DSDRYeJ8wgN0NhSgW+kyAgJYA4i+U3+xX8c5K6hUMsgMqv92qGHDYeo9sRwr2oI8GQnuV8O5vEgQkMDjxEadQuC5CQeW8/avKZBkvefmI7O+9DuOf88GiyEP8bg9LE3TouTF3eePeo92aC9EgE9XnezYzxzTz+7MrzHa25blwLfq+vJD0KTTzFAf2uiC9ApYC1kKTsjbnXusipfxDPNOpxuh+266ATlUKU56uYawIKqB/M8M68eOzhE6S1v4X+bRFgvHeJaXq5ZNgtkDa/CN+OIQD+v0nBWB1D5O2H9H2Vc6I46rvOC0t3zYO/OEXPh0qMWRB7Sy9xRNOz2eYiyiA94GnIAIJoA4h4iLi2dpjrT/ijAGjuSJQMCFQpcvpm3LLDZLlXAvhMwnbbT+NZVParY2nEosvTzKiPO5taTJACCUbpEWLG9iAmfyM2eohDrMCyWUNkMVjEiiO5ygnQNp9E6neieJgVaBz4lMQ35i9/OiQUkoy4=
-  # bucket: "itjobbikalmar.se"
-  bucket: "it-jobb-i-kalmar"
+    secure: YT/ui6g2Ml5K8f6DYRLO0cI8HKLPH3F/43ajyBVBhzVEZ7ezPip2/SzhGcjfS1GAjVyNG93vmGAgTjG5lmtGI7oHAASQgDy3MnyL7+NTnZkv2wpY/pVZ1ucaU4E4HFLQQCYeHSwiNCpm4y0i2VYhdPXuPnaGxa66CZrxYEus08QqVz9ztdNnAZP2X5mG6z1iBTcspryYAiUmROc8VcyLIiJ90Gv0f2Rs1eB+u8MdRmkie57NR/Pt4BYEjkh6tim8d57A38ynOAAlxPDyLU/CQ9vQB2aH3Ks/CYzMHTk6SKZQr5Py5rbivz3z55Gh2oAKwMEsDSNPX4pwvExM3GkUBdAzA2zQYlGJE4tEDwyQucLeKp4Xy06AuN0zySOMr6kNylGCjGZ5H+YDl3PPNU55Ng1m/J5wTqvRvm4EfnRmcXS7My223aZVsRzUHHJrsQm+5fXAQrhkQCjhRzI4PHJ8zauoNGHJk7UQ/3kP6o0vp+CLuZ74pJ7X8O12UBCSPY1PtKp6cyomfIGjlE+gw+UjmE0G3q/8zlTtbhoOcl7x1dqsawUHUJH8MPBa8Cs9wOQuQWmS4kgtwikWMdzI20rUYx0wxnmwinxmAyJ9CJq3QmQ9/kldebIoXaz/BZ8gsvzIj5z4xdqz1GpzgUGW/J104Phe1PlUJi9C90ZGpWia72s=
+  bucket: it-jobb-i-kalmar
   local-dir: public
   acl: public_read
   region: eu-west-1
   skip_cleanup: true
   on:
     repo: IT-jobb-Kalmar/gatsby-it-jobb-i-kalmar
-
 after_deploy:
-  # Allow `awscli` to make requests to CloudFront.
-  - aws configure set preview.cloudfront true
-  # Invalidate every object in the targeted distribution.
-  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID
+  --paths "/*"
 branches:
   only:
   - master
-
-
-
-
