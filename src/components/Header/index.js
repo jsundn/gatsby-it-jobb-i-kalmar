@@ -21,7 +21,7 @@ const StyledOverlappingHeader = styled(StyledHeader)`
   border-bottom: 1px solid #002643;
 `
 
-const StyledMenuIcon = MenuIcon.extend`
+const StyledMenuIcon = styled(MenuIcon)`
   color: white;
   position: absolute;
   padding: 10px;

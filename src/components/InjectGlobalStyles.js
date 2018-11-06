@@ -1,6 +1,6 @@
-import { injectGlobal } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-injectGlobal`
+export default createGlobalStyle`
   *, a {
     font-family: Roboto;
     -ms-text-size-adjust: 100%;

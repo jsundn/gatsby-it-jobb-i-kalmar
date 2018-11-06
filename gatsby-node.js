@@ -83,9 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
-      alias: {
-        components: path.resolve(__dirname, 'src/components')
-      },
+      modules: [path.resolve(__dirname, "src"), "node_modules"]
     },
   })
 }
