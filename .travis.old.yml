@@ -1,0 +1,35 @@
+language: node_js
+node_js:
+- node
+cache:
+  directories:
+  - node_modules
+before_install:
+- sudo add-apt-repository ppa:duggan/bats --yes
+- sudo apt-get update -qq
+- sudo apt-get install -qq bats python-pip python-setuptools
+- sudo pip install awscli
+- aws s3 rm s3://it-jobb-i-kalmar --recursive --region eu-central-1
+install:
+- npm i -g gatsby
+- npm install
+script:
+- npm run build --dd
+deploy:
+  provider: s3
+  access_key_id: AKIAJRNJAWH5WTT2BZFA
+  secret_access_key:
+    secure: n75FEQfSZuS7fD0IEJ+MyI+aTUPHrd9XN5FURvtxDdX/f6TgiVNDYq2Qoe3S3fNcsRlI+AlQeBwztGHEeC2BVyDtNXpSV6RNY+J4e9huSRgkKDJ3Iw00bq1D3aLXsYtjFl81kR344ZbnoVezgBi7H9d3oKYr+h1n+hV7EWZoAVlhQjHkr1HKhxdbQIiBdpzNvNze4IYBLltA0njUQCrBWIPO/nSut4jlOQ4GuNVrUu+5auhhBzswN0iMxthAWpCIJ28zJJR7dukpTnierTTPctXkH9bopifs7ryo2g1D0WqkKugytBoadS06Q3RTmdJeuC4i62+h1fwXp6KR42oVQN0K0LAuDORLIyKfqN6cXtewwy/jybvZRxC9543afBaiLp8t+GfwtGqCihj12qSuMn9EAO+CQFy597N+5SqpXIw3BL+Z9LcU4Hkbo7J/UiXFx1zqe5NU3/eUx7rJQiLVlP2bVZfB3Oj6VOE1E9ekZtY8r/NhEX5Y1O87w4AugMkbwwTSMWrcpQ5ltjoFnFgwgbQ8g8FHRhLREFGOMqXzU8pHr/HKjf+gVEUe6EXKwMdjhH/ccG7iL/DFnQi4rPM3Z03AeC7f6ZtKGSml3KJWpFZyIxCX5+ZbX7cRUBwAeogJTc0DbdvczgKwbYNmJXF7rt9EzJBI4VEU6UYRv90qIY0=
+  bucket: it-jobb-i-kalmar
+  local-dir: test
+  acl: public_read
+  region: eu-west-1
+  skip_cleanup: true
+  detect_encoding: true
+after_deploy:
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID
+  --paths "/*"
+branches:
+  only:
+  - master
