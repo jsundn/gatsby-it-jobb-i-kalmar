@@ -17,18 +17,13 @@ const Row = styled(Flex)`
 	flex-direction: column;
 
 	@media (min-width: ${BREAKPOINT}px) {
-		flex-direction: row;
+		flex-direction: column;
 	}
 `
 
 const CompanyName = styled('span')`
-	font-weight: 700;
+	font-weight: 600;
 	display: inline;
-	font-size: 12px;
-
-	@media (min-width: ${BREAKPOINT}px) {
-		margin-left: auto;
-	}
 `
 
 const JobDate = styled(CompanyName)`
@@ -36,7 +31,7 @@ const JobDate = styled(CompanyName)`
 `
 
 const Separator = styled(JobDate)`
-	margin: 0 5px;
+	margin: 0 10px 0 10px;
 `
 
 const Footer = styled(Flex)`
@@ -46,6 +41,14 @@ const Footer = styled(Flex)`
 		margin-left: auto;
 		padding-left: 20px;
 	}
+`
+
+const Header = styled('div')`
+
+`
+
+const Title = styled('h3')`
+	color: #013760;
 `
 
 const DescriptionLink = styled('a')`
@@ -85,19 +88,23 @@ export default class Job extends Component {
 				<Row>
 					<JobPosting description={text} date={date} company={company} location={location} title={title} />
 
+					<Header>
+						<JobDate>
+							{date}
+						</JobDate>
+						<Separator> | </Separator>
+						<CompanyName>
+							{company}
+						</CompanyName>
+					</Header>
+
+					<Title>
+						{ title }
+					</Title>
+
 					<DescriptionLink href={link} target="_blank" rel="nofollow">
 						{ text }
 					</DescriptionLink>
-
-					<Footer>
-						<JobDate>
-							{ date }
-						</JobDate>
-						<Separator>|</Separator>
-						<CompanyName>
-							{ company }
-						</CompanyName>
-					</Footer>
 				</Row>
 			</Wrapper>
 		)

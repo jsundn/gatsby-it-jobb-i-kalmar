@@ -1341,6 +1341,15 @@
         "location": "kalmar",
         "text": "At Flex in Kalmar we are about 30 employees working with product-, software- and test development. The focus is on developing new hardware-platforms and software solutions within data- and telecom industry."
       }
+
+      , {
+        "date": "2018-11-08",
+        "link": "https://codebet.se/karriar.html",
+        "company": "Codebet",
+        "title": "Codebet söker en driven Testledare!",
+        "location": "kalmar",
+        "text": "Nu letar vi efter dig som är grym på testning av webb och app och riktigt petig och pedantiskt noggrann och som älskar att hitta och påpeka alla små fel vi vanliga gör."
+      }
     ]
   }
 }
