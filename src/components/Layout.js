@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import InjectGlobalStyles from 'components/InjectGlobalStyles'
+import GlobalStyles from 'components/GlobalStyles'
 import PropTypes from 'prop-types'
 
 import Header from 'components/Header'
@@ -55,6 +55,8 @@ const Layout = ({
   children
 }) => (
   <SiteWrapper flexDirection="column">
+    <GlobalStyles />
+    
     <Helmet
         title={`${siteMetadata.title} | ${pageMetadata.title}`}
         meta={[

@@ -1,5 +1,6 @@
 import React from 'react'
 import EU from 'img/eu.png'
+import KSP from 'img/ksp.svg'
 import { Facebook, Instagram, Linkedin } from 'styled-icons/fa-brands'
 import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
@@ -107,6 +108,18 @@ const EULogo = styled('img')`
 	}
 `
 
+const SupportedByText = styled('span')`
+	color: #333;
+	margin: 30px auto 100px auto;
+	font-size: 12px;
+	font-style: italic;
+`
+
+const KSPLogo = styled('img')`
+	height: 100px;
+	margin: 0 auto;
+`
+
 const Footer = ({ siteMetadata }) => {
 	const { title, seo, social } = siteMetadata
 
@@ -158,7 +171,12 @@ const Footer = ({ siteMetadata }) => {
 
 		<Copy>&copy; IT-jobb i Kalmar</Copy>
 
-		<EULogo src={EU} alt="EU"/>
+		<Flex flexDirection="column">
+			<KSPLogo src={KSP} alt="Logga för Kalmar Science Park" />
+			<SupportedByText>{t('I samarbete med Kalmar Science Park')}</SupportedByText>
+		</Flex>
+
+		<EULogo src={EU} alt="Logga för EU"/>
 
 	</Wrapper>
 }

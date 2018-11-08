@@ -40,7 +40,7 @@ const Title = styled('h3')`
 	color: white;
 `
 
-const TextLink = styled(Link)`
+const LinkStyle = `
 	margin: 0;
 	padding: 40px;
 	display: block;
@@ -57,6 +57,14 @@ const TextLink = styled(Link)`
 	}
 `
 
+const TextLink = styled('a')`
+	${LinkStyle}
+`
+
+const InternalTextLink = styled(Link)`
+	${LinkStyle}
+`
+
 const StyledGatsbyLink = styled(Link)`
 	color: white;
 	text-decoration: none;
@@ -71,7 +79,7 @@ const InnerContent = styled(Flex)`
 	padding: 40px;
 `
 
-const internal = (href) => /^\/(?!\/)/.test(href)
+const internal = (href) => href.indexOf('http') < 0
 
 const GridItem = ({
 	href,
@@ -85,11 +93,11 @@ const GridItem = ({
 	<StyledGridItem flex={flex}>
 		<Content background={background} aligntext={aligntext}>
 			{ internal(href) ?
-				<StyledGatsbyLink nofollow to={href}>
+				<StyledGatsbyLink to={href}>
 					<Title background={background} aligntext={aligntext}>{title}</Title>
 					{children}
 				</StyledGatsbyLink> :
-				<StyledNormalLink nofollow href={href} target="_blank">
+				<StyledNormalLink nofollow="true" href={href} target="_blank">
 						<Title background={background} aligntext={aligntext}>{title}</Title>
 						{children}
 				</StyledNormalLink>
@@ -98,6 +106,12 @@ const GridItem = ({
 	</StyledGridItem>
 )
 
-export const GridItemLink = ({href, nofollow = false, target, children}) => <TextLink nofollow to={href} target={target || "_blank"}>{children}</TextLink>
+export const GridItemLink = ({href, nofollow = false, target, children}) => console.log("GREF", href, internal(href)) || (
+	internal(href) ? (
+		<InternalTextLink nofollow to={href} target={target || "_blank"}>{children}</InternalTextLink>
+	) : (
+		<TextLink nofollow href={href} target={target || "_blank"}>{children}</TextLink>
+	)
+)
 
 export default GridItem
