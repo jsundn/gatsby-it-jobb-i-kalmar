@@ -45,11 +45,12 @@ This site runs in a serverless environment backed by static resources and genera
 
 ## GIT-flow
 
-This project follows [GIT-flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) where master should allways be concidered to be the latest stable version, all development will be done on either `develop` or `feature/xx` branch.
+This project follows [GIT-flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) where master should always be considered to be the latest stable version, all development will be done on either `develop` or `feature/xx` branch.
 
 ## CI (Travis)
 
 This project uses [Travis](https://travis-ci.org/) as a CI provider and will automatically deploy new releases on the master branch to live environment.
+
 To install [Travis CLI](https://github.com/travis-ci/travis.rb) on OSX run the following command:
 
 `ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install travis`
