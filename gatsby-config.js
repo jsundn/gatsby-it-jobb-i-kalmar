@@ -82,6 +82,9 @@ module.exports = {
 				id: 'GTM-TCNFMLD',
 				includeInDevelopment: false
 			}
-	    },
+		},
+		{
+			resolve: 'gatsby-plugin-zopfli'
+		}
 	]
 }
