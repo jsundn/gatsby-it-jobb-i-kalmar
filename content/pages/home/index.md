@@ -10,7 +10,7 @@ fullBleedCoverImage: "./cover.jpg"
 ---
 
 <leadin>
-Det här är en sida för dig som är intresserad av IT-jobbb och IT-företag i och omkring Kalmarregionen.
+Det här är en sida för dig som är intresserad av IT-jobb och IT-företag i och omkring Kalmarregionen.
 </leadin>
 
 <grid flexdirection="row">

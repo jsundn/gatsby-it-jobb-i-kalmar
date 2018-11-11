@@ -4,16 +4,6 @@
     "subtitle": "Här har vi sammanställt IT-företag som finns i Kalmar med en kortfattad beskrivning och lite hjälpfunktioner för att du enkelt ska kunna filtrera fram de företag som passar dina intressen bäst.",
     "items": [
       {
-        "name": "Kalmar kommun",
-        "description": "Vi vill att företagen i kommunen ska fortsätta expandera och gå bra och att fler företag väljer vår region som ny etableringsplats.",
-        "level": "gold",
-        "logo": "../img/partners/kalmarkommun.svg",
-        "website": "https://kalmar.se/",
-        "facebook": "https://facebook.com/kalmarkommun",
-        "twitter": "https://twitter.com/kalmarkommun",
-        "tags": []
-      },
-      {
         "name": "Royal design",
         "description": "Vi är ett team utvecklare som sitter ute på Svensknabben i Kalmar. Just nu bygger vi upp en helt ny omnikanalplattform för över tio internationella marknader och 14 fysiska butiker. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
         "level": "gold",
@@ -170,6 +160,16 @@
           "Machine learning",
           "AI"
         ]
+      },
+      {
+        "name": "Kalmar kommun",
+        "description": "Vi vill att företagen i kommunen ska fortsätta expandera och gå bra och att fler företag väljer vår region som ny etableringsplats.",
+        "level": "silver",
+        "logo": "../img/partners/kalmarkommun.svg",
+        "website": "https://kalmar.se/",
+        "facebook": "https://facebook.com/kalmarkommun",
+        "twitter": "https://twitter.com/kalmarkommun",
+        "tags": []
       },
       {
         "name": "Know-it",
