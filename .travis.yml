@@ -11,7 +11,7 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -qq bats python-pip python-setuptools
 - sudo pip install awscli
-- aws s3 rm s3://it-jobb-i-kalmar --recursive --region eu-central-1
+- aws s3 rm s3://itjobbikalmar.se --recursive --region eu-central-1
 
 install:
 - npm i -g gatsby
