@@ -25,7 +25,7 @@ deploy:
   access_key_id: AKIAJRNJAWH5WTT2BZFA
   secret_access_key:
     secure: O+Sr3is/RMwdaPDaqlHiA8dPFDHOHyYjkyQQlQaWrX8+XJlHaTRVi92OoSBkBcYCWmKjtxjiBlviRQ6V2IGt9viLO5ZX6hzcWpsNE6FGFl5o/Aaftx1fFHnly5C+0zhTOdbPGtkq8uw2Su2dtx3MfougbufMaJiaYGLgXj0P7Z+LodzWC6VVIO94wck1SOoXq+oVGOmocwguylzCBe21ydqMVwKANcRvZKvREThmIBwWwQRgLtiln+JrSDfQwKZK3JBXPrnQDemkUsrReghVWUzHyiOSfWYoGZq1X5H3mVWJyKvFlMYztRRZJ4x/lChdt9voiQW0GcEzN0hRMY4L3Iv4zf1GTF1naFR8/EAjRcrHzIs/zJopjOcuBwHBXqK7O4uZgKmDuN0N97pGhlbwIJSMZ0Gsgqj9+9aSoPHIA4XRfpVuUV5iQUdFTHW4el7Bicu31PJpMWiwbpprztHVqmwer4Ryf6f+dx64lvOr2WY+cTU3NwYGKdO58Bwqv+qWexPvGW0N5v6EznWzXvBe+pzs+RxMzuVklTqP7sg315EgL37ud6zSNVNUqCNHV1WuB4BgD/UR9eorU7InWWYSRmOMnrt3TkxEL8eUSUl+dAqLd20MQgEP1sBbGddB4qytwoHvfj8BmMIRuN+ctZEu/mE2yRVsLbxIsJtUtHTD1uY=
-  bucket: it-jobb-i-kalmar
+  bucket: "itjobbikalmar.se"
   local-dir: public
   acl: public_read
   region: eu-west-1
