@@ -84,7 +84,7 @@ module.exports = {
 			}
 		},
 		{
-			resolve: 'gatsby-plugin-zopfli'
+			resolve: 'gatsby-plugin-compression'
 		}
 	]
 }
