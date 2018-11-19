@@ -24,6 +24,14 @@ module.exports = {
 		}
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-compression-v2`,
+			options: {
+				asset: '[path].gz[query]',
+				algorithm: 'gzip'
+			},
+		},
+		'gatsby-plugin-netlify',
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		'gatsby-plugin-react-helmet',
@@ -82,9 +90,6 @@ module.exports = {
 				id: 'GTM-TCNFMLD',
 				includeInDevelopment: false
 			}
-		},
-		{
-			resolve: 'gatsby-plugin-zopfli'
 		}
 	]
 }

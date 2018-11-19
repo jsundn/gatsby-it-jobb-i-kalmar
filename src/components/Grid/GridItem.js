@@ -106,7 +106,7 @@ const GridItem = ({
 	</StyledGridItem>
 )
 
-export const GridItemLink = ({href, nofollow = false, target, children}) => console.log("GREF", href, internal(href)) || (
+export const GridItemLink = ({href, nofollow = false, target, children}) => console.log("HREF", href, internal(href)) || (
 	internal(href) ? (
 		<InternalTextLink nofollow to={href} target={target || "_blank"}>{children}</InternalTextLink>
 	) : (

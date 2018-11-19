@@ -1319,7 +1319,7 @@
       },
       {
         "date": "2018-10-26",
-        "link": "https://webbjobb.io/jobb/94231/grafisk-formgivare-webb-och-print",
+        "link": "https://www.eventonline.se/anmalan.php?eid=7948&key=938&fbclid=IwAR1C9ETdFh7WBcZpiIiFSQNkIEHqmfitIl8abZvcBGgHdIKCYzTWSoU_vZY",
         "company": "Play'n GO",
         "title": "Välkommen på IT-pub hos Play'n GO i Kalmar.",
         "location": "kalmar",
@@ -1340,15 +1340,22 @@
         "title": "Flex Power Modules söker Senior Software Developer",
         "location": "kalmar",
         "text": "At Flex in Kalmar we are about 30 employees working with product-, software- and test development. The focus is on developing new hardware-platforms and software solutions within data- and telecom industry."
-      }
-
-      , {
+      },
+      {
         "date": "2018-11-08",
         "link": "https://codebet.se/karriar.html",
         "company": "Codebet",
         "title": "Codebet söker en driven Testledare!",
         "location": "kalmar",
         "text": "Nu letar vi efter dig som är grym på testning av webb och app och riktigt petig och pedantiskt noggrann och som älskar att hitta och påpeka alla små fel vi vanliga gör."
+      },
+      {
+        "date": "2018-11-19",
+        "link": "http://milou.se/jobba-hos-oss/front-end-utvecklare/",
+        "company": "Milou",
+        "title": "Milou söker frontendutvecklare",
+        "location": "kalmar",
+        "text": "Utvecklare som inte är rädd för att testa nytt och komma med förslag på innovativa lösningar. Som är kommunikativa, lösningsfokuserade, ser helheten och har en bra känsla för detaljer."
       }
     ]
   }
