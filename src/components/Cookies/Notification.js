@@ -16,22 +16,13 @@ const StyledWrapper = styled('div')`
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #e4f2f8;
+	background: #151515;
 	z-index: 1000;
 	padding: 20px;
-
-	@media (min-width: ${BREAKPOINT}px) {
-	    bottom: 20px;
-		left: 20px;
-		right: auto;
-		padding: 40px;
-		border-radius: 20px;
-		max-width: 400px;
-	}
 `
 
 const Title = styled('p')`
-	color: #333;
+	color: white;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 1.5;
@@ -49,8 +40,8 @@ const Top = styled(Flex)`
 const Text = styled('p')`
 	font-size: 1rem;
 	line-height: 1.5;
-	color: #333;
-	margin-bottom: 5px;
+	color: white;
+	margin: 20px 0 40px 0;
 `
 
 const BoldText = styled(Text)`
@@ -59,40 +50,48 @@ const BoldText = styled(Text)`
 `
 
 const StyledLink = styled(Link)`
-	font-size: 1rem;
+	font-size: 12px;
 	line-height: 1.5;
-	color: #333;
-	display: inline-block;
-	margin: 20px 0;
-	text-decoration: underline;
-	margin-right: 20px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	font-style: italic;
 
 	&:hover {
-		text-decoration: none;
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: white;
 	}
 `
 
 const Accept = styled(Text)`
-	background: #1aa01a;
+	background: #3fa565;
 	padding: 10px;
 	color: white;
 	display: inline;
 	cursor: pointer;
 	white-space: nowrap;
-	border-radius: 0 10px 10px 0;
+	margin: 0;
 
 	&:hover {
-		background: #1fba1f;
+		background: #47b770;
 	}
 `
 
 const DoNotAccept = styled(Accept)`
 	background: #333;
-	border-radius: 10px 0 0 10px;
+	cursor: pointer;
 
 	&:hover {
-		background: #666;
+		background: #444;
 	}
+`
+
+const ButtonsWrapper = styled(Flex)`
+	margin: 0;
 `
 
 export default class Notification extends Component {
@@ -138,17 +137,17 @@ export default class Notification extends Component {
 				<StyledWrapper>
 					<Top>
 						<Character src={character} />
-						<Title>{t('Kakor!')}</Title>
+						<Title>{t('Vi skulle vilja spara kakor')}</Title>
 					</Top>
-
-					<BoldText>{t('Ja vi måste fråga :)')}</BoldText>
 
 					<Text>{t('Om vi får så sparar vi information om hur du använder siten. Vi sparar dock inget om dig som person. Detta gör att vi kan förstå dig som användare bättre och bygga en bättre site. Vill du veta mer så följ länken nedan.')}</Text>
 					
-					<StyledLink to={`/${t('integritetspolicy')}`}>{t('Här kan du läsa mer')}</StyledLink>
+					<ButtonsWrapper>
+						<DoNotAccept onClick={this.handleDoNotAccept}t>{t('nej')}</DoNotAccept>
+						<Accept onClick={this.handleAccept}t>{t('Det är okej!')}</Accept>
+					</ButtonsWrapper>
 
-					<DoNotAccept onClick={this.handleDoNotAccept}t>{t('nej')}</DoNotAccept>
-					<Accept onClick={this.handleAccept}t>{t('Det är okej!')}</Accept>
+					<StyledLink to={`/${t('integritetspolicy')}`}>{t('Här kan du läsa mer')}</StyledLink>
 				</StyledWrapper>
 			)
 		} else {

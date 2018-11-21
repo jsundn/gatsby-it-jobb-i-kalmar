@@ -24,22 +24,19 @@ const StyledOverlappingHeader = styled(StyledHeader)`
 const StyledMenuIcon = styled(MenuIcon)`
   color: white;
   position: absolute;
-  padding: 10px;
-  top: 10px;
-  right: 5px;
+  padding: 10px 20px;
+  height: 100%;
+  top: 0;
+  right: 0;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
-  border: 1px all transparent;
-  border-radius: 10px;
 
   &:hover {
     background: rgba(0,0,0,.3);
-    border: 1px solid rgba(0,0,0,.);
   }
 
   &.active {
     background: rgba(0,0,0,.8);
-    border: 1px solid #003d6e;
   }
 `
 
@@ -147,7 +144,7 @@ class Header extends Component {
         </a>
 
         <StyledMenuIcon
-          size={50}
+          size={60}
           onClick={this.toggleMenu}
           className={renderMenu ? 'active' : ''}
         />

@@ -34,8 +34,7 @@ const customSelectStyles = {
   control: (base) => ({
   	...base,
   	height: 50,
-    border: '1px solid #ccc',
-	'border-radius': 10
+    border: '1px solid #ccc'
   }),
   multiValue: (styles, { data }) => {
     return {
@@ -45,7 +44,6 @@ const customSelectStyles = {
 		padding: '2px 8px',
 		'font-size': 12,
 		color: '#333',
-		'border-radius': 3,
 		'white-space': 'nowrap'
     }
   },
@@ -72,7 +70,6 @@ const Filters = styled(Flex)`
 	padding: 20px;
 	margin: 30px;
 	background: #efefef;
-	border-radius: 10px;
 
 	@media (max-width: ${RespBreakpoint}px) {
 		flex-direction: column;
@@ -92,7 +89,6 @@ const FilterSection = styled(Flex)`
 
 const TagsSelect = styled(Select)`
 	flex: 1;
-	border-radius: 10px;
 	height: 50px;
 `
 
@@ -100,7 +96,6 @@ const Search = styled('input')`
 	flex: 1;
 	height: 50px;
 	border: 1px solid #ccc;
-	border-radius: 10px;
 	padding: 10px;
 `
 
@@ -133,7 +128,6 @@ const CompanyLogo = styled(Img)`
 
 const CompanyInner = styled('div')`
 	border: 1px solid #efefef;
-	border-radius: 10px 10px 0 0;
 `
 
 const CompanyHeader = styled('header')`
@@ -143,7 +137,6 @@ const CompanyHeader = styled('header')`
 	line-height: 1.3;
 	background: #efefef;
 	padding: 10px;
-	border-radius: 10px 10px 0 0;
 `
 
 const CompanyTitle = styled('h2')`
@@ -219,7 +212,6 @@ const TagText = styled('span')`
     font-size: 12px;
     color: #333;
     background: #efefef;
-    border-radius: 3px;
     white-space: nowrap;
     text-transform: uppercase;
 `

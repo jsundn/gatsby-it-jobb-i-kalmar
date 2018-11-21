@@ -5,7 +5,7 @@
     "items": [
       {
         "name": "Royal design",
-        "description": "Vi är ett team utvecklare som sitter ute på Svensknabben i Kalmar. Just nu bygger vi upp en helt ny omnikanalplattform för över tio internationella marknader och 14 fysiska butiker. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
+        "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare. Skicka ett mail dev@royaldesign.se eller skicka ett privat meddelande på Twitter till @RoyalDevKalmar.",
         "level": "gold",
         "logo": "../img/partners/royaldesign.png",
         "website": "http://royaldesign.se/",
@@ -46,7 +46,7 @@
         "name": "Meridium",
         "description": "Meridium är en helhetsleverantör inom webb och erbjuder allt ifrån webbstrategi och behovsanalys till formgivning och utveckling. Vi ser alla projekt som början på ett långsiktigt samarbete där vårt förvaltningserbjudande fungerar som en garant för detta. Vi är idag drygt 60 anställda i Kalmar och Stockholm – alla med den gemensamma nämnaren att vi brinner för digital interaktion med fokus på webb. Bland våra kunder finns flertalet kommuner, myndigheter, biståndsorganisationer och fackförbund, men vi har även uppdrag åt större kunder inom den privata sektorn.",
         "level": "gold",
-        "logo": "../img/partners/meridium.jpeg",
+        "logo": "../img/partners/meridium.png",
         "website": "https://meridium.se",
         "facebook": "https://sv-se.facebook.com/meridiumab",
         "twitter": "https://twitter.com/meridium",
@@ -210,20 +210,6 @@
         ]
       },
       {
-        "name": "IEC",
-        "description": "IEC är bryggan mellan IT-forskare och det omgivande samhället – ett nätverk som arbetar med frågor som rör utbildning, forskning & utveckling, kunskapsutbyte och kompetensförsörjning  inom den digitala sektorn. IEC är ett icke vinstdrivande kluster med medlemmar från näringslivet, akademin och offentlig sektor. Medlemmarna arbetar tillsammans med frågor som rör utbildning, forskning & utveckling och kunskapsutbyte inom digitalisering.",
-        "level": "silver",
-        "logo": "../img/partners/iec2016.png",
-        "website": "http://iec2020.se/",
-        "facebook": "https://www.facebook.com/IECLNU/",
-        "twitter": "https://twitter.com/IECLNU",
-        "tags": [
-          "Innovation",
-          "Utveckling",
-          "Digitalisering"
-        ]
-      },
-      {
         "name": "Codebet",
         "description": "Vi bygger framtidens digitala produkter. Den digitala världen ändras konstant, därför har vi inget slutmål. För oss är resan, målet. Vi bygger innovativa IT-lösningar som inte behöver startas om, bytas ut eller byggas om från grunden. Vägen vi valt är en formbar och nytänkande arkitektur och teknik som alltid ligger i yttersta framkant. Bolaget består av utvecklare med olika kunskaper inom front- och backendutveckling. Alla med en gemensam nämnare - kärlek till kod och teknikutveckling.",
         "level": "silver",
@@ -255,7 +241,7 @@
         ]
       },
       {
-        "name": "Sigma",
+        "name": "Sigma Technology",
         "description": "Sigma Technology is part of Sigma, and is a global supplier of product information, embedded solutions and offshore development. We are experts with a passion for technology and information, and take pride in delivering quality and constantly improving our deliveries.",
         "level": "silver",
         "logo": "../img/partners/sigma.png",
@@ -370,7 +356,7 @@
         ]
       },
       {
-        "name": "Kalmar Landsting IT",
+        "name": "Landstinget i Kalmar Län",
         "description": "Söker du en ny utmaning? Vill du bli en av oss? Att jobba i landstinget är ett jobb för livet. Det innebär möten med människor i livets alla skeden.",
         "level": "bronze",
         "logo": "../img/partners/kalmarlandstingit.svg",
@@ -626,7 +612,7 @@
         ]
       },
       {
-        "name": "Hypergen",
+        "name": "Hypergene",
         "description": "Hypergene är ett techbolag på marknaden för beslutsstöd – med en webbaserad produkt för planering, uppföljning och analys. Med vår hjälp kan kunder styra mot sina mål och nå en ny, högre nivå av prestation och effektivitet.",
         "level": "bronze",
         "logo": "../img/partners/hypergene.svg",
