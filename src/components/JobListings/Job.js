@@ -8,9 +8,9 @@ import JobPosting from 'components/SEO/Google/JobPosting'
 const Wrapper = styled('li')`
 	font-size: 1rem;
 	line-height: 1.5rem;
-	border-bottom: 2px solid #efefef;
+	border-bottom: 1px solid #efefef;
 	margin-bottom: 0;
-	padding: 20px;
+	padding: 40px 20px;
 `
 
 const Row = styled(Flex)`
@@ -24,10 +24,12 @@ const Row = styled(Flex)`
 const CompanyName = styled('span')`
 	font-weight: 600;
 	display: inline;
+	font-size: 14px;
 `
 
 const JobDate = styled(CompanyName)`
 	font-weight: 300;
+	font-size: 14px;
 `
 
 const Separator = styled(JobDate)`
@@ -49,27 +51,32 @@ const Header = styled('div')`
 
 const Title = styled('h3')`
 	color: #013760;
+	margin: 0;
 `
 
-const DescriptionLink = styled('a')`
-	margin: 0;
-	color: #013760;
-	font-size: 1.2rem;
-	margin-bottom: 20px;
-	line-height: 1.85rem;
-	flex: 1;
-	display: block;
-	cursor: pointer;
+const Link = styled('a')`
+	margin: 10px 0 20px 0;
 	text-decoration: none;
-	max-width: ${BREAKPOINT}px;
 
 	&:hover {
-	  text-decoration: underline;
+		text-decoration: underline;
 	}
 
 	&:visited {
 		color: #8f044c;
 	}
+`
+
+const Description = styled('p')`
+	margin: 0;
+	color: black;
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1.5rem;
+	flex: 1;
+	display: block;
+	text-decoration: none;
+	max-width: ${BREAKPOINT}px;
 `
 
 export default class Job extends Component {
@@ -98,13 +105,15 @@ export default class Job extends Component {
 						</CompanyName>
 					</Header>
 
-					<Title>
-						{ title }
-					</Title>
+					<Link nofollow="true" href={link} target="_blank" rel="nofollow">
+						<Title>
+							{ title }
+						</Title>
+					</Link>
 
-					<DescriptionLink href={link} target="_blank" rel="nofollow">
+					<Description>
 						{ text }
-					</DescriptionLink>
+					</Description>
 				</Row>
 			</Wrapper>
 		)

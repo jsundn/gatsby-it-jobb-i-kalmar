@@ -65,6 +65,12 @@ const Layout = ({
           { name: 'keywords', content: pageMetadata.keywords },
           { name: 'google-site-verification', content: siteMetadata.googleSiteVerification },
         ]}
+        link={[
+          { rel: "icon", 
+           type: "image/png", 
+           href: "/content/img/favicon.ico"
+          }
+        ]}
     />
 
     <Organization />
