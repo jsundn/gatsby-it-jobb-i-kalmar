@@ -21,7 +21,8 @@ module.exports = {
 			title: 'IT-jobb i Kalmar',
 			description: "Den här sidan kunde inte hittas. Den kan har flyttats eller så fanns den aldrig :/",
 			subheader: "Ojdå, nu blev något knas"
-		}
+		},
+		googleSiteVerification: '-_bpZt9vjpYa4rlGPb24yYkrM3XHFX-vRXbZYUHdwak'
 	},
 	plugins: [
 		{

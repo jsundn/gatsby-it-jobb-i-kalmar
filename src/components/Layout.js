@@ -63,6 +63,7 @@ const Layout = ({
           { name: 'title', content: `${siteMetadata.title} | ${pageMetadata.title}` },
           { name: 'description', content: pageMetadata.description },
           { name: 'keywords', content: pageMetadata.keywords },
+          { name: 'google-site-verification', content: siteMetadata.googleSiteVerification },
         ]}
     />
 

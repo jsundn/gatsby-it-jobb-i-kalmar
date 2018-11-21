@@ -59,6 +59,7 @@ export const query = graphql`
         title,
         description,
         subheader,
+        googleSiteVerification,
         seo {
         	footer
         },
