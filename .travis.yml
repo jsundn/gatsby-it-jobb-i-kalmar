@@ -30,7 +30,6 @@ deploy:
   acl: public_read
   region: eu-west-1
   skip_cleanup: true
-  detect_encoding: true
   on:
     repo: IT-jobb-Kalmar/gatsby-it-jobb-i-kalmar
 
