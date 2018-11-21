@@ -5,7 +5,7 @@
     "items": [
       {
         "name": "Royal design",
-        "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare. Skicka ett mail dev@royaldesign.se eller skicka ett privat meddelande på Twitter till @RoyalDevKalmar.",
+        "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
         "level": "gold",
         "logo": "../img/partners/royaldesign.png",
         "website": "http://royaldesign.se/",
