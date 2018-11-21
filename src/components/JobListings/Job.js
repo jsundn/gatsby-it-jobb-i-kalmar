@@ -61,10 +61,6 @@ const Link = styled('a')`
 	&:hover {
 		text-decoration: underline;
 	}
-
-	&:visited {
-		color: #8f044c;
-	}
 `
 
 const Description = styled('p')`

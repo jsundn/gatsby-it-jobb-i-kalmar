@@ -34,7 +34,8 @@ const customSelectStyles = {
   control: (base) => ({
   	...base,
   	height: 50,
-    border: '1px solid #ccc'
+	border: 'none',
+	borderRadius: 0
   }),
   multiValue: (styles, { data }) => {
     return {
@@ -58,7 +59,7 @@ const customSelectStyles = {
 }
 
 const MatchesText = styled('p')`
-	color: #333;
+	color: white;
     font-size: 12px;
     font-style: italic;
     margin: auto auto auto 10px;
@@ -68,8 +69,8 @@ const Filters = styled(Flex)`
 	flex-direction: row;
 	flex: 1;
 	padding: 20px;
-	margin: 30px;
-	background: #efefef;
+	margin: 30px 0;
+	background: #3fa565;
 
 	@media (max-width: ${RespBreakpoint}px) {
 		flex-direction: column;
@@ -95,7 +96,7 @@ const TagsSelect = styled(Select)`
 const Search = styled('input')`
 	flex: 1;
 	height: 50px;
-	border: 1px solid #ccc;
+	border: none;
 	padding: 10px;
 `
 
@@ -104,9 +105,11 @@ const Container = styled(Flex)`
 `
 
 const CompaniesWrapper = styled(Flex)`
-	padding: 20px;
 	flex-direction: row;
 	flex-flow: wrap;
+	background: #f9f9f9;
+	margin: 0 -1200px;
+	padding: 20px 1200px;
 `
 
 const Column = styled('div')`
@@ -116,7 +119,7 @@ const Column = styled('div')`
 const Company = styled('div')`
 	overflow: hidden;
 	margin: 0;
-	padding: 10px;
+	padding: 20px;
 	position: relative;
 `
 
@@ -127,7 +130,7 @@ const CompanyLogo = styled(Img)`
 `
 
 const CompanyInner = styled('div')`
-	border: 1px solid #efefef;
+	background: white;
 `
 
 const CompanyHeader = styled('header')`
@@ -135,16 +138,15 @@ const CompanyHeader = styled('header')`
 	padding: 20px;
 	margin: 0;
 	line-height: 1.3;
-	background: #efefef;
+	background: #00689e;
 	padding: 10px;
 `
 
 const CompanyTitle = styled('h2')`
-	color: #3a3a3b;
-	font-size: 20px;
-	font-weight: 700;
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
 	margin: 0;
-    text-shadow: 0 1px 0 white;
 	text-decoration: none;
 `
 
@@ -153,7 +155,7 @@ const CompanyContent = styled('section')`
 `
 
 const CompanyDescription = styled('p')`
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 	position: relative;
@@ -162,22 +164,27 @@ const CompanyDescription = styled('p')`
 	color: #3a3a3b;
 `
 
+const CompanyLink = styled('a')`
+	font-size: 12px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 0;
+	color: #333;
+
+	&:hover {
+		text-decoration: underline;
+	}
+`
+
 const CompanyFooter = styled('footer')`
-	padding: 0 4px;
+	padding: 20px;
+	background: #efefef;
 `
 
 const TagWrapper = styled(Flex)`
 	flex-direction: row;
 	flex-flow: wrap;
-`
-
-const CompanyLink = styled('a')`
-	background: #efefef;
-	display: inline-flex;
-	color: #444;	
-	font-weight: 700;
-	padding: 8px 12px;
-	text-decoration: none;
+	margin-top:20px;
 `
 
 const NoResultsWrapper = styled(Flex)`
@@ -207,11 +214,11 @@ const Name = styled('p')`
 `
 
 const TagText = styled('span')`
-    margin: 0 4px 8px 4px;
+    margin: 0 8px 8px 0;
     padding: 2px 8px;
     font-size: 12px;
     color: #333;
-    background: #efefef;
+    background: #ebec95;
     white-space: nowrap;
     text-transform: uppercase;
 `
@@ -251,7 +258,7 @@ const getNumberOfColumns = ref => {
     const width = ref && ref.current ? ref.current.clientWidth : window.innerWidth
 
     if (width > BREAKPOINT) {
-        return Math.ceil(width / (BREAKPOINT + 100))
+        return Math.ceil(width / (BREAKPOINT))
     } else {
         return 1
     }
@@ -379,7 +386,7 @@ class Companies extends Component {
 
                 if (fixedIndex >= this.state.cols) {
                     fixedIndex = 0
-                }
+				}
 
                 columns[fixedIndex].push((
                 	<Company key={company.name}>
@@ -392,14 +399,22 @@ class Companies extends Component {
 	                            <CompanyDescription>{ company.description }</CompanyDescription>
 	                        </CompanyContent>
 	                        <CompanyFooter>
-	                        	<TagWrapper>
-	                        		{ company.tags.map(tag => (
-	                        			<Tag
-	                        				key={`tag-${company.id}-${tag}`}
-	                        				text={tag}
-                        				/>
-	                        		)) }
-	                        	</TagWrapper>
+								{ company.tags.length > 0 &&
+									(
+										<TagWrapper>
+											{ company.tags.map(tag => (
+												<Tag
+													key={`tag-${company.id}-${tag}`}
+													text={tag}
+												/>
+											)) }
+										</TagWrapper>
+									)
+								}
+
+								<CompanyLink href={company.website} rel="nofollow">
+									{company.website}
+								</CompanyLink>
 	                        </CompanyFooter>
 	                    </CompanyInner>
 	                </Company>
@@ -472,7 +487,8 @@ const CompaniesGrid = () => (
                   }
                   description,
                   level,
-                  tags
+				  tags,
+				  website
                 }
               }
             }

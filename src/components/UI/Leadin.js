@@ -6,8 +6,8 @@ const StyledLeadin = styled('h3')`
 	font-size: 1.3rem;
 	line-height: 1.85;
 	font-weight: 400;
-	margin-bottom: 20px;
-	text-align: center;
+	margin-bottom: 40px;
+	text-align: left;
 `
 
 const Leadin = ({children}) => (

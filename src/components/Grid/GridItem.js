@@ -7,10 +7,16 @@ import { BREAKPOINT } from 'constants/responsive'
 
 const StyledGridItem = styled(Flex)`
 	flex: ${({flex}) => flex};
+
+	&:hover {
+		.gatsby-resp-image-wrapper {
+			opacity: 0.5;
+		}
+	}
 `
 
 const Content = styled(Box)`
-	margin: 20px;
+	margin: 0;
 	width: 100%;
 	overflow: hidden;
 
@@ -96,7 +102,7 @@ const GridItem = ({
 					<Title background={background} aligntext={aligntext}>{title}</Title>
 					{children}
 				</StyledGatsbyLink> :
-				<StyledNormalLink nofollow="true" href={href} target="_blank">
+				<StyledNormalLink rel={nofollow ? "nofollow" : null} href={href} target="_blank">
 						<Title background={background} aligntext={aligntext}>{title}</Title>
 						{children}
 				</StyledNormalLink>
@@ -105,9 +111,9 @@ const GridItem = ({
 	</StyledGridItem>
 )
 
-export const GridItemLink = ({href, nofollow = false, target, children}) => console.log("HREF", href, internal(href)) || (
+export const GridItemLink = ({href, nofollow = false, target, children}) => (
 	internal(href) ? (
-		<InternalTextLink nofollow to={href} target={target || "_blank"}>{children}</InternalTextLink>
+		<InternalTextLink rel={nofollow ? "nofollow" : null} to={href} target={target || "_blank"}>{children}</InternalTextLink>
 	) : (
 		<TextLink nofollow href={href} target={target || "_blank"}>{children}</TextLink>
 	)
