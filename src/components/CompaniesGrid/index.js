@@ -102,14 +102,19 @@ const Search = styled('input')`
 
 const Container = styled(Flex)`
 	flex-direction: column;
+	margin: 0 -40px;
+
+	@media (min-width: ${RespBreakpoint}px) {
+		margin: 0;
+	}
 `
 
 const CompaniesWrapper = styled(Flex)`
 	flex-direction: row;
 	flex-flow: wrap;
 	background: #f9f9f9;
-	margin: 0 -1200px;
-	padding: 20px 1200px;
+	margin: 0;
+	padding: 20px;
 `
 
 const Column = styled('div')`
@@ -118,7 +123,7 @@ const Column = styled('div')`
 
 const Company = styled('div')`
 	overflow: hidden;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 20px;
 	position: relative;
 `
@@ -357,7 +362,7 @@ class Companies extends Component {
     filtercompanies = companies => {
         if (this.state.filters.input) {
             companies = companies.filter(company => {
-                return company.name.toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'')) > -1
+                return company.name.toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'').toLowerCase()) > -1
             })
         }
 
@@ -412,7 +417,7 @@ class Companies extends Component {
 									)
 								}
 
-								<CompanyLink href={company.website} rel="nofollow">
+								<CompanyLink href={company.website} rel="nofollow" target="_blank">
 									{company.website}
 								</CompanyLink>
 	                        </CompanyFooter>

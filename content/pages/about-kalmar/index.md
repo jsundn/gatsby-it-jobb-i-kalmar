@@ -13,17 +13,20 @@ keywords: "Kalmar, Kalmarsundsregionen, jobb, utbbildning, bostad, evenemang"
 Är du nyfiken på att flytta till Kalmar så har vi sammanställt länkar om boende, jobb till medflyttandepartner, studier och evenemang här.
 </leadin>
 
-<grid flexdirection="column">
-	<grid-item href="https://kalmarsundsregionen.com/jobb/" title="Jobb åt partner" background="#4cc178" aligntext="left" flex="1">
-		<grid-item-link nofollow href="https://kalmarsundsregionen.com/jobb">kalmarsundsregionen.com/jobb</grid-item-link>
+<grid flexdirection="row">
+	<grid-item href="https://kalmarsundsregionen.com/boende/" title="Boende"  nofollow="true" background="#4cc178" aligntext="left" flex="2">
+		<img src="./apartment.jpg" />
 	</grid-item>
-	<grid-item href="https://kalmarsundsregionen.com/boende/" title="Boende" background="#c14b7f" aligntext="left" flex="1">
-		<grid-item-link nofollow href="https://kalmarsundsregionen.com/boende">kalmarsundsregionen.com/boende</grid-item-link>
+	<grid-item href="https://kalmarsundsregionen.com/jobb/" title="Jobb åt partner" nofollow="true" background="#c14b7f" aligntext="left" flex="2">
+		<img src="./partner.jpg" />
 	</grid-item>
-	<grid-item href="https://kalmarsundsregionen.com/studier/" title="Studier" background="#c17e4b" aligntext="left" flex="1">
-		<grid-item-link nofollow href="https://kalmarsundsregionen.com/studier">kalmarsundsregionen.com/studier</grid-item-link>
+</grid>
+
+<grid flexdirection="row">
+	<grid-item href="https://kalmarsundsregionen.com/studier/" title="Studier"  nofollow="true" background="#c17e4b" aligntext="left" flex="2">
+		<img src="./study.jpg" />
 	</grid-item>
-	<grid-item href="https://kalmarsundsregionen.com/evenemang/" title="Evenemang" background="#4baac1" aligntext="left" flex="1">
-		<grid-item-link nofollow href="https://kalmarsundsregionen.com/evenemang">kalmarsundsregionen.com/evenemang</grid-item-link>
+	<grid-item href="https://kalmarsundsregionen.com/evenemang/" title="Evenemang"  nofollow="true" background="#4baac1" aligntext="left" flex="2">
+		<img src="./events.jpg" />
 	</grid-item>
 </grid>

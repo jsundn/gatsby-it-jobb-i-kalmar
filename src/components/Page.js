@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Layout from 'components/Layout'
@@ -11,6 +11,10 @@ import JobListings from 'components/JobListings'
 import Leadin from 'components/UI/Leadin'
 
 import Notification from 'components/Cookies/Notification'
+
+import {
+	pageView
+} from 'lib/GTM'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -32,25 +36,34 @@ const HTML = styled('div')`
     padding: 40px 0;
   }
 `
+export default class Page extends Component {
+  componentDidMount() {
+    const { pageContext} = this.props
+    const { frontmatter } = pageContext.page.remark
 
-const Page = ({data, pageContext}) => {
-	const { frontmatter, htmlAst } = pageContext.page.remark
+    pageView(frontmatter)
+  }
 
-	return <Layout
-	    siteMetadata={data.site.siteMetadata}
-	    pageMetadata={frontmatter}
-	    fullBleedCoverImage={frontmatter.fullBleedCoverImage}
-	  >
+  render() {
+    const { data, pageContext} = this.props
+    const { frontmatter, htmlAst } = pageContext.page.remark
 
-    <Notification />
+    return (
+      <Layout
+        siteMetadata={data.site.siteMetadata}
+        pageMetadata={frontmatter}
+        fullBleedCoverImage={frontmatter.fullBleedCoverImage}
+      >
 
-		<HTML>
-			{renderAst(htmlAst)}
-		</HTML>
-	</Layout>
+      <Notification />
+
+      <HTML>
+        {renderAst(htmlAst)}
+      </HTML>
+    </Layout>
+    )
+  }
 }
-
-export default Page
 
 export const query = graphql`
   query {
