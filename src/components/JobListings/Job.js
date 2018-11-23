@@ -101,7 +101,7 @@ export default class Job extends Component {
 						</CompanyName>
 					</Header>
 
-					<Link nofollow="true" href={link} target="_blank" rel="nofollow">
+					<Link nofollow="true" href={link} rel="nofollow">
 						<Title>
 							{ title }
 						</Title>

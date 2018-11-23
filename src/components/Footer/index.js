@@ -139,7 +139,6 @@ const Footer = ({ siteMetadata }) => {
 				href={social.linkedin}
 				rel="nofollow"
 				title={t('Besök vår Linkedin')}
-				target="_blank"
 			>
 				<Linkedin
 					size={50}
@@ -150,7 +149,6 @@ const Footer = ({ siteMetadata }) => {
 				href={social.facebook}
 				rel="nofollow"
 				title={t('Besök vår Facebook')}
-				target="_blank"
 			>
 				<Facebook
 					size={50}
@@ -161,7 +159,6 @@ const Footer = ({ siteMetadata }) => {
 				href={social.instagram}
 				rel="nofollow"
 				title={t('Besök vår Instagram')}
-				target="_blank"
 			>
 				<Instagram
 					size={50}

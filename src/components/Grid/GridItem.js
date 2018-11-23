@@ -102,7 +102,7 @@ const GridItem = ({
 					<Title background={background} aligntext={aligntext}>{title}</Title>
 					{children}
 				</StyledGatsbyLink> :
-				<StyledNormalLink rel={nofollow ? "nofollow" : null} href={href} target="_blank">
+				<StyledNormalLink rel={nofollow ? "nofollow" : null} href={href}>
 						<Title background={background} aligntext={aligntext}>{title}</Title>
 						{children}
 				</StyledNormalLink>
@@ -111,11 +111,11 @@ const GridItem = ({
 	</StyledGridItem>
 )
 
-export const GridItemLink = ({href, nofollow = false, target, children}) => (
+export const GridItemLink = ({href, nofollow = false, children}) => (
 	internal(href) ? (
-		<InternalTextLink rel={nofollow ? "nofollow" : null} to={href} target={target || "_blank"}>{children}</InternalTextLink>
+		<InternalTextLink rel={nofollow ? "nofollow" : null} to={href}>{children}</InternalTextLink>
 	) : (
-		<TextLink nofollow href={href} target={target || "_blank"}>{children}</TextLink>
+		<TextLink nofollow href={href}>{children}</TextLink>
 	)
 )
 

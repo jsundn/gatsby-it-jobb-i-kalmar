@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { BREAKPOINT } from 'constants/responsive'
+import { BREAKPOINT } from 'constants/responsive'
 
 const StyledLeadin = styled('h3')`
 	font-size: 1.3rem;
@@ -8,6 +8,10 @@ const StyledLeadin = styled('h3')`
 	font-weight: 400;
 	margin-bottom: 40px;
 	text-align: left;
+
+	@media (min-width: ${BREAKPOINT}px) {
+		text-align: center;
+	}
 `
 
 const Leadin = ({children}) => (

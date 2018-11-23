@@ -417,7 +417,7 @@ class Companies extends Component {
 									)
 								}
 
-								<CompanyLink href={company.website} rel="nofollow" target="_blank">
+								<CompanyLink href={company.website} rel="nofollow">
 									{company.website}
 								</CompanyLink>
 	                        </CompanyFooter>
