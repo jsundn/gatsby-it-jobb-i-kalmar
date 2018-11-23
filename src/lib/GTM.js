@@ -1,8 +1,10 @@
 let _enabled = false
 
-window.dataLayer = window.dataLayer || [];
-
 const push = payload => {
+	if (!window.dataLayer) {
+		window.dataLayer = window.dataLayer || [];
+	}
+
 	if (_enabled && window.dataLayer.push) {
 		window.dataLayer.push(payload)
 	}
