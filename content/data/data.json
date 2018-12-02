@@ -1358,7 +1358,16 @@
         "title": "CGI söker .NET Utvecklare, Kalmar",
         "location": "kalmar",
         "text": "Är du en systemutvecklare som vill vidareutvecklas inom Microsoft .Net och gärna har sydöstra Sverige som ditt huvudsakliga arbetsområde?"
-      }
+      },
+
+            {
+              "date": "2018-12-01",
+              "link": "https://www.ltkalmar.se/lediga-jobb/sok-lediga-jobb/14853/",
+              "company": "Landstinget i Kalmar",
+              "title": "Systemtekniker klientteam",
+              "location": "kalmar",
+              "text": "Det är ett omväxlande arbete och nu jobbar vi med att bygga nästa generations klientplattform, säger Mikael Karlsson, teamledare för klientteamet."
+            }
     ]
   }
 }
