@@ -55,11 +55,11 @@ export default class Page extends Component {
         fullBleedCoverImage={frontmatter.fullBleedCoverImage}
       >
 
-      <Notification />
-
       <HTML>
         {renderAst(htmlAst)}
       </HTML>
+
+      <Notification />
     </Layout>
     )
   }

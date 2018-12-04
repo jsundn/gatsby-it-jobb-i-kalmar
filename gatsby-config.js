@@ -40,6 +40,7 @@ module.exports = {
 		'gatsby-plugin-remove-trailing-slashes',
 		'gatsby-plugin-sitemap',
 		'gatsby-plugin-robots-txt',
+		'gatsby-plugin-favicon',
 		'gatsby-transformer-json',
 		{
 			resolve: 'gatsby-source-filesystem',

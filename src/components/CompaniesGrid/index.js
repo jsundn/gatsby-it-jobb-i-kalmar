@@ -102,7 +102,6 @@ const Search = styled('input')`
 
 const Container = styled(Flex)`
 	flex-direction: column;
-	margin: 0 -40px;
 
 	@media (min-width: ${RespBreakpoint}px) {
 		margin: 0;
