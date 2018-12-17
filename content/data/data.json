@@ -2,8 +2,7 @@
   "partners": {
     "title": "IT-Företag i Kalmarregionen",
     "subtitle": "Här har vi sammanställt IT-företag som finns i Kalmar med en kortfattad beskrivning och lite hjälpfunktioner för att du enkelt ska kunna filtrera fram de företag som passar dina intressen bäst.",
-    "items": [
-      {
+    "items": [{
         "name": "RoyalDesign Group AB",
         "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
         "level": "gold",
@@ -743,16 +742,13 @@
       }
     ]
   },
-  "sitePartners": [
-    {
-      "name": "Kalmar Science Park"
-    }
-  ],
+  "sitePartners": [{
+    "name": "Kalmar Science Park"
+  }],
   "listings": {
     "title": "IT-jobb i Kalmarregionen",
     "subtitle": "Kalmar som IT-stad växer så det knakar. På den här sidan hjälper vi dig att sammanställa tillgängliga jobb inom IT för att underlätta dels för dig som letar nya utmaningar, men även för IT-företag i regionen att nå ut till rätt mottagare.",
-    "items": [
-      {
+    "items": [{
         "date": "2018-04-23",
         "link": "https://www.infomaker.se/career/javascript-react-dashboard-utvecklare/",
         "company": "Infomaker",
@@ -1374,6 +1370,14 @@
         "title": "Julfika på Infomaker för studenter",
         "location": "kalmar",
         "text": "Infomaker bjuder den 18/12 in till julfika och information för LNU-studenter som studerar IT."
+      },
+      {
+        "date": "2018-12-17",
+        "link": "https://telinrekrytering.se/jobs/790/",
+        "company": "Advitum",
+        "title": "Lösningsområdesansvarig för området Cloud sökes till Advitum",
+        "location": "kalmar",
+        "text": "Rollen som lösningsområdesansvarig innebär ett stort ansvar för våra kunder och deras uppdrag gällande IT-infrastruktur, men det innebär också ett stort ansvar att driva Advitums lösningsområde Cloud framåt"
       }
     ]
   }
