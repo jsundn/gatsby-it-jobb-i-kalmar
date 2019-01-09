@@ -412,6 +412,22 @@
         ]
       },
       {
+        "name": "Langate",
+        "description": "På Langate arbetar vi inom tre huvudsakliga kompetensområden: utbildning, utveckling och support. Vi utvecklas i takt med att marknaden förändras för att kunna möta efterfrågan och omsätter vår kunskap till praktisk nytta på din arbetsplats.",
+        "level": "bronze",
+        "logo": "../img/partners/langate.png",
+        "website": "http://langate.se/",
+        "facebook": "https://www.facebook.com/langatesystem/",
+        "twitter": "",
+        "tags": [
+          "Support",
+          "Utveckling",
+          "CRM",
+          "BI",
+          "Utbildning"
+        ]
+      },
+      {
         "name": "Data networks",
         "description": "Vi är ett fiberinstallationsföretag deluxe med kvalitet och leverans som vår ledstjärna. Vi har installerat över 15000 Fiber Till Hemmet kunder i fler än 100 olika projekt åt både Skanova och IP Only över hela Sverige sedan 2013 med topp notch kvalitet och till högsta möjliga kundnöjdhet.",
         "level": "bronze",
