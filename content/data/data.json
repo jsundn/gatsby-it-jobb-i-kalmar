@@ -397,6 +397,21 @@
         ]
       },
       {
+        "name": "Nothhosts",
+        "description": "WordPress Hosting i världsklass. Säkert, pålitligt och skalbart! Du driver din WordPress-affär, vi tar hand om resten.",
+        "level": "bronze",
+        "logo": "../img/partners/northhosts.png",
+        "website": "https://www.northosts.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "Wordpress",
+          "Hosting",
+          "Aws",
+          "JavaScript"
+        ]
+      },
+      {
         "name": "Data networks",
         "description": "Vi är ett fiberinstallationsföretag deluxe med kvalitet och leverans som vår ledstjärna. Vi har installerat över 15000 Fiber Till Hemmet kunder i fler än 100 olika projekt åt både Skanova och IP Only över hela Sverige sedan 2013 med topp notch kvalitet och till högsta möjliga kundnöjdhet.",
         "level": "bronze",
@@ -1406,6 +1421,14 @@
         "title": "Infomaker storsatsar 2019 och har många lediga positioner!",
         "location": "kalmar",
         "text": "Vi förstärker vår utvecklingsorgansation genom att söka flera nya stjärnor till våra utvecklingsteam och fler nya tjänster är på gång."
+      },
+      {
+        "date": "2019-01-09",
+        "link": "https://www.northosts.se/hero/",
+        "company": "Northhosts",
+        "title": "Front End Hero – Javascript, Vue.js, Nuxt.js",
+        "location": "kalmar",
+        "text": "Vi letar efter en ny Northero som är grym på JavaScript, Vue.js och kanske har haft chansen att laborera en del med Nuxt.js."
       }
     ]
   }
