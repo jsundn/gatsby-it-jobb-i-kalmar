@@ -428,6 +428,24 @@
         ]
       },
       {
+        "name": "SEOnova",
+        "description": "Vår expertis ligger inom internetmarknadsföring med spetskompetens inom SEO (sökmotoroptimering), Google Adsoch webbutveckling. Vi har gedigen erfarenhet från branschen (sedan 2006)och har en väldokumenterad meritlista.",
+        "level": "bronze",
+        "logo": "../img/partners/seonova.png",
+        "website": "https://www.seonova.se/",
+        "facebook": "https://www.facebook.com/SEOnovaSverige/",
+        "twitter": "",
+        "tags": [
+          "SEO",
+          "Google analytics",
+          "Google search console",
+          "AdWords",
+          "WordPress",
+          "Sökmotoroptimering",
+          "Internetmarknadsföring"
+        ]
+      },
+      {
         "name": "Data networks",
         "description": "Vi är ett fiberinstallationsföretag deluxe med kvalitet och leverans som vår ledstjärna. Vi har installerat över 15000 Fiber Till Hemmet kunder i fler än 100 olika projekt åt både Skanova och IP Only över hela Sverige sedan 2013 med topp notch kvalitet och till högsta möjliga kundnöjdhet.",
         "level": "bronze",
