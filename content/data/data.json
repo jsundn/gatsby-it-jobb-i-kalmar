@@ -428,6 +428,24 @@
         ]
       },
       {
+        "name": "SEOnova",
+        "description": "Vår expertis ligger inom internetmarknadsföring med spetskompetens inom SEO (sökmotoroptimering), Google Adsoch webbutveckling. Vi har gedigen erfarenhet från branschen (sedan 2006)och har en väldokumenterad meritlista.",
+        "level": "bronze",
+        "logo": "../img/partners/seonova.png",
+        "website": "https://www.seonova.se/",
+        "facebook": "https://www.facebook.com/SEOnovaSverige/",
+        "twitter": "",
+        "tags": [
+          "SEO",
+          "Google analytics",
+          "Google search console",
+          "AdWords",
+          "WordPress",
+          "Sökmotoroptimering",
+          "Internetmarknadsföring"
+        ]
+      },
+      {
         "name": "Data networks",
         "description": "Vi är ett fiberinstallationsföretag deluxe med kvalitet och leverans som vår ledstjärna. Vi har installerat över 15000 Fiber Till Hemmet kunder i fler än 100 olika projekt åt både Skanova och IP Only över hela Sverige sedan 2013 med topp notch kvalitet och till högsta möjliga kundnöjdhet.",
         "level": "bronze",
@@ -738,7 +756,7 @@
       },
       {
         "name": "Alpacha",
-        "description": "Vi levererar helhetslösningar för butiker, salonger, terapeuter  m fl. som behöver något av följande: kassa, bokning, e-handel, hemsida, journalsystem, fakturering, överföring till bokföring av dagskassor m m. Allt i ett och samma system, eller modulbaserat. Med möjlighet att bygga på. Vi har även lönesystem för frisörbranschen enligt deras avtal. Supersmidigt! Alpacha grundades år 2000. Vi är 10 medarbetare och har egen utvecklingsavdelning. All vår programvara är egenutvecklad från grunden. Därav stabila lösningar. Kvalitét och trygghet är våra ledord.",
+        "description": "Vi levererar helhetslösningar för butiker, salonger, terapeuter m fl. som behöver något av följande: kassa, bokning, e-handel med tillhörande kassa och lagersystem, hemsida, journalsystem, fakturering, överföring till bokföring av dagskassor m m. Allt i ett och samma system, eller modulbaserat. Vi har även lönesystem för frisörbranschen enligt deras avtal. Alpacha grundades år 2000. Vi är 10 medarbetare och har egen utvecklingsavdelning. All vår programvara är egenutvecklad från grunden. Därav stabila lösningar. Kvalitét och trygghet är våra ledord. Som utvecklare och medarbetare hos oss ska du älska problemlösning och gilla teamkänsla.",
         "level": "bronze",
         "logo": "../img/partners/alpacha.png",
         "website": "https://www.alpacha.se/",
@@ -746,7 +764,7 @@
         "twitter": "http://www.twitter.com/Alpacha_AB",
         "tags": [
           ".NET",
-          "PHP",
+          "C#",
           "JavaScript"
         ]
       },

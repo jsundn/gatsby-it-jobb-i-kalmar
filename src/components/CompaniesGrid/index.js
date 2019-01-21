@@ -361,7 +361,9 @@ class Companies extends Component {
     filtercompanies = companies => {
         if (this.state.filters.input) {
             companies = companies.filter(company => {
-                return company.name.toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'').toLowerCase()) > -1
+				return company.name.toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'').toLowerCase()) > -1 ||
+					company.description.toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'').toLowerCase()) > -1 ||
+						company.tags.join(' ').toLowerCase().replace(/\s/g,'').indexOf(this.state.filters.input.replace(/\s/g,'').toLowerCase()) > -1
             })
         }
 
