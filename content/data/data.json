@@ -52,7 +52,22 @@
         "twitter": "https://twitter.com/meridium",
         "tags": [
           ".NET",
-          "JavaScript"
+          "JavaScript",
+          "EPiServer"
+        ]
+      },
+      {
+        "name": "Meriworks",
+        "description": "Vi tillhandahåller lösningar för avancerad hantering av digital media, processvisualisering och skydd emot skräp e-post. Våra produkter distribueras till slutkund via ett stort nätverk av nationella och internationella EPiServer- och Microsoft-partners.",
+        "level": "gold",
+        "logo": "../img/partners/meriworks.png",
+        "website": "http://www.meriworks.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          ".NET",
+          "JavaScript",
+          "EPiServer"
         ]
       },
       {
@@ -1471,6 +1486,14 @@
         "title": "Senior webbutvecklare",
         "location": "kalmar",
         "text": "Vi vill utöka vårt interna utvecklingsteam med en senior webbutvecklare som ska hjälpa oss bygga Gota Medias nästa medieplattform."
+      },
+      {
+        "date": "2019-01-22",
+        "link": "http://kreation.se/om-kreation/vi-s%C3%B6ker-php-och-wordpressutvecklare",
+        "company": "Kreation",
+        "title": "Kreation söker PHP utvecklare",
+        "location": "kalmar",
+        "text": "Vi söker en driven och nyfiken php-utvecklare med smak för att bygga grymma WordPress-sidor. "
       }
     ]
   }
