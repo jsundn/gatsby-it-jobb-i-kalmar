@@ -52,7 +52,22 @@
         "twitter": "https://twitter.com/meridium",
         "tags": [
           ".NET",
-          "JavaScript"
+          "JavaScript",
+          "EPiServer"
+        ]
+      },
+      {
+        "name": "Meriworks",
+        "description": "Vi tillhandahåller lösningar för avancerad hantering av digital media, processvisualisering och skydd emot skräp e-post. Våra produkter distribueras till slutkund via ett stort nätverk av nationella och internationella EPiServer- och Microsoft-partners.",
+        "level": "gold",
+        "logo": "../img/partners/meriworks.png",
+        "website": "http://www.meriworks.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          ".NET",
+          "JavaScript",
+          "EPiServer"
         ]
       },
       {
