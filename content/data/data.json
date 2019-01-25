@@ -199,6 +199,25 @@
         ]
       },
       {
+        "name": "Zynk",
+        "description": "Zync är sälj- och marknadskonsulter [CRM och verksamhetsutveckling] med fokus på operativa, taktiska och strategiska frågor. Vi inför eller utvecklar befintliga CRM-system samt har resurser som sitter hos kund för att driva det interna förändringsarbetet. Våra konsulter hjälper till att implementera CRM system (applikationskonsulter, projektledare, utvecklare) men vi har även konsulter som sitter hos kund, på plats för att driva det interna arbetet som ofta behövs vid införande/förändring av CRM-stöd och verksamhetsutveckling.",
+        "level": "silver",
+        "logo": "../img/partners/zynk.png",
+        "website": "http://www.zync.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "CRM",
+          "Microsoft",
+          "C#",
+          ".NET",
+          "Webbutveckling",
+          "JavaScript",
+          "Microsoft dynamics",
+          "Konsult"
+        ]
+      },
+      {
         "name": "Aditor",
         "description": "Vi är regionens bredaste, lokalt ägda, leverantör av kvalificerade IT-tjänster. Vi försöker göra skillnad genom personlig service, flexibilitet, ansvarstagande och snabba beslut. Vår målsättning är att underlätta våra kunders vardag. Vårt breda erbjudande gör att du kan minska antalet leverantörer. Tillsammans med våra samarbetspartners kan vi erbjuda heltäckande leveranser inom allt som rör IT.",
         "level": "silver",
@@ -1494,6 +1513,14 @@
         "title": "Kreation söker PHP utvecklare",
         "location": "kalmar",
         "text": "Vi söker en driven och nyfiken php-utvecklare med smak för att bygga grymma WordPress-sidor. "
+      },
+      {
+        "date": "2019-01-25",
+        "link": "http://www.zync.se/sv/vilka-vi-%C3%A4r/karri%C3%A4r/",
+        "company": "Zync",
+        "title": "Zynk söker utvecklare och applikationskonsulter",
+        "location": "kalmar",
+        "text": "Det går bra för oss med många nya projekt. Vi behöver kontinuerligt nya medarbetare som vill vara med att utveckla våra kunder. På våra unika och trivsamma kontor i Göteborg och Kalmar ökar vi nu tempot ytterligare efter att ha blivit utsedda till Microsoft Partners of the Year 2015."
       }
     ]
   }
