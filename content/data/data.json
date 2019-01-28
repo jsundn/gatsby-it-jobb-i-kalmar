@@ -218,6 +218,40 @@
         ]
       },
       {
+        "name": "Palantir Systems",
+        "description": "Palantir develops business intelligence systems which facilitate the collection, storage, structuring, analysis and presentation of key management data.",
+        "level": "silver",
+        "logo": "../img/partners/palantir.jpeg",
+        "website": "https://www.palantir.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "JavaScript",
+          "HTML/CSS",
+          "Webbutveckling",
+          "C#",
+          ".NET"
+        ]
+      },
+      {
+        "name": "Ricoh IT-Partner",
+        "description": "Ricoh IT-Partner är fristående företag, men samtidigt exklusiv partner till Ricoh Sverige, som erbjuder hela produkt- och tjänsteutbudet för dokumenthantering, IT-infrastruktur och mötesteknik. En komplett IT-leverantör som utvecklar marknadens mest effektiva, säkra och miljömässigt hållbara IT-lösningar genom nytänkande och innovation.",
+        "level": "silver",
+        "logo": "../img/partners/ricoh.svg",
+        "website": "https://www.midcon.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "Driftstöd",
+          "Wifi",
+          "Data control",
+          "Virtuell server",
+          "Cloud",
+          "Brandväggar",
+          "Nätverk"
+        ]
+      },
+      {
         "name": "Aditor",
         "description": "Vi är regionens bredaste, lokalt ägda, leverantör av kvalificerade IT-tjänster. Vi försöker göra skillnad genom personlig service, flexibilitet, ansvarstagande och snabba beslut. Vår målsättning är att underlätta våra kunders vardag. Vårt breda erbjudande gör att du kan minska antalet leverantörer. Tillsammans med våra samarbetspartners kan vi erbjuda heltäckande leveranser inom allt som rör IT.",
         "level": "silver",
