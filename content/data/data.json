@@ -1643,6 +1643,22 @@
         "title": "Missa inte IT-pub hos Meridium den 11/4",
         "location": "Kalmar",
         "text": "Här är det fokus på det sociala – att träffas, lära känna varandra, lära sig lite om varandras verksamheter och om vår värd som denna gång är Meridium."
+      },
+      {
+        "date": "2019-04-23",
+        "link": "https://royaldesign.se/information/lediga-tjanster/frontend-utvecklare",
+        "company": "Royal Design",
+        "title": "Roayl Design söker frontend utvecklare!",
+        "location": "Kalmar",
+        "text": "Du kommer att få en nyckelroll i teamet som bygger RoyalDesigns nya omnikanalsplattform för över tio internationella marknader och 14 fysiska butiker. Tillsammans med kollegorna på IT-avdelningen och våra partners får du ansvar för att utveckla frontend-applikationen, samt kringliggande plattformar som just nu byggs med de senaste teknikerna."
+      },
+      {
+        "date": "2019-04-23",
+        "link": "https://royaldesign.se/information/lediga-tjanster/backend-utvecklare",
+        "company": "Royal Design",
+        "title": "Roayl Design söker backend utvecklare!",
+        "location": "Kalmar",
+        "text": "Vi utvecklar vår backend i .NET och det är ett stort plus om det är något du är väldigt bra på, samt är van att jobba med integrationer och services. Vi tror dock att en duktig utvecklare som är van vid att utveckla i ett objektorienterat språk snabbt kan sätta sig in i ett annat. "
       }
     ]
   }
