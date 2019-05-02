@@ -218,11 +218,11 @@
         ]
       },
       {
-        "name": "Palantir Systems",
-        "description": "Palantir develops business intelligence systems which facilitate the collection, storage, structuring, analysis and presentation of key management data.",
+        "name": "Blika",
+        "description": "Blika develops business intelligence systems which facilitate the collection, storage, structuring, analysis and presentation of key management data.",
         "level": "silver",
-        "logo": "../img/partners/palantir.jpeg",
-        "website": "https://www.palantir.se/",
+        "logo": "../img/partners/blika.png",
+        "website": "https://blika.com/",
         "facebook": "",
         "twitter": "",
         "tags": [
@@ -739,6 +739,38 @@
         "tags": [
           "ERP",
           "BI"
+        ]
+      },
+      {
+        "name": "Standout",
+        "description": "Standout hjälper designföretag att leverera programmeringen i webbprojekt. Om vi inte redan är det så tänker vi bli Sveriges bästa programmeringspartner till de duktiga designers som finns runt om i landet.",
+        "level": "bronze",
+        "logo": "../img/partners/standout.svg",
+        "website": "https://standout.se/",
+        "facebook": "https://www.facebook.com/standoutab/",
+        "twitter": "",
+        "tags": [
+          "JavaScript",
+          "Cotlin",
+          "PHP",
+          "Ruby on rails",
+          "Swift",
+          "Wordpress"
+        ]
+      },
+      {
+        "name": "SAVEA NetPro Solutions AB",
+        "description": "SAVEA utvecklar och förvaltar sitt biljettförsäljningssytem för kommersiell expressbusstrafik.",
+        "level": "bronze",
+        "logo": "../img/partners/savea.png",
+        "website": "https://savea.se/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "JavaScript",
+          "PHP",
+          "LEMP",
+          "MVC"
         ]
       },
       {
@@ -1659,6 +1691,14 @@
         "title": "Roayl Design söker backend utvecklare!",
         "location": "Kalmar",
         "text": "Vi utvecklar vår backend i .NET och det är ett stort plus om det är något du är väldigt bra på, samt är van att jobba med integrationer och services. Vi tror dock att en duktig utvecklare som är van vid att utveckla i ett objektorienterat språk snabbt kan sätta sig in i ett annat. "
+      },
+      {
+        "date": "2019-05-02",
+        "link": "http://jobb.maxkompetens.se/ads/aceb23cb-f07e-4fdb-bc85-1055710a96bc",
+        "company": "Standout",
+        "title": "Standout söker webbutvecklare",
+        "location": "Kalmar",
+        "text": "Standout söker nu webbutvecklare som har ett engagemang för att skapa kreativa och moderna lösningar!"
       }
     ]
   }
