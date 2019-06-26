@@ -39,7 +39,8 @@
           "Amazon",
           "Java",
           "Swift",
-          "Kotlin"
+          "Kotlin",
+          "Docker"
         ]
       },
       {
@@ -334,7 +335,8 @@
           "ReactNative",
           "Redux",
           "Node",
-          "PHP"
+          "PHP",
+          "Docker"
         ]
       },
       {
@@ -352,6 +354,24 @@
           "Laravel",
           "React",
           "Vue"
+        ]
+      },
+      {
+        "name": "Ikama Innovation",
+        "description": "",
+        "level": "silver",
+        "logo": "../img/partners/ikama.png",
+        "website": "",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "AI",
+          "Big data",
+          "Elasticsearch",
+          "Solr",
+          "JAVA",
+          "Spring framework",
+          "Docker"
         ]
       },
       {
@@ -1763,6 +1783,14 @@
         "title": "Codebet söker två skickliga utvecklare",
         "location": "Kalmar",
         "text": "Är du en utvecklare med passion och kärlek för kod och vill jobba på en skön arbetsplats med stora globala företag som Zlatans Bethard - då är Codebet ett perfekt jobb för dig!"
+      },
+      {
+        "date": "2019-06-26",
+        "link": "https://jobs.academicwork.se/annons/junior-systemutvecklare-till-ikama-innovation-ab/15028078",
+        "company": "Ikama Innovation",
+        "title": "Ikama söker en systemutvecklare som vill arbeta med data analytics/AI",
+        "location": "Kalmar",
+        "text": "I rollen som systemutvecklare kommer du självständigt att arbeta fullstack med effektiva mjukvarulösningar mot Ikamas kunder."
       }
     ]
   }
