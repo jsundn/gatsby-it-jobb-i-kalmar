@@ -1770,7 +1770,7 @@
       },
       {
         "date": "2019-06-14",
-        "link": "https://web103.reachmee.com/ext/I009/613/job?site=5&lang=SE&validator=a2aed7c5a8f4203cd9e8a62cd36c68be&ihelper=https%3A%2F%2Flnu.se%2Fmot-linneuniversitetet%2FLediga-jobb%2F&job_id=4418&fbclid=IwAR1mwJOJl1GJeSNuv7N2v8HyNcAmeo-uc4fTKlkx9iAPX5eWQjXmtGVjfNI",
+        "link": "https://www.infomaker.se/article/junior-sysops-till-naviga-i-kalmar-sokes/",
         "company": "Naviga (tidigare Infomaker)",
         "title": "Junior SysOps till Naviga i Kalmar sökes",
         "location": "Kalmar",
@@ -1887,6 +1887,14 @@
         "title": "Nordig Nest söker senior webbutvecklare!",
         "location": "Kalmar",
         "text": "Hos Nordic Nest får du jobba i site-teamet som utvecklar e-handelsplattformen. Du kommer bygga tjänster och funktioner både till besökare och kunder men även verktyg som används av anställda i bolaget. Du får vara med i hela utvecklingsprocessen, från vision och planering till deploy i produktion. "
+      },
+      {
+        "date": "2019-08-19",
+        "link": "https://www.infomaker.se/article/junior-sysops-till-naviga-i-kalmar-sokes/",
+        "company": "Naviga (tidigare Infomaker)",
+        "title": "Gillar du att jobba med Linux, bash, serverinfrastruktur och automatisering? Naviga (föredetta Infomaker) söker ska förstärka sitt DevOps team",
+        "location": "Kalmar",
+        "text": "Du kommer i ditt dagliga arbete som junior SysOps att jobba tätt tillsammans med DevOps-teamet. Och med tiden kommer du ta över det större ansvaret för uppsättning av serverinfrastruktur och applikationer i Amazon Web Services. Detta innebär bland annat att jobba med automatiseringsapplikationer så som AWS Cloudformation, Ansible och Jenkins."
       }
     ]
   }
