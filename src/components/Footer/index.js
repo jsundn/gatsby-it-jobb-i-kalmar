@@ -100,11 +100,7 @@ const EULogo = styled('img')`
 	margin: 0 auto;
 
 	@media (min-width: ${BREAKPOINT}px) {
-		position: absolute;
-		bottom: 20px;
-		right: 0;
-		margin: 0;
-
+		margin-bottom: 20px;
 	}
 `
 
@@ -169,11 +165,10 @@ const Footer = ({ siteMetadata }) => {
 		<Copy>&copy; IT-jobb i Kalmar</Copy>
 
 		<Flex flexDirection="column">
+			<EULogo src={EU} alt="Logga för EU"/>
 			<KSPLogo src={KSP} alt="Logga för Kalmar Science Park" />
-			<SupportedByText>{t('I samarbete med Kalmar Science Park')}</SupportedByText>
+			<SupportedByText>{t('Denna sajt drivs i samarbete med Kalmar Science Park genom projektmedel med stöd från Tillväxtverket och Europeiska regionala utvecklingsfonden.')}</SupportedByText>
 		</Flex>
-
-		<EULogo src={EU} alt="Logga för EU"/>
 
 	</Wrapper>
 }
