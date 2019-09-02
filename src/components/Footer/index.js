@@ -1,5 +1,5 @@
 import React from 'react'
-import EU from 'img/eu.png'
+import EU from 'img/eu.jpg'
 import KSP from 'img/ksp.svg'
 import { Facebook, Instagram, Linkedin } from 'styled-icons/fa-brands'
 import styled from 'styled-components'
@@ -96,11 +96,11 @@ const Copy = styled('span')`
 `
 
 const EULogo = styled('img')`
-	height: 40px;
+	height: 120px;
 	margin: 0 auto;
 
 	@media (min-width: ${BREAKPOINT}px) {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 `
 
