@@ -850,6 +850,25 @@
         ]
       },
       {
+        "name": "Aponomy",
+        "description": "Aponomy är en tech-startup i Kalmar vars kommande produkter baseras på begrepp som Syfte, Mening, Engagemang och Innovation, med avsikten att på olika sätt hjälpa människor förbättra samhället.",
+        "level": "bronze",
+        "logo": "../img/partners/aponomy.png",
+        "website": "http://aponomy.com",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "typescript",
+          "javascript",
+          "react",
+          "firebase",
+          "ai",
+          "machine learning",
+          "innovation",
+          "utveckling"
+        ]
+      },
+      {
         "name": "Connect media",
         "description": "ConnectMedia är en mediebyrå inom reklam, media & webb. Vi älskar att ta fram nya, kreativa lösningar för att ni ska lyckas med er marknadsföring!",
         "level": "bronze",
@@ -1903,6 +1922,46 @@
         "title": "CGI söker webbutvecklare",
         "location": "Kalmar",
         "text": "Gillar du att jobba med webbutveckling? Det gör vi också! Vårt team i Kalmar vill ha förstärkning av en fullstackutvecklare med kunskap inom webbutveckling och med intresse för frontend. "
+      },
+      {
+        "date": "2019-08-29",
+        "link": "https://www.eventonline.se/anmalan.php?eid=8975&key=938&fbclid=IwAR3VWH7fa8_xbkpfc_AEAgoyt02t2h2szymWLKiPY-wAcMr5m7EAswRaq7A#errorDiv",
+        "company": "Kalmar Science Park",
+        "title": "AI-nätverksmöte med Textual",
+        "location": "Kalmar",
+        "text": "Henrik Gemoll från Textual har jobbat med AI och content i över 15 år. Under många år var han Digitalchef på contentbyrån Spoon, där han skapade en första iteration av en content-plattform."
+      },
+      {
+        "date": "2019-09-12",
+        "link": "https://webbjobb.io/jobb/119878/apputvecklare-i-frontend-kalmar-are-you-app-for-the-task?fbclid=IwAR3FGgCVZCiItERzkt_lO-SE301GJG8uDkz2m97CaNub8mhyy9asSRvBb-Q",
+        "company": "Consultify",
+        "title": "Consultify söker apputvecklare",
+        "location": "Kalmar",
+        "text": "Du kommer att sitta med frontendutvecklingen, i viss mån grupparbeten men även i projekt. Språken som kommer att hanteras är TypeScript/JavaScript där du använder ramverken Angular och Ionic."
+      },
+      {
+        "date": "2019-09-19",
+        "link": "https://careers.sinch.com/jobs/73-support-engineer-kalmar-sweden?fbclid=IwAR30z5kuFV6JB_ajBryt6csIBXqNHsHkPDva6WEvfW7xoDBXRBvs701b7Gk",
+        "company": "Sinch",
+        "title": "Sinch söker en support engineer",
+        "location": "Kalmar",
+        "text": "Sinch is now looking for a Support Engineer to join our support team in Kalmar. In the position as Support Engineer you will give qualified support to operators and enterprises world-wide."
+      },
+      {
+        "date": "2019-09-23",
+        "link": "https://careers.sinch.com/jobs/73-support-engineer-kalmar-sweden?fbclid=IwAR30z5kuFV6JB_ajBryt6csIBXqNHsHkPDva6WEvfW7xoDBXRBvs701b7Gk",
+        "company": "Electra",
+        "title": "Electra söker .NET Utvecklare",
+        "location": "Kalmar",
+        "text": "Vill du vara med och bygga framtidens handelslösningar för butikskedjor och webbhandel? Vi har applikationer och lång erfarenhet inom området. Vi behöver förstärka vårt team med ytterligare en .NET utvecklare."
+      },
+      {
+        "date": "2019-09-23",
+        "link": "mailto:jobb@aponomy.se",
+        "company": "Aponomy",
+        "title": "",
+        "location": "Kalmar",
+        "text": "Vi letar efter en riktigt duktig programmerare som vill vara med tidigt i vår produktutveckling och skapa appar med både social och kommersiell impact. Några av våra produkter syftar till att hjälpa människor skapa bättre liv och ett bättre samhälle (aponomy.com), och några till att få människor och maskiner att samtala bättre med hjälp av Ai (knowingcompany.com). En produkt finns på marknaden och fler kommer att bli klara under hösten. Vi är en startup i Kalmar med stora visioner som tror att det går att skapa viktiga saker för en global marknad. Vi tror att du är en person som älskar kod, men som även vill ha ett större syfte med det du gör, och som vill bli en del av berättelsen hur vi kom igång. Vi bygger allting i React, Typescript, Node.js och Firebase. Vi har skrivit kod och drivit företag i många år. Nu satsar vi kan och vill nå så långt det går, och letar efter dig som bli ytterligare en anledning till att vi lyckas. Skicka ett mail till jobb@aponomy.se"
       }
     ]
   }
