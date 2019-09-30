@@ -98,6 +98,7 @@ const Copy = styled('span')`
 const EULogo = styled('img')`
 	height: 120px;
 	margin: 0 auto;
+	max-width: 200px;
 
 	@media (min-width: ${BREAKPOINT}px) {
 		margin-bottom: 40px;
