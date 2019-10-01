@@ -4,25 +4,6 @@
     "subtitle": "Här har vi sammanställt IT-företag som finns i Kalmar med en kortfattad beskrivning och lite hjälpfunktioner för att du enkelt ska kunna filtrera fram de företag som passar dina intressen bäst.",
     "items": [
       {
-        "name": "RoyalDesign Group AB",
-        "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
-        "level": "gold",
-        "logo": "../img/partners/royaldesign.png",
-        "website": "http://royaldesign.se/",
-        "facebook": "https://www.facebook.com/RoyalDesign.se",
-        "twitter": "https://twitter.com/RoyalDesigncom",
-        "tags": [
-          ".NET",
-          "JavaScript",
-          "React",
-          "Redux",
-          "Azure",
-          "Dynamics NAV",
-          "e-handel",
-          "Inhouse"
-        ]
-      },
-      {
         "name": "Infomaker",
         "description": "Infomaker är ett dotterbolag till Newscycle. I Kalmar finns Infomaker Content Lab där vi med moderna tekniker utvecklar lösningar för content management och publicering åt mediehus och tidningar på en global marknad. Med mer än 25 års branscherfarenhet, kan vi erbjuda våra kunder det allra bästa när det kommer till publicering, oavsett om det gäller print eller digitalt. På Infomaker Contant Lab är vi ca 40 utvecklare i olika team som jobbar bland annat med frontend, backend, UX och devops. Välkommen till oss!",
         "level": "gold",
@@ -41,6 +22,32 @@
           "Swift",
           "Kotlin",
           "Docker"
+        ]
+      },
+      {
+        "name": "Gota Media",
+        "description": "Gota Medias utvecklings- och innovationsteam arbetar med att ständigt förnya och färbättra våra verktyg och produkter med målet att leverera framtidens digitala medieupplevelse till Gota Medias kunder. Vi är ett agilt team, med stora utmaningar, som har riktigt kul på jobbet.",
+        "level": "gold",
+        "logo": "../img/partners/gotamedia.png",
+        "website": "https://www.gotamedia.se",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "Media",
+          "Agil",
+          "Amazon",
+          "AWS",
+          "Scrum",
+          "PHP",
+          "JavaScript",
+          "PWA",
+          "Cloud",
+          "React",
+          "Interaktionsdesign",
+          "UX",
+          "Utveckling",
+          "Innovation",
+          "Inhouse"
         ]
       },
       {
@@ -121,32 +128,6 @@
         "facebook": "",
         "twitter": "https://twitter.com/eHalsan",
         "tags": []
-      },
-      {
-        "name": "Gota Media",
-        "description": "Gota Medias utvecklings- och innovationsteam arbetar med att ständigt förnya och färbättra våra verktyg och produkter med målet att leverera framtidens digitala medieupplevelse till Gota Medias kunder. Vi är ett agilt team, med stora utmaningar, som har riktigt kul på jobbet.",
-        "level": "silver",
-        "logo": "../img/partners/gotamedia.png",
-        "website": "https://www.gotamedia.se",
-        "facebook": "",
-        "twitter": "",
-        "tags": [
-          "Media",
-          "Agil",
-          "Amazon",
-          "AWS",
-          "Scrum",
-          "PHP",
-          "JavaScript",
-          "PWA",
-          "Cloud",
-          "React",
-          "Interaktionsdesign",
-          "UX",
-          "Utveckling",
-          "Innovation",
-          "Inhouse"
-        ]
       },
       {
         "name": "Play'n GO",
@@ -639,6 +620,25 @@
           ".NET",
           "JavaScript",
           "Angular"
+        ]
+      },
+      {
+        "name": "RoyalDesign Group AB",
+        "description": "Som utvecklare på RoyalDesign är du med och utvecklar vår helt nya omnikanalplattform. RoyalDesign finns idag på 13 marknader och har 14 fysiska butiker i Sverige. Som frontendutvecklare jobbar du med våran webb som är helt skriven i React, Redux och andra ramverk. Som backendutvecklare jobbar du med bland annat våra api-integrationer i .NET Core i en Azure miljö. Vår nya plattform lanserades nu i år så vi befinner oss i en väldigt spännande fas. Låter detta intressant så får du gärna höra av dig så kan vi berätta mer över en kaffe. Vi träffar gärna trevliga och talangfulla utvecklare.",
+        "level": "bronze",
+        "logo": "../img/partners/royaldesign.png",
+        "website": "http://royaldesign.se/",
+        "facebook": "https://www.facebook.com/RoyalDesign.se",
+        "twitter": "https://twitter.com/RoyalDesigncom",
+        "tags": [
+          ".NET",
+          "JavaScript",
+          "React",
+          "Redux",
+          "Azure",
+          "Dynamics NAV",
+          "e-handel",
+          "Inhouse"
         ]
       },
       {
