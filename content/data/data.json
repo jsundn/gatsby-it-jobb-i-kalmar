@@ -72,18 +72,24 @@
         ]
       },
       {
-        "name": "CLX Communications",
-        "description": "CLX erbjuder molnbaserade företagstjänster som underlättar kommunikation med sms, röstmeddelanden och annan mobil data. Företaget har cirka 20 anställda i Kalmar, av totalt cirka 180 anställda, med huvudkontor i Kista och flera filialer världen över.",
+        "name": "Sinch",
+        "description": "Sinch erbjuder molnbaserade företagstjänster som underlättar kommunikation med sms, röstmeddelanden och annan mobil data. Företaget har cirka 45 anställda i Kalmar, med huvudkontor i Stockholm och flera filialer världen över.",
         "level": "gold",
-        "logo": "../img/partners/clx.svg",
-        "website": "https://www.clxcommunications.com/",
-        "facebook": "https://www.facebook.com/clxcommunications/",
-        "twitter": "https://twitter.com/CLXCommsAB",
+        "logo": "../img/partners/sinch.png",
+        "website": "www.sinch.com",
+        "facebook": "https://www.facebook.com/wearesinch/",
+        "twitter": "https://twitter.com/WeAreSinch",
         "tags": [
+          "Support",
+          "IT-tekniker",
+          "Linux",
+          "SMS",
+          "JAVA",
           "PHP",
           "JavaScript",
           "React",
-          "Redux"
+          "Redux",
+          "Puppet"
         ]
       },
       {
@@ -1970,6 +1976,14 @@
         "title": "Media4you söker Webbtekniker/Grafisk formgivare",
         "location": "Kalmar",
         "text": "Media4you är en fullservice mediebyrå som bryr oss. Vi har idag förtroendet att hjälpa ett flertal företag och organisationer, stora som små med medierådgivning, planering samt strategi i fokus som ger konkreta resultat. Våra kärnverksamheter är SEO, SEM, webbutveckling, sociala medier, grafisk design, samt film & foto."
+      },
+      {
+        "date": "2019-10-14",
+        "link": "https://jobb.idg.se/jobb-info/57464450/webbutvecklare/?LinkSource=SimilarJobPlatform",
+        "company": "CGI",
+        "title": "CGI söker webbutvecklare",
+        "location": "Kalmar",
+        "text": "Gillar du att jobba med webbutveckling? Det gör vi också! Vårt team i enheten Sydost är lokaliserat i Kalmar, Karlskrona och Oskarshamn och vi vill ha förstärkning av en fullstackutvecklare med kunskap inom webbutveckling och med intresse för frontend."
       }
     ]
   }
