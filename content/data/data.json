@@ -142,8 +142,8 @@
         "level": "silver",
         "logo": "../img/partners/bontouch.png",
         "website": "www.bontouch.com",
-        "facebook": "",
-        "twitter": "",
+        "facebook": "https://www.facebook.com/bontouch",
+        "twitter": "https://twitter.com/bontouch",
         "tags": [
           "UX",
           "JavaScript",
