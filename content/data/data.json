@@ -304,6 +304,25 @@
           "Laravel"
         ]
       },
+
+      {
+        "name": "Appbolaget",
+        "description": "Appbolaget fokuserar på att ligga i framkant när det gäller att använda systemutveckling för att driva digitalisering. Vi gillar kod helt enkelt.",
+        "level": "silver",
+        "logo": "../img/partners/appbolaget.png",
+        "facebook": "https://www.facebook.com/appbolagetsverige",
+        "twitter": "",
+        "website": "https://appbolaget.se/",
+        "tags": [
+          "JavaScript",
+          "React",
+          "ReactNative",
+          "Redux",
+          "Node",
+          "Laravel"
+        ]
+      },
+
       {
         "name": "Punkt studios",
         "description": "Interaction Design Studio — Kalmar — San Francisco",
