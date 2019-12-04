@@ -4,10 +4,10 @@
     "subtitle": "Här har vi sammanställt IT-företag som finns i Kalmar med en kortfattad beskrivning och lite hjälpfunktioner för att du enkelt ska kunna filtrera fram de företag som passar dina intressen bäst.",
     "items": [
       {
-        "name": "Infomaker (nu mera Naviga)",
-        "description": "Infomaker är en del av det gloabal Naviga. I Kalmar finns Infomaker Content Lab där vi med moderna tekniker utvecklar lösningar för content management och publicering åt mediehus och tidningar på en global marknad. Med mer än 25 års branscherfarenhet, kan vi erbjuda våra kunder det allra bästa när det kommer till publicering, oavsett om det gäller print eller digitalt. På Infomaker Contant Lab är vi ca 40 utvecklare i olika team som jobbar bland annat med frontend, backend, UX och devops. Välkommen till oss!",
+        "name": "Naviga (tidigare Infomaker)",
+        "description": "Naviga Inc. delivers the broadest range of technology solutions for the global news media industry, including content management, digital advertising, circulation, and audience relationship management. The company's innovative solutions and professional services help media organizations engage audiences through web, print, mobile, and social media channels.",
         "level": "gold",
-        "logo": "../img/partners/infomaker.png",
+        "logo": "../img/partners/naviga.png",
         "website": "https://www.infomaker.se/",
         "facebook": "https://www.facebook.com/infomakerscandinavia/",
         "twitter": "https://twitter.com/infomakernews",
@@ -706,12 +706,12 @@
         ]
       },
       {
-        "name": "Design online",
-        "description": "Vi på designonline är en kreativ grupp med olika kompetenser som tillsammans driver och utvecklar den ledande e-butiken inom skandinavisk inredning och design. Vi är stolta över att kunna presentera fler än 170 välrenommerade varumärken och tusentals olika designprodukter. Våra kunder finns i hela världen och det är en stor och spännande utmaning att arbeta mot en internationell marknad.",
+        "name": "Norddic nest (tidigare Design online)",
+        "description": "Nordic Nest är den ledande e-handelsaktören inom heminredning i Norden. Vi driver idag tio internationella sajter och har kunder i över 70 länder runt om i världen. Vårt huvudkontor ligger i Kalmar och vi har en filial i Seoul, Sydkorea. Vårt sortiment består av över 200 olika varumärken och närmare 20 000 artiklar, vi älskar all sorts heminredning och har en extra passion för allt som hör hemma runt Det dukade bordet.",
         "level": "bronze",
-        "logo": "../img/partners/designonline.png",
-        "website": "https://www.designonline.se/",
-        "facebook": "https://www.facebook.com/designonline.se",
+        "logo": "../img/partners/nordicnest.png",
+        "website": "https://www.nordicnest.se/",
+        "facebook": "https://www.facebook.com/nordicnest.se",
         "twitter": "",
         "tags": [
           "e-handel",
@@ -2081,6 +2081,14 @@
         "title": "Tieto söker Software developer trainee, Kalmar",
         "location": "Kalmar",
         "text": "Tieto is now hiring summer trainees for summer 2020! Do you want to spend the summer with us and gain valuable experience and a new network?"
+      },
+      {
+        "date": "2019-12-04",
+        "link": "https://kalmarsciencepark.se/evenemang/it-pub-hos-otimo/",
+        "company": "Otimo",
+        "title": "Välkommen på IT-pub hos Otimo!",
+        "location": "Kalmar",
+        "text": "​Här är det fokus på det sociala – att träffas, lära känna varandra, lära sig lite om varandras verksamheter och om vår värd som denna gång är Otimo. Tomas Ingelbrant som är VD på Otimo berättar mer om deras resa och vad som händer framåt."
       }
     ]
   }
