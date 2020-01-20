@@ -101,6 +101,23 @@
         ]
       },
       {
+        "name": "Concid",
+        "description": "Consid är ett av Sveriges snabbast växande bolag som erbjuder konsulttjänster inom IT, management och digital marknadsföring. Vi ser till att våra kunder blir bäst i världen på det de gör genom att ta vara på den digitala världens möjligheter.",
+        "level": "gold",
+        "logo": "../img/partners/concide.png",
+        "website": "https://www.consid.se/",
+        "facebook": "https://www.facebook.com/consid.se",
+        "twitter": "https://twitter.com/consid_ab",
+        "tags": [
+          "Java",
+          ".NET",
+          "Test",
+          "iOS",
+          "BI",
+          "Webbutveckling"
+        ]
+      },
+      {
         "name": "Flex Power Modules",
         "description": "Flex is a leading Sketch to Scale company where customer needs meet supplier flexibility. Our Design Teams in Sweden (Linköping, Ronneby, Kalmar and Kista) creating technology for the Energy, Health, Industrial and Automotive Market. At Flex in Kalmar we are about 30 employees working with product-, software- and test development. The focus is on developing new hardware-platforms and software solutions within data- and telecom industry.",
         "level": "gold",
@@ -2113,6 +2130,30 @@
         "title": "Milou söker utvecklare!",
         "location": "Kalmar",
         "text": "We're looking for that special person, that code cruncher, that new colleague that will push what's technically possible while at the same time create the most beautiful experiences. Come join Sweden's biggest little agency already will you."
+      },
+      {
+        "date": "2020-01-01",
+        "link": "https://jobb.vitecsoftware.com/jobs/799902-systemutvecklare",
+        "company": "Vitec",
+        "title": "Vitec söker systemutvecklare!",
+        "location": "Kalmar",
+        "text": "Efterfrågan på våra produkter växer och vi behöver förstärka vårt team med en erfaren systemutvecklare som vill jobba med agila arbetsmetoder och en hög grad av självbestämmande. Vi är stolta över att kunna erbjuda ett av marknadens bästa affärssystem för fastighetsbranschen och vill att du blir en del av framgången."
+      },
+      {
+        "date": "2020-01-16",
+        "link": "https://www.consid.se/",
+        "company": "Concid",
+        "title": "IT-konsultbolaget Consid ska etablera sig i Kalmar med siktet inställt på att ha ett 40-tal anställda",
+        "location": "Kalmar",
+        "text": "Consid är ett av Sveriges snabbast växande bolag som erbjuder konsulttjänster inom IT, management och digital marknadsföring. Vi ser till att våra kunder blir bäst i världen på det de gör genom att ta vara på den digitala världens möjligheter."
+      },
+      {
+        "date": "2020-01-20",
+        "link": "https://www.coesia.com/en/career-opportunities?jobId=4738",
+        "company": "Norden Machinery",
+        "title": "Norden Machinery söker systemutvecklare!",
+        "location": "Kalmar",
+        "text": "Vi söker nu dig som är intresserad av att arbeta med systemutveckling inom affärssystem och relaterade IT-system. Rollen innebär samverkan med Nordens samtliga interna avdelningar. Som Systemutvecklare blir du en del av IT-avdelningen där du ser till att god systemdrift upprätthålls samtidigt som du på ett hängivet sätt tar del i utvecklingen av affärssystemet IFS Applications."
       }
     ]
   }
