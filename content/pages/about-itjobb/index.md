@@ -18,10 +18,10 @@ Vårt mål är IT-jobb i Kalmar ska vara en oberoende sida som förmedlar inform
 Om ni vill komma i kontakt med oss, ändra, lägga till, ta bort information eller liknande så är det enklast att maila oss på kontakt@itjobbikalmar.se eller skriva på Facebook.
 </p>
 
-<!-- <h3>Samarbete</h3>
+<h3>Samarbete</h3>
 <p>
 Den här siten har skapats och drivs i samarbete med <a href="https://kalmarsciencepark.se/" rel="nofollow">Kalmar Science Park</a>. Vill du också vara med och bidra till IT-branschen Kalmar så kontakta oss gärna.
-</p> -->
+</p>
 
 <h3>Teknik</h3>
 <p>

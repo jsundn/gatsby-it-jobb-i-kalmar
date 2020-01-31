@@ -165,11 +165,11 @@ const Footer = ({ siteMetadata }) => {
 
 		<Copy>&copy; IT-jobb i Kalmar</Copy>
 
-		{/* <Flex flexDirection="column">
+		<Flex flexDirection="column">
 			<EULogo src={EU} alt="Logga för EU"/>
 			<KSPLogo src={KSP} alt="Logga för Kalmar Science Park" />
 			<SupportedByText>{t('Denna sajt drivs i samarbete med Kalmar Science Park genom projektmedel med stöd från Tillväxtverket och Europeiska regionala utvecklingsfonden.')}</SupportedByText>
-		</Flex> */}
+		</Flex>
 
 	</Wrapper>
 }
