@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import { Flex } from 'components/UI/Base'
 import t from 'format-message'
 import { BREAKPOINT } from 'constants/responsive'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 const Wrapper = styled(Flex)`
 	position: relative;
@@ -170,6 +171,10 @@ const Footer = ({ siteMetadata }) => {
 			<KSPLogo src={KSP} alt="Logga för Kalmar Science Park" />
 			<SupportedByText>{t('Denna sajt drivs i samarbete med Kalmar Science Park genom projektmedel med stöd från Tillväxtverket och Europeiska regionala utvecklingsfonden.')}</SupportedByText>
 		</Flex>
+
+		<MessengerCustomerChat
+			pageId="1568379436542923"
+		/>
 
 	</Wrapper>
 }
