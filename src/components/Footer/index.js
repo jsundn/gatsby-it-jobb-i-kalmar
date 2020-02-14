@@ -174,6 +174,8 @@ const Footer = ({ siteMetadata }) => {
 
 		<MessengerCustomerChat
 			pageId="1568379436542923"
+			loggedInGreeting="Hej! Hur kan vi hjälpa dig?"
+            loggedOutGreeting="Hej! Hur kan vi hjälpa dig?"
 		/>
 
 	</Wrapper>
