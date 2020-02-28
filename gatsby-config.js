@@ -71,26 +71,37 @@ module.exports = {
 			}
 		},
 		{
-	      resolve: 'gatsby-transformer-remark',
-	      options: {
-	        plugins: [
-	        	'gatsby-remark-component',
-	        	{
-		          resolve: `gatsby-remark-images`,
-		          options: {
-		            maxWidth: 2000,
-		            linkImagesToOriginal: false
-		          },
-		        },
-		        'gatsby-remark-copy-linked-files'
-	        ]
-	      }
-	    },
-	    {
-	    	resolve: `gatsby-plugin-google-tagmanager`,
+			resolve: 'gatsby-transformer-remark',
 			options: {
-				id: 'GTM-TCNFMLD',
-				includeInDevelopment: false
+				plugins: [
+					'gatsby-remark-component',
+					{
+						resolve: `gatsby-remark-images`,
+						options: {
+							maxWidth: 2000,
+							linkImagesToOriginal: false
+						},
+					},
+					'gatsby-remark-copy-linked-files'
+				]
+			}
+		},
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// The property ID; the tracking code won't be generated without it
+				trackingId: "UA-113952690-1",
+				// Defines where to place the tracking script - `true` in the head and `false` in the body
+				head: false,
+				// Setting this parameter is optional
+				anonymize: true,
+				// Setting this parameter is also optional
+				respectDNT: true,
+				// Delays sending pageview hits on route update (in milliseconds)
+				pageTransitionDelay: 0,
+				// Any additional optional fields
+				sampleRate: 5,
+				siteSpeedSampleRate: 10
 			}
 		}
 	]
