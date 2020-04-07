@@ -2242,6 +2242,14 @@
         "title": "Region Kalmar söker systemförvaltare!",
         "location": "Kalmar",
         "text": "Vi erbjuder dig ett arbete som teknisk systemförvaltare där du har en nyckelroll i att utveckla framtidens digitala arbetssätt inom Region Kalmar län."
+      },
+      {
+        "date": "2020-04-06",
+        "link": "https://kalmarsciencepark.se/evenemang/ai-natverksmote-peltarion/",
+        "company": "Kalmar Science Park",
+        "title": "Kalmar Science Park välkomnar till AI-nätverksmöte tillsammans med Peltarion!",
+        "location": "Kalmar",
+        "text": "Prata om Deep Learning och exempel på use cases. Genomgång av Peltarion-plattformen samt kod för att använda de tränade modellerna. Erfarenhetsutbyte – hur långt har du kommit på din AI-resa?"
       }
     ]
   }
