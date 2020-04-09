@@ -56,7 +56,7 @@
         "description": "Vi brinner för att leverera tillgängliga och användbara webblösningar och vår expertis omfattar hela processen; från webbstrategi till löpande förvaltning av en färdig lösning. Vi bygger vår framgång på långsiktigt tänkande där vi skapar mätbara värden och maximal nytta för våra kunder som till stor del återfinns inom offentlig sektor, biståndsorganisationer och fackförbund. Vi tror på lyhördhet, passion, ärlighet, kvalitet och entreprenörskap.",
         "level": "gold",
         "logo": "../img/partners/tietoCEM.png",
-        "website": "https://meridium.se",
+        "website": "https://customer-experience.tietoevry.com/",
         "facebook": "https://sv-se.facebook.com/meridiumab",
         "twitter": "https://twitter.com/meridium",
         "tags": [
@@ -84,7 +84,7 @@
         "description": "Sinch erbjuder molnbaserade företagstjänster som underlättar kommunikation med sms, röstmeddelanden och annan mobil data. Företaget har cirka 45 anställda i Kalmar, med huvudkontor i Stockholm och flera filialer världen över.",
         "level": "gold",
         "logo": "../img/partners/sinch.png",
-        "website": "www.sinch.com",
+        "website": "https://www.sinch.com",
         "facebook": "https://www.facebook.com/wearesinch/",
         "twitter": "https://twitter.com/WeAreSinch",
         "tags": [
@@ -158,7 +158,7 @@
         "description": "Bontouch är en prisbelönt innovationsbyrå som bygger unika digitala kundupplevelser för partners såsom Post-it®, H&M, PostNord, SJ och Swish. 150+ designers och ingenjörer servar kunder i Nordamerika, Europa och Asien från fem studios i Stockholm, Åre/Östersund, Kalmar, New York och London. De produkter som Bontouch bygger används idag av över 50 miljoner människor i 196 länder.",
         "level": "silver",
         "logo": "../img/partners/bontouch.png",
-        "website": "www.bontouch.com",
+        "website": "https://www.bontouch.com",
         "facebook": "https://www.facebook.com/bontouch",
         "twitter": "https://twitter.com/bontouch",
         "tags": [
@@ -311,7 +311,7 @@
         "logo": "../img/partners/codebet.png",
         "facebook": "https://www.facebook.com/codebet.se/",
         "twitter": "",
-        "website": "https://codebet.se/",
+        "website": "https://codebet.com/",
         "tags": [
           "JavaScript",
           "React",
@@ -337,21 +337,6 @@
           "Redux",
           "Node",
           "Laravel"
-        ]
-      },
-
-      {
-        "name": "Punkt studios",
-        "description": "Interaction Design Studio — Kalmar — San Francisco",
-        "level": "silver",
-        "logo": "../img/partners/punkt-studios-logo.png",
-        "website": "http://www.punkt-studios.com/",
-        "facebook": "https://www.facebook.com/punktstudios/",
-        "twitter": "",
-        "tags": [
-          "UX",
-          "Design",
-          "Interaktionsdesign"
         ]
       },
       {
@@ -406,7 +391,7 @@
         "description": "",
         "level": "silver",
         "logo": "../img/partners/ikama.png",
-        "website": "",
+        "website": "http://www.ikama.se/",
         "facebook": "",
         "twitter": "",
         "tags": [
@@ -706,12 +691,12 @@
         ]
       },
       {
-        "name": "Apirix",
-        "description": "Apirix utvecklar anpassade lösningar inom digital egenkontroll. Apirix Egenkontroll ger total kontroll och bättre lönsamhet genom industriella protokoll.",
+        "name": "inquinova",
+        "description": "Inquinova – den lilla byrån med global vision. I hjärtat av sköna Kalmar har vi på Inquinova vår bas. Det är härifrån vi utvecklar och levererar digitala lösningar för såväl entreprenörer som kommuner med fokus på platsbesiktningar och egenkontroller.",
         "level": "bronze",
-        "logo": "../img/partners/apirix.png",
-        "website": "http://www.apirix.se/",
-        "facebook": "https://www.facebook.com/ApirixAB/",
+        "logo": "../img/partners/inquinova.png",
+        "website": "https://inquinova.com/",
+        "facebook": "",
         "twitter": "",
         "tags": [
           "Java",
@@ -773,22 +758,6 @@
           "Konsult",
           "Java",
           ".NET"
-        ]
-      },
-      {
-        "name": "Kodbruket",
-        "description": "Kodbruket förädlar och utvecklar er e-handel. Vi hjälper såväl startups som etablerade företag att analysera, utveckla och underhålla sin e-handel.",
-        "level": "bronze",
-        "logo": "../img/partners/kodbruket.png",
-        "website": "https://kodbruket.se/",
-        "facebook": "https://www.facebook.com/kodbruket/",
-        "twitter": "https://twitter.com/kodbruket",
-        "tags": [
-          "e-handel",
-          "PHP",
-          "Laravel",
-          "JavaScript",
-          "React"
         ]
       },
       {
