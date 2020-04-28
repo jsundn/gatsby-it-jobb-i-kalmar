@@ -175,6 +175,24 @@
         ]
       },
       {
+        "name": "Telia",
+        "description": "Vi har alltid varit ett teknikdrivet företag. Och inför framtiden är teknik och kundfokus hjärtat i vår strategi. Så att vara med och utveckla och implementera ny teknik hos oss, är att vara med och skapa vår gemensamma framtid. Typiska jobb inom Technology & Engineering är: Systems administrator, Systems specialist/manager, Programmer, ICT/IT/IP specialist/architect, Production specialist, Solution manager, Service manager, Service design manager, Solution architect, Operations manager, Network specialist/planner/architect, Process manager och Product development manager.",
+        "level": "silver",
+        "logo": "../img/partners/telia-company-logo.png",
+        "website": "https://www.teliacompany.com/sv/",
+        "facebook": "",
+        "twitter": "",
+        "tags": [
+          "Data",
+          "Analys",
+          "Design",
+          "UX",
+          "JavaScript",
+          "Linux",
+          "React"
+        ]
+      },
+      {
         "name": "Play'n GO",
         "description": "Internationella Play'n Go är specialiserat på att utveckla olika typer av casinospel till mobila plattformar.",
         "level": "silver",
