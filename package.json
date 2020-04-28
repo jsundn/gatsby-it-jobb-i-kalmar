@@ -1,7 +1,7 @@
 {
   "name": "it-jobb-kalmar",
   "description": "IT-jobb i Kalmar",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "author": "Peter Persson & Johan Sundén <kontakt@itjobbikalmar.se>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
