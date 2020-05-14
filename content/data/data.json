@@ -232,6 +232,16 @@
         "tags": []
       },
       {
+        "name": "Region Kalmar län",
+        "description": "Med 7000 användare, 1200 servrar, 200 IT-system och cirka 160 medarbetare kan vi stolt säga att vi är Kalmar läns största och mest komplexa IT-arbetsplats.",
+        "level": "silver",
+        "logo": "../img/partners/region-kalmar.png",
+        "website": "https://www.regionkalmar.se/jobba-med-it",
+        "facebook": "https://www.facebook.com/regionkalmar",
+        "twitter": "https://twitter.com/RegionKalmarlan",
+        "tags": []
+      },
+      {
         "name": "Know-it",
         "description": "Digitalbyrån som skapar de starkaste upplevelserna i mötet mellan besökaren och ditt varumärke. Innovativa lösningar med den senaste tekniken och moderna arbetssätt. Tillsammans får vi det att hända på riktigt.",
         "level": "silver",
@@ -490,16 +500,6 @@
           "Design",
           "UX"
         ]
-      },
-      {
-        "name": "Landstinget i Kalmar Län",
-        "description": "Söker du en ny utmaning? Vill du bli en av oss? Att jobba i landstinget är ett jobb för livet. Det innebär möten med människor i livets alla skeden.",
-        "level": "bronze",
-        "logo": "../img/partners/kalmarlandstingit.png",
-        "website": "http://www.ltkalmar.se/",
-        "facebook": "https://www.facebook.com/LandstingetiKalmarlan/",
-        "twitter": "https://twitter.com/ltkalmar",
-        "tags": []
       },
       {
         "name": "Södra",
@@ -2277,6 +2277,14 @@
         "title": "Consid söker Kalmars vassaste IT-kompetens!",
         "location": "Kalmar",
         "text": "Vi letar just nu efter dig med en rejäl vinnarinstinkt som vill vara med och bygga Consid i Kalmar och stärka vår närvaro och leverans i hela regionen. Är du dessutom sugen på att ta nästa steg i din karriär och utvecklas i din yrkesroll är Consid det perfekta valet av arbetsgivare. Här finns alla möjligheter i världen att utvecklas i den riktning du själv önskar. Vi älskar nämligen att göra idéer till verkligheter och se individer växa, utvecklas och ta sig an nya roller."
+      },
+      {
+        "date": "2020-05-14",
+        "link": "https://www.regionkalmar.se/jobba-hos-oss/sok-lediga-jobb/it-supporttekniker3/",
+        "company": "Region Kalmar län",
+        "title": "Region Kalmar söker IT-supporttekniker!",
+        "location": "Kalmar",
+        "text": "Vi erbjuder dig ett arbete som supporttekniker i en komplex och samhällsviktig miljö – där dina insatser gör skillnad för länets invånare varje dag. Du är en länk mellan IT och användare inom Region Kalmar läns olika verksamheter med allt från vård till kollektivtrafik och folkhögskolor."
       }
     ]
   }
