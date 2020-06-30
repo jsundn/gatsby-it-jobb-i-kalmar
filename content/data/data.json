@@ -2325,6 +2325,14 @@
         "title": "Kalmar kommun söker Nätverkstekniker!",
         "location": "Kalmar",
         "text": "Som nätverkstekniker inom verksamhet IT i Kalmar kommun arbetar du på enheten för Infrastruktur som idag består av 10 personer. Enhetens ansvarsområde omfattar all basinfrastruktur så som server, lagring, katalogtjänst och nätverk."
+      },
+      {
+        "date": "2020-06-30",
+        "link": "https://webbjobb.io/jobb/140434/senior-mid-level-fullstack-developer",
+        "company": "Nordic Nest",
+        "title": "Nordic Nest söker utvecklare!",
+        "location": "Kalmar",
+        "text": "Vill du vara med och bygga nästa generations e-handelsupplevelse baserad på headless arkitektur? Vill du jobba med de senaste teknikerna som t.ex. React, .NET Core, Containrar och Serverless? Vi letar efter dig som förstår hur viktigt det är med bra skriven kod och en god arkitektur och som vill bygga något att vara stolt över."
       }
     ]
   }
