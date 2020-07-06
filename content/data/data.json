@@ -2333,6 +2333,14 @@
         "title": "Nordic Nest söker utvecklare!",
         "location": "Kalmar",
         "text": "Vill du vara med och bygga nästa generations e-handelsupplevelse baserad på headless arkitektur? Vill du jobba med de senaste teknikerna som t.ex. React, .NET Core, Containrar och Serverless? Vi letar efter dig som förstår hur viktigt det är med bra skriven kod och en god arkitektur och som vill bygga något att vara stolt över."
+      },
+      {
+        "date": "2020-07-06",
+        "link": "https://www.electra.se/jobba-med-oss/fullstack-utvecklare/",
+        "company": "Electra",
+        "title": "Electra söker Fullstack-utvecklare!",
+        "location": "Kalmar",
+        "text": "Vi jobbar uteslutande med Microsoftprodukter och nya system byggs vanligtvis som en webbapplikation med C#, MVC, Javascript, Bootstrap, Entity framework och SQL server."
       }
     ]
   }
