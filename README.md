@@ -2,7 +2,7 @@
 
 ![Repo status](https://img.shields.io/badge/status-maintained-brightgreen.svg)
 
-![Travis build status](https://travis-ci.org/im-peter/it-jobb-i-Kalmar.svg?branch=master)
+![Travis build status](https://travis-ci.org/IT-jobb-Kalmar/gatsby-it-jobb-i-kalmar.svg?branch=master)
 
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 
