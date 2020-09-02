@@ -6,7 +6,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "clean-tag": "^2.0.0",
-    "dayjs": "^1.7.7",
+    "dayjs": "^1.8.33",
     "format-message": "^6.1.0",
     "gatsby": "^2.21.1",
     "gatsby-image": "^2.0.19",
