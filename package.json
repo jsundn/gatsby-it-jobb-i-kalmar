@@ -4,7 +4,7 @@
   "version": "1.6.20",
   "author": "Peter Persson & Johan Sundén <kontakt@itjobbikalmar.se>",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.8.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "clean-tag": "^2.0.0",
     "dayjs": "^1.7.7",
     "format-message": "^6.1.0",
