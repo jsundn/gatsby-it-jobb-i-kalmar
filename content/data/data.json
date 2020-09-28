@@ -2397,6 +2397,14 @@
         "title": "Välkommen till en digital IT-nätverksträff med CGI!",
         "location": "Kalmar",
         "text": "Digital IT-nätverksträff tillsammans med CGI som kommer att berätta om deras erfarenheter och hur man ska tänka kring cybersecurity."
+      },
+      {
+        "date": "2020-09-28",
+        "link": "https://www.codebet.se/career",
+        "company": "Codebet",
+        "title": "Codebet i Kalmar söker Kodnördar!",
+        "location": "Kalmar",
+        "text": "Ju nördigare programmerare, desto bättre kod säger vi! Nu söker vi ytterligare en skicklig hantverkare inom kodens värld."
       }
     ]
   }
